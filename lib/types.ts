@@ -30,6 +30,12 @@ export interface RankedCountry extends Country {
 
 export type Likelihood = "high" | "medium" | "long-shot";
 
+/** Outcome of an event that has already been decided. medal "none" means India finished without a medal. */
+export interface EventResult {
+  medal: MedalType | "none";
+  note?: string;
+}
+
 export interface ForecastItem {
   sport: string;
   event: string;
@@ -38,6 +44,7 @@ export interface ForecastItem {
   likelihood: Likelihood;
   potentialMedal: MedalType;
   reason: string;
+  result?: EventResult; // present = the event is finished
 }
 
 export interface ForecastData {

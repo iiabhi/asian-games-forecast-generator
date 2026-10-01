@@ -12,7 +12,9 @@ Task: for EACH event in `remaining_events`, estimate the chance of India winning
 
 Rules:
 - Only use events from `remaining_events`. Refer to them ONLY by their `id`. One item per id, no duplicates, no new events, no new athletes.
-- `likelihood`: "high" only if India is in a final or medal match (see `stage`) and is a clear favourite or strong contender; "medium" for a genuine contest; "long-shot" otherwise.
+- Each event has a `stage` (round and opponent) and `medal_at_stake` (what winning or losing means). Use both.
+- `likelihood` is the chance India wins a medal in that event: "high" ONLY if a medal is already guaranteed (a final or gold medal match; the code rejects "high" otherwise); "medium" for a genuine contest (a semi-final, or a quarter-final India is favoured in); "long-shot" for an early round or a quarter-final against a strong opponent.
+- For a guaranteed-medal event, `potentialMedal` is "gold" if India is the favourite, otherwise "silver".
 - `potentialMedal`: the best realistic medal: "gold", "silver" or "bronze".
 - `reason`: one or two plain sentences, positive but honest, grounded in the provided data (stage, recent headlines). Never invent results, scores or injuries.
 - Return ONLY JSON matching the provided schema.

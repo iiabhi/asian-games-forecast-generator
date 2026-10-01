@@ -7,7 +7,7 @@ import { z } from "zod";
 
 export type RemainingEvent = z.infer<typeof remainingSchema>[number];
 
-const DEFAULT_MODEL = "gemini-2.5-flash-lite";
+const DEFAULT_MODEL = "gemini-3.5-flash-lite";
 
 /** What we ask the LLM to return per event: only judgement fields, never athletes/dates. */
 const llmItemSchema = z.object({
@@ -40,6 +40,11 @@ const GEMINI_SCHEMA = {
   required: ["items"],
 };
 
+/** A medal is certain: the entry is in a final or a gold/bronze medal match (not a quarter-final, 1/8 round or semi-final). */
+export function medalGuaranteed(ev: RemainingEvent): boolean {
+  return /guaranteed/i.test(ev.medal_at_stake ?? "") || /^\s*(final|gold medal|bronze medal)/i.test(ev.stage ?? "");
+}
+
 export const idOf = (i: number) => `e${i + 1}`;
 
 /**
@@ -56,8 +61,8 @@ export function buildForecastItems(remaining: RemainingEvent[], llm: LlmItem[], 
     const ev = remaining[idx];
     if (ev.date < today) continue; // already played
     let likelihood: Likelihood = it.likelihood;
-    // "high" is only allowed in a final / medal match
-    if (likelihood === "high" && !/final|medal match|bronze|gold|semi/i.test(ev.stage ?? "")) likelihood = "medium";
+    // "high" is only allowed when a medal is already guaranteed (a final / gold medal match)
+    if (likelihood === "high" && !medalGuaranteed(ev)) likelihood = "medium";
     out.push({
       sport: ev.sport,
       event: ev.event,
@@ -95,6 +100,24 @@ async function callGemini(prompt: string): Promise<LlmItem[]> {
   throw new Error(lastErr);
 }
 
+/** Events that already have a result: no LLM needed, they are shown as finished. */
+export function buildDoneItems(done: RemainingEvent[]): ForecastItem[] {
+  return done.map((ev) => {
+    const r = ev.result!;
+    const won = r.medal !== "none";
+    return {
+      sport: ev.sport,
+      event: ev.event,
+      athletes: ev.india_entries,
+      eventDate: ev.date,
+      likelihood: won ? "high" : "long-shot", // unused by the UI for finished events
+      potentialMedal: won ? r.medal : "bronze",
+      reason: r.note?.trim() || (won ? `Won ${r.medal}.` : "Finished without a medal."),
+      result: r,
+    } as ForecastItem;
+  });
+}
+
 export async function buildPrompt(remaining: RemainingEvent[], today: string): Promise<string> {
   const template = await fs.readFile(path.join(process.cwd(), "prompts", "forecast.md"), "utf-8");
   const medals = await readDataJson<MedalsData>("medals.json");
@@ -113,19 +136,27 @@ export async function buildPrompt(remaining: RemainingEvent[], today: string): P
 export async function refreshForecast(opts: { dryRun?: boolean } = {}): Promise<ForecastData | null> {
   const today = todayIst();
   const raw = await readDataJson<unknown>("india-remaining.json");
-  const remaining = remainingSchema.parse(raw ?? []).filter((e) => e.date >= today);
-  if (remaining.length === 0) {
-    console.log("[forecast] data/india-remaining.json has no upcoming events; keeping the existing forecast.json");
+  const all = remainingSchema.parse(raw ?? []);
+  const done = all.filter((e) => e.result);
+  // only events still to be played go to the LLM; stale ones (past date, no result) are dropped
+  const pending = all.filter((e) => !e.result && e.date >= today);
+  if (pending.length === 0 && done.length === 0) {
+    console.log("[forecast] data/india-remaining.json has no upcoming or finished events; keeping the existing forecast.json");
     return null;
   }
-  const prompt = await buildPrompt(remaining, today);
+  const prompt = pending.length ? await buildPrompt(pending, today) : "";
   if (opts.dryRun) {
-    console.log(prompt);
+    console.log(prompt || "(no pending events: nothing would be sent to the LLM)");
     return null;
   }
-  const items = buildForecastItems(remaining, await callGemini(prompt), today);
-  if (items.length === 0) throw new Error("LLM returned no usable items; keeping the existing forecast.json");
-  const saved = await saveValidated("forecast.json", forecastSchema, { generatedAt: nowIst(), source: "llm", items });
-  console.log(`[forecast] saved ${saved.items.length} items from ${remaining.length} remaining events`);
+  const upcoming = pending.length ? buildForecastItems(pending, await callGemini(prompt), today) : [];
+  if (pending.length && upcoming.length === 0) throw new Error("LLM returned no usable items; keeping the existing forecast.json");
+  const items = [...upcoming, ...buildDoneItems(done)].sort((a, b) => a.eventDate.localeCompare(b.eventDate));
+  const saved = await saveValidated("forecast.json", forecastSchema, {
+    generatedAt: nowIst(),
+    source: pending.length ? "llm" : "schedule",
+    items,
+  });
+  console.log(`[forecast] saved ${saved.items.length} items (${upcoming.length} forecast by LLM, ${done.length} finished)`);
   return saved;
 }

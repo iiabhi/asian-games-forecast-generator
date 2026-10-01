@@ -45,6 +45,7 @@ Pages read through `lib/data.ts`: Blob first, committed `/data` as fallback, cac
 
 Notes
 - Wikipedia only lists medalists for India (complete) and some other countries. Others show "Showing N of M" or no list.
+- Marking an event as finished: add a `result` to its entry in `data/india-remaining.json`, e.g. `"result": { "medal": "silver", "note": "Lost the final 2-3." }` (`medal` is `gold`, `silver`, `bronze` or `none`; `note` is optional). Then run `npm run refresh:forecast`. Finished events are not sent to the LLM, show as "Won …" / "Finished" on the page (Finished filter), and are counted separately in the header. Events dated before today without a result are dropped.
 - Forecast: put India's remaining events in `data/india-remaining.json` (`[{sport, event, date, india_entries[], stage}]`). The LLM only judges likelihood per event id; events, athletes and dates always come from that file, and code drops past events and downgrades "high" outside finals.
 - `/api/refresh` (needs `Authorization: Bearer $REFRESH_TOKEN`) refreshes medals + news. It writes into `/data`, so it only works where the filesystem is writable (not on serverless hosts).
 - Credit: medal data from Wikipedia (CC BY-SA), shown in the footer.

@@ -1,1 +1,194 @@
-[]
+[
+  {
+    "sport": "Archery",
+    "event": "Recurve Women's Team",
+    "date": "2026-10-02",
+    "time_jst": "09:25",
+    "venue": "Okazaki Chuo Sogo Park Multipurpose Square",
+    "india_entries": [
+      "India women's recurve team"
+    ],
+    "stage": "Semifinal vs China (CHN)",
+    "medal_at_stake": "Win → gold medal match; lose → bronze medal match"
+  },
+  {
+    "sport": "Archery",
+    "event": "Recurve Mixed Team",
+    "date": "2026-10-02",
+    "time_jst": "11:50",
+    "venue": "Okazaki Chuo Sogo Park Multipurpose Square",
+    "india_entries": [
+      "India recurve mixed team"
+    ],
+    "stage": "Semifinal vs Japan (JPN); bronze match 12:20, gold match 12:45",
+    "medal_at_stake": "Win → gold medal match; lose → bronze medal match"
+  },
+  {
+    "sport": "Archery",
+    "event": "Recurve Men's Team",
+    "date": "2026-10-02",
+    "time_jst": "14:25",
+    "venue": "Okazaki Chuo Sogo Park Multipurpose Square",
+    "india_entries": [
+      "India men's recurve team"
+    ],
+    "stage": "Semifinal vs Iran (IRI); bronze match 14:55, gold match 15:20",
+    "medal_at_stake": "Win → gold medal match; lose → bronze medal match"
+  },
+  {
+    "sport": "Archery",
+    "event": "Recurve Women's Individual",
+    "date": "2026-10-02",
+    "time_jst": "09:00",
+    "venue": "Okazaki Chuo Sogo Park Multipurpose Square",
+    "india_entries": [
+      "Kumkum Anil Mohod"
+    ],
+    "stage": "Quarterfinal vs Kang Chaeyoung (KOR)",
+    "medal_at_stake": "Win → semifinal (medal round); lose → out"
+  },
+  {
+    "sport": "Archery",
+    "event": "Recurve Men's Individual",
+    "date": "2026-10-02",
+    "time_jst": "13:00",
+    "venue": "Okazaki Chuo Sogo Park Multipurpose Square",
+    "india_entries": [
+      "Dhiraj Bommadevara"
+    ],
+    "stage": "Quarterfinal vs Amirkhon Sadikov (UZB)",
+    "medal_at_stake": "Win → semifinal (medal round); lose → out"
+  },
+  {
+    "sport": "Archery",
+    "event": "Recurve Men's Individual",
+    "date": "2026-10-02",
+    "time_jst": "13:45",
+    "venue": "Okazaki Chuo Sogo Park Multipurpose Square",
+    "india_entries": [
+      "Neeraj Chauhan"
+    ],
+    "stage": "Quarterfinal vs Lam Dorji (BHU)",
+    "medal_at_stake": "Win → semifinal (medal round); lose → out"
+  },
+  {
+    "sport": "Boxing",
+    "event": "Women's 75kg",
+    "date": "2026-10-02",
+    "time_jst": null,
+    "venue": "Nishio Gymnasium",
+    "india_entries": [
+      "Lovlina Borgohain"
+    ],
+    "stage": "Final (Bout 171) vs Bao Ziyi (CHN)",
+    "medal_at_stake": "Gold or silver (medal guaranteed)"
+  },
+  {
+    "sport": "Boxing",
+    "event": "Women's 65kg",
+    "date": "2026-10-02",
+    "time_jst": null,
+    "venue": "Nishio Gymnasium",
+    "india_entries": [
+      "Parveen"
+    ],
+    "stage": "Final (Bout 176) vs Chen Nien-chin (TPE)",
+    "medal_at_stake": "Gold or silver (medal guaranteed)"
+  },
+  {
+    "sport": "Boxing",
+    "event": "Men's 80kg",
+    "date": "2026-10-02",
+    "time_jst": null,
+    "venue": "Nishio Gymnasium",
+    "india_entries": [
+      "Ankush"
+    ],
+    "stage": "Final (Bout 178) vs Kim Minseong (KOR)",
+    "medal_at_stake": "Gold or silver (medal guaranteed)"
+  },
+  {
+    "sport": "Cricket",
+    "event": "Men's Cricket",
+    "date": "2026-10-03",
+    "time_jst": "13:30",
+    "venue": "Korogi Athletic Park",
+    "india_entries": [
+      "India men's cricket team"
+    ],
+    "stage": "Gold medal match vs Pakistan (PAK)",
+    "medal_at_stake": "Gold or silver (medal guaranteed)"
+  },
+  {
+    "sport": "Hockey",
+    "event": "Women's Hockey",
+    "date": "2026-10-03",
+    "time_jst": "19:00",
+    "venue": "Gifu Prefectural Green Stadium (Gifu)",
+    "india_entries": [
+      "India women's hockey team"
+    ],
+    "stage": "Gold medal match vs China (CHN)",
+    "medal_at_stake": "Gold or silver (medal guaranteed)"
+  },
+  {
+    "sport": "Hockey",
+    "event": "Men's Hockey",
+    "date": "2026-10-03",
+    "time_jst": "19:00",
+    "venue": "Gifu Prefectural Green Stadium (Gifu)",
+    "india_entries": [
+      "India men's hockey team"
+    ],
+    "stage": "Gold medal match vs Malaysia (MAS)",
+    "medal_at_stake": "Gold or silver (medal guaranteed)"
+  },
+  {
+    "sport": "Wrestling",
+    "event": "Women's Wrestling 50kg",
+    "date": "2026-10-03",
+    "time_jst": "10:38",
+    "venue": "Nagoya City Inae Sports Center (Mat B)",
+    "india_entries": [
+      "Dipanshi"
+    ],
+    "stage": "1/8 Final (Bout 147) vs Yui Susaki (JPN)",
+    "medal_at_stake": "Early round; two bronzes per weight, repechage possible if opponent reaches final"
+  },
+  {
+    "sport": "Wrestling",
+    "event": "Women's Wrestling 76kg",
+    "date": "2026-10-03",
+    "time_jst": "11:02",
+    "venue": "Nagoya City Inae Sports Center (Mat A)",
+    "india_entries": [
+      "Priya"
+    ],
+    "stage": "1/8 Final (Bout 126) vs Aiperi Medet Kyzy (KGZ)",
+    "medal_at_stake": "Early round; two bronzes per weight, repechage possible if opponent reaches final"
+  },
+  {
+    "sport": "Wrestling",
+    "event": "Men's Freestyle 125kg",
+    "date": "2026-10-03",
+    "time_jst": "10:55",
+    "venue": "Nagoya City Inae Sports Center (Mat B)",
+    "india_entries": [
+      "Rajat Ruhal"
+    ],
+    "stage": "1/8 Final (Bout 149) vs Yedige Kassimbek (KAZ)",
+    "medal_at_stake": "Early round; two bronzes per weight, repechage possible if opponent reaches final"
+  },
+  {
+    "sport": "Wrestling",
+    "event": "Men's Freestyle 65kg",
+    "date": "2026-10-03",
+    "time_jst": "11:32",
+    "venue": "Nagoya City Inae Sports Center (Mat B)",
+    "india_entries": [
+      "Sujeet"
+    ],
+    "stage": "1/8 Final (Bout 153) vs Sayed Omar Zazai (AFG)",
+    "medal_at_stake": "Early round; two bronzes per weight, repechage possible if opponent reaches final"
+  }
+]

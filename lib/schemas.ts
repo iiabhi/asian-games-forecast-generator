@@ -29,6 +29,11 @@ export const medalsSchema = z.object({
     .refine((cs) => cs.some((c) => c.code === "IND"), "India (IND) must be present"),
 });
 
+const resultSchema = z.object({
+  medal: z.enum(["gold", "silver", "bronze", "none"]),
+  note: z.string().optional(),
+});
+
 export const forecastSchema = z.object({
   generatedAt: z.string().datetime({ offset: true }),
   source: z.string(),
@@ -41,6 +46,7 @@ export const forecastSchema = z.object({
       likelihood: z.enum(["high", "medium", "long-shot"]),
       potentialMedal: medalType,
       reason: z.string().min(1),
+      result: resultSchema.optional(),
     }),
   ),
 });
@@ -66,5 +72,10 @@ export const remainingSchema = z.array(
     date: day,
     india_entries: z.array(z.string().min(1)).min(1),
     stage: z.string().optional(),
+    time_jst: z.string().nullable().optional(),
+    venue: z.string().optional(),
+    medal_at_stake: z.string().optional(),
+    // Fill this in once the event is decided; it is then not sent to the LLM and shows as finished.
+    result: resultSchema.optional(),
   }),
 );
