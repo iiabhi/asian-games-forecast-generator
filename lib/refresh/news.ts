@@ -4,13 +4,19 @@ import { newsSchema } from "../schemas";
 import { nowIst, readDataJson, saveValidated } from "./store";
 
 // Unofficial, undocumented feed (Google asks for personal, non-commercial use). If it fails we keep the last good file.
-const feed = (q: string) =>
-  `https://news.google.com/rss/search?q=${encodeURIComponent(q)}&hl=en-IN&gl=IN&ceid=IN:en`;
-const FEEDS = {
-  india: feed('"Asian Games" India when:2d'),
-  all: feed('"Asian Games" Nagoya when:2d'),
-};
-const MAX_ITEMS = 30;
+const feed = (q: string, hl: string, gl: string) =>
+  `https://news.google.com/rss/search?q=${encodeURIComponent(q)}&hl=${hl}&gl=${gl}&ceid=${gl}:${hl.split("-")[0]}`;
+const GAMES = '"Asian Games" (Nagoya OR Aichi)';
+// India edition for India stories; US / Japan / Singapore editions (India excluded) for the rest of the Games.
+// Without the separate global feeds, India stories crowd out everything else.
+const INDIA_FEEDS = [feed(`${GAMES} India when:2d`, "en-IN", "IN")];
+const GLOBAL_FEEDS = [
+  feed(`${GAMES} -India when:2d`, "en-US", "US"),
+  feed(`${GAMES} when:2d`, "en", "JP"),
+  feed(`${GAMES} -India when:2d`, "en-SG", "SG"),
+];
+const MAX_INDIA = 25;
+const MAX_OTHER = 25;
 const INDIA_RE = /\bIndia(n|ns)?\b/i;
 
 interface RssItem { title?: string; link?: string; pubDate?: string; source?: string | { "#text"?: string } }
@@ -48,22 +54,26 @@ function toItem(r: RssItem, isIndia: boolean): NewsItem | null {
 
 const norm = (t: string) => t.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
 
+async function collect(urls: string[], isIndia: boolean): Promise<NewsItem[]> {
+  const settled = await Promise.allSettled(urls.map(fetchFeed));
+  const ok = settled.filter((r): r is PromiseFulfilledResult<RssItem[]> => r.status === "fulfilled");
+  if (ok.length === 0) throw new Error(`all ${isIndia ? "India" : "global"} feeds failed`);
+  return ok.flatMap((r) => r.value).map((r) => toItem(r, isIndia)).filter((i): i is NewsItem => i !== null);
+}
+
 export async function refreshNews(): Promise<NewsData> {
-  const [india, all] = await Promise.all([fetchFeed(FEEDS.india), fetchFeed(FEEDS.all)]);
+  const [india, global] = await Promise.all([collect(INDIA_FEEDS, true), collect(GLOBAL_FEEDS, false)]);
   const merged = new Map<string, NewsItem>();
-  for (const [rows, flag] of [[india, true], [all, false]] as const) {
-    for (const r of rows) {
-      const item = toItem(r, flag);
-      if (!item) continue;
-      const key = norm(item.title);
-      const seen = merged.get(key);
-      if (seen) seen.isIndia ||= item.isIndia; // same story in both feeds
-      else merged.set(key, item);
-    }
+  for (const item of [...india, ...global]) {
+    const key = norm(item.title);
+    const seen = merged.get(key);
+    if (seen) seen.isIndia ||= item.isIndia; // same story in several feeds
+    else merged.set(key, item);
   }
-  const items = [...merged.values()]
-    .sort((a, b) => +new Date(b.publishedAt) - +new Date(a.publishedAt))
-    .slice(0, MAX_ITEMS);
+  const newest = (a: NewsItem, b: NewsItem) => +new Date(b.publishedAt) - +new Date(a.publishedAt);
+  const all = [...merged.values()].sort(newest);
+  // cap each side separately so the "All" tab always has non-India stories
+  const items = [...all.filter((i) => i.isIndia).slice(0, MAX_INDIA), ...all.filter((i) => !i.isIndia).slice(0, MAX_OTHER)].sort(newest);
   if (items.length === 0) throw new Error("no news items parsed; refusing to overwrite data");
 
   const old = await readDataJson<NewsData>("news.json");
