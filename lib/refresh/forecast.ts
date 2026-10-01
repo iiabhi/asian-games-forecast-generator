@@ -2,7 +2,7 @@ import { promises as fs } from "fs";
 import path from "path";
 import type { ForecastData, ForecastItem, Likelihood, MedalType, MedalsData, NewsData } from "../types";
 import { forecastSchema, remainingSchema } from "../schemas";
-import { nowIst, readDataJson, saveValidated, todayIst } from "./store";
+import { nowIst, readDataJson, saveValidated, todayJst } from "./store";
 import { z } from "zod";
 
 export type RemainingEvent = z.infer<typeof remainingSchema>[number];
@@ -134,7 +134,7 @@ export async function buildPrompt(remaining: RemainingEvent[], today: string): P
 }
 
 export async function refreshForecast(opts: { dryRun?: boolean } = {}): Promise<ForecastData | null> {
-  const today = todayIst();
+  const today = todayJst();
   const raw = await readDataJson<unknown>("india-remaining.json");
   const all = remainingSchema.parse(raw ?? []);
   const done = all.filter((e) => e.result);

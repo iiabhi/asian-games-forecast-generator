@@ -23,3 +23,10 @@ assert.equal(done[0].reason, "Lost the final 2-3.");
 assert.equal(done[1].reason, "Finished without a medal.");
 assert.deepEqual(done.map((d) => d.athletes), [["Lovlina"], ["Dhiraj"]]);
 console.log("finished-event handling OK");
+
+// "today" follows Japan time: 20:30 IST on 2 Oct is already 3 Oct in Japan
+import { dayOf } from "../lib/dates";
+assert.equal(dayOf("2026-10-02T20:29:00+05:30"), "2026-10-02");
+assert.equal(dayOf("2026-10-02T20:31:00+05:30"), "2026-10-03");
+assert.equal(dayOf("2026-10-02T03:51:59+05:30"), "2026-10-02");
+console.log("JST day OK");

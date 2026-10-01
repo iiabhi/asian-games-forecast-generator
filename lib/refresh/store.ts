@@ -6,8 +6,9 @@ export function nowIst(d = new Date()): string {
   return new Date(d.getTime() + 330 * 60_000).toISOString().slice(0, 19) + "+05:30";
 }
 
-export function todayIst(d = new Date()): string {
-  return nowIst(d).slice(0, 10);
+/** Today's date in Japan (JST): the Games' calendar, used for event and medal dates. */
+export function todayJst(d = new Date()): string {
+  return new Date(d.getTime() + 9 * 3600_000).toISOString().slice(0, 10);
 }
 
 export async function readDataJson<T>(file: string): Promise<T | null> {

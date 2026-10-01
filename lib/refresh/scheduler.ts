@@ -1,7 +1,7 @@
 import type { MedalsData } from "../types";
 import { refreshMedals } from "./medals";
 import { refreshNews } from "./news";
-import { readDataJson, todayIst } from "./store";
+import { readDataJson, todayJst } from "./store";
 
 // In-process auto refresh: while the server runs, pull medals (Wikipedia) and news (Google News)
 // every AUTO_REFRESH_MINUTES (default 20; set 0 to turn off). Stops after the Games (+1 day grace).
@@ -13,7 +13,7 @@ const g = globalThis as unknown as { __autoRefresh?: { timer: NodeJS.Timeout; ru
 async function tick() {
   const state = g.__autoRefresh;
   if (!state || state.running) return; // never overlap runs
-  if (todayIst() > STOP_AFTER) {
+  if (todayJst() > STOP_AFTER) {
     clearInterval(state.timer);
     console.log("[auto-refresh] Games are over, stopping");
     return;
