@@ -4,7 +4,7 @@
 
 **Follow the Asian Games through India's eyes: the medal table, what's still to come, and the news that matters, all in one place.**
 
-[**🔴 Live demo**](https://your-project.vercel.app)
+[**🔴 Live demo**](https://asian-games-forecast-generator.vercel.app)
 
 <!-- TODO: replace the link above with your deployed Vercel URL -->
 
