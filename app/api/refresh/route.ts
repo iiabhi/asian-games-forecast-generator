@@ -11,21 +11,20 @@ export const maxDuration = 60; // Wikipedia calls are throttled, so a cold run c
 // (Vercel Blob on Vercel, /data locally). A failure never overwrites the last good data.
 //   GET/POST /api/refresh                 -> medals + news
 //   GET/POST /api/refresh?only=medals     -> just one of "medals" | "news"
-// Auth: `Authorization: Bearer <token>` where token is REFRESH_TOKEN (external cron) or CRON_SECRET (Vercel Cron).
+// Auth: `Authorization: Bearer <REFRESH_TOKEN>`. Called every ~20 minutes by the GitHub Actions workflow.
 // The forecast is NOT refreshed here (it uses the LLM quota): run `npm run refresh:forecast`.
 
 function authorized(req: Request): boolean {
+  const token = process.env.REFRESH_TOKEN;
+  if (!token) return false;
   const given = (req.headers.get("authorization") ?? "").replace(/^Bearer\s+/i, "");
-  return [process.env.REFRESH_TOKEN, process.env.CRON_SECRET].some((t) => {
-    if (!t) return false;
-    const a = Buffer.from(given), b = Buffer.from(t);
-    return a.length === b.length && timingSafeEqual(a, b);
-  });
+  const a = Buffer.from(given), b = Buffer.from(token);
+  return a.length === b.length && timingSafeEqual(a, b);
 }
 
 async function run(req: Request) {
-  if (!process.env.REFRESH_TOKEN && !process.env.CRON_SECRET)
-    return Response.json({ ok: false, error: "REFRESH_TOKEN / CRON_SECRET is not configured" }, { status: 503 });
+  if (!process.env.REFRESH_TOKEN)
+    return Response.json({ ok: false, error: "REFRESH_TOKEN is not configured" }, { status: 503 });
   if (!authorized(req)) return Response.json({ ok: false, error: "unauthorized" }, { status: 401 });
 
   const only = new URL(req.url).searchParams.get("only");

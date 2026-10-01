@@ -143,9 +143,9 @@ Everything is checked before it's saved, and written safely, so a failed fetch o
 Vercel's disk is read-only and it can't keep a timer running, so on Vercel the data is stored in **Vercel Blob** and a scheduled job calls `/api/refresh`.
 
 1. Import the repo at [vercel.com/new](https://vercel.com/new).
-2. Add the environment variables `WIKI_USER_AGENT`, `REFRESH_TOKEN`, `CRON_SECRET` and `LLM_API_KEY`.
+2. Add the environment variables `WIKI_USER_AGENT`, `REFRESH_TOKEN` and `LLM_API_KEY`.
 3. In the project's **Storage** tab, create a **Blob** store and connect it, then redeploy.
-4. For refreshes every ~20 minutes, use the included GitHub Actions workflow (`.github/workflows/refresh.yml`). Add two repository secrets: `REFRESH_TOKEN` (same value as on Vercel) and `SITE_URL` (your site address, no trailing slash). `vercel.json` also has a daily backup cron, the most the free Hobby plan allows.
+4. For refreshes every ~20 minutes, use the included GitHub Actions workflow (`.github/workflows/refresh.yml`). Add two repository secrets: `REFRESH_TOKEN` (same value as on Vercel) and `SITE_URL` (your site address, no trailing slash).
 5. Update the forecast from your computer: `vercel env pull .env.local`, edit `data/india-remaining.json`, run `npm run refresh:forecast`.
 
 Locally, `npm run dev` also refreshes by itself every `AUTO_REFRESH_MINUTES` (default 20; `0` turns it off).
