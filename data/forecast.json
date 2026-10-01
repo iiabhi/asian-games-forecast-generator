@@ -1,0 +1,95 @@
+{
+  "_note": "SAMPLE DATA",
+  "generatedAt": "2026-10-02T09:00:00+05:30",
+  "source": "mock",
+  "items": [
+    {
+      "sport": "Hockey",
+      "event": "Men's Hockey Final",
+      "athletes": [
+        "India Men's Team"
+      ],
+      "eventDate": "2026-10-03",
+      "likelihood": "high",
+      "potentialMedal": "gold",
+      "reason": "Unbeaten through the group stage and semi-final. Strong penalty-corner conversion."
+    },
+    {
+      "sport": "Cricket",
+      "event": "Women's T20 Final",
+      "athletes": [
+        "India Women's Team"
+      ],
+      "eventDate": "2026-10-03",
+      "likelihood": "high",
+      "potentialMedal": "gold",
+      "reason": "Top seed with a deep batting line-up. Only a one-off bad day stands in the way."
+    },
+    {
+      "sport": "Wrestling",
+      "event": "Men's Freestyle 74kg",
+      "athletes": [
+        "Sample Wrestler A"
+      ],
+      "eventDate": "2026-10-02",
+      "likelihood": "medium",
+      "potentialMedal": "silver",
+      "reason": "Reached the semi-final with two comfortable wins. Faces a tough opponent from Iran."
+    },
+    {
+      "sport": "Badminton",
+      "event": "Women's Singles",
+      "athletes": [
+        "Sample Shuttler B"
+      ],
+      "eventDate": "2026-10-03",
+      "likelihood": "medium",
+      "potentialMedal": "bronze",
+      "reason": "Through to the semi-final. A bronze is secured, a final spot is a coin flip."
+    },
+    {
+      "sport": "Boxing",
+      "event": "Men's 71kg",
+      "athletes": [
+        "Sample Boxer C"
+      ],
+      "eventDate": "2026-10-03",
+      "likelihood": "medium",
+      "potentialMedal": "gold",
+      "reason": "Won every bout by decision. Final opponent is the reigning champion."
+    },
+    {
+      "sport": "Kabaddi",
+      "event": "Men's Team Final",
+      "athletes": [
+        "India Men's Team"
+      ],
+      "eventDate": "2026-10-04",
+      "likelihood": "high",
+      "potentialMedal": "gold",
+      "reason": "Dominant record in the sport at this level. Iran is the main challenger."
+    },
+    {
+      "sport": "Athletics",
+      "event": "Men's 4x400m Relay",
+      "athletes": [
+        "Sample Relay Squad"
+      ],
+      "eventDate": "2026-10-04",
+      "likelihood": "long-shot",
+      "potentialMedal": "bronze",
+      "reason": "Qualified for the final with the seventh-best time. Needs a season-best run."
+    },
+    {
+      "sport": "Golf",
+      "event": "Men's Individual",
+      "athletes": [
+        "Sample Golfer D"
+      ],
+      "eventDate": "2026-10-02",
+      "likelihood": "long-shot",
+      "potentialMedal": "bronze",
+      "reason": "Sitting a few strokes off the podium going into the last round."
+    }
+  ]
+}

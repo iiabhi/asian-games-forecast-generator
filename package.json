@@ -1,0 +1,37 @@
+{
+  "name": "asian-games-medal-tracker",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test:ranking": "tsx scripts/check-ranking.ts",
+    "refresh": "node --env-file-if-exists=.env.local --import tsx scripts/refresh-all.ts",
+    "refresh:medals": "node --env-file-if-exists=.env.local --import tsx scripts/refresh-medals.ts",
+    "refresh:news": "node --env-file-if-exists=.env.local --import tsx scripts/refresh-news.ts",
+    "refresh:forecast": "node --env-file-if-exists=.env.local --import tsx scripts/refresh-forecast.ts",
+    "test:forecast": "tsx scripts/check-forecast.ts",
+    "test": "npm run test:ranking && npm run test:forecast"
+  },
+  "dependencies": {
+    "@vercel/blob": "^2.8.0",
+    "cheerio": "^1.2.0",
+    "fast-xml-parser": "^5.11.2",
+    "lucide-react": "^1.49.0",
+    "next": "^15.5.27",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.3",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "autoprefixer": "^10.6.1",
+    "postcss": "^8.5.28",
+    "tailwindcss": "^3.4.19",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3"
+  }
+}

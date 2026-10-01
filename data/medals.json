@@ -1,0 +1,1420 @@
+{
+  "lastUpdated": "2026-10-02T03:06:00+05:30",
+  "countries": [
+    {
+      "code": "CHN",
+      "name": "China",
+      "flag": "🇨🇳",
+      "gold": 154,
+      "silver": 71,
+      "bronze": 63,
+      "medals": []
+    },
+    {
+      "code": "JPN",
+      "name": "Japan",
+      "flag": "🇯🇵",
+      "gold": 59,
+      "silver": 79,
+      "bronze": 79,
+      "medals": []
+    },
+    {
+      "code": "KOR",
+      "name": "South Korea",
+      "flag": "🇰🇷",
+      "gold": 30,
+      "silver": 30,
+      "bronze": 53,
+      "medals": []
+    },
+    {
+      "code": "UZB",
+      "name": "Uzbekistan",
+      "flag": "🇺🇿",
+      "gold": 16,
+      "silver": 21,
+      "bronze": 19,
+      "medals": []
+    },
+    {
+      "code": "IRI",
+      "name": "Iran",
+      "flag": "🇮🇷",
+      "gold": 12,
+      "silver": 17,
+      "bronze": 13,
+      "medals": []
+    },
+    {
+      "code": "THA",
+      "name": "Thailand",
+      "flag": "🇹🇭",
+      "gold": 12,
+      "silver": 11,
+      "bronze": 15,
+      "medals": []
+    },
+    {
+      "code": "BHR",
+      "name": "Bahrain",
+      "flag": "🇧🇭",
+      "gold": 11,
+      "silver": 5,
+      "bronze": 5,
+      "medals": []
+    },
+    {
+      "code": "IND",
+      "name": "India",
+      "flag": "🇮🇳",
+      "gold": 10,
+      "silver": 23,
+      "bronze": 33,
+      "medals": [
+        {
+          "type": "silver",
+          "sport": "Shooting",
+          "event": "Women's 10 m air rifle team",
+          "athletes": [
+            "Elavenil Valarivan",
+            "Sonam Maskar",
+            "Vidarsa Vinod"
+          ],
+          "date": "2026-09-20"
+        },
+        {
+          "type": "silver",
+          "sport": "Shooting",
+          "event": "Women's 10 m air rifle",
+          "athletes": [
+            "Elavenil Valarivan"
+          ],
+          "date": "2026-09-20"
+        },
+        {
+          "type": "silver",
+          "sport": "Shooting",
+          "event": "Men's 10 m air rifle team",
+          "athletes": [
+            "Himanshu Dhillon",
+            "Parth Mane",
+            "Rudrankksh Patil"
+          ],
+          "date": "2026-09-21"
+        },
+        {
+          "type": "silver",
+          "sport": "Shooting",
+          "event": "Men's 10 m air rifle",
+          "athletes": [
+            "Himanshu Dhillon"
+          ],
+          "date": "2026-09-21"
+        },
+        {
+          "type": "bronze",
+          "sport": "Mixed martial arts",
+          "event": "Women's 60 kg",
+          "athletes": [
+            "Suchika Tariyal"
+          ],
+          "date": "2026-09-21"
+        },
+        {
+          "type": "bronze",
+          "sport": "Shooting",
+          "event": "Men's 10 m air rifle",
+          "athletes": [
+            "Rudrankksh Patil"
+          ],
+          "date": "2026-09-21"
+        },
+        {
+          "type": "gold",
+          "sport": "Cricket",
+          "event": "Women's tournament",
+          "athletes": [
+            "India women's national cricket team"
+          ],
+          "date": "2026-09-22"
+        },
+        {
+          "type": "silver",
+          "sport": "Weightlifting",
+          "event": "Women's 49 kg",
+          "athletes": [
+            "Mirabai Chanu"
+          ],
+          "date": "2026-09-23"
+        },
+        {
+          "type": "bronze",
+          "sport": "Shooting",
+          "event": "Women's skeet team",
+          "athletes": [
+            "Maheshwari Chauhan",
+            "Parinaaz Dhaliwal",
+            "Raiza Dhillon"
+          ],
+          "date": "2026-09-23"
+        },
+        {
+          "type": "bronze",
+          "sport": "Shooting",
+          "event": "Men's skeet team",
+          "athletes": [
+            "Anantjeet Singh Naruka",
+            "Bhavtegh Singh Gill",
+            "Mairaj Ahmed Khan"
+          ],
+          "date": "2026-09-23"
+        },
+        {
+          "type": "bronze",
+          "sport": "Soft Tennis",
+          "event": "Men's Singles",
+          "athletes": [
+            "Jay Meena"
+          ],
+          "date": "2026-09-23"
+        },
+        {
+          "type": "bronze",
+          "sport": "Badminton",
+          "event": "Men's team",
+          "athletes": [
+            "Arjun M. R.",
+            "Ayush Shetty",
+            "Chirag Shetty",
+            "Dhruv Kapila",
+            "Hariharan Amsakarunan",
+            "Lakshya Sen",
+            "Prannoy H. S.",
+            "Satwiksairaj Rankireddy",
+            "Srikanth Kidambi",
+            "Tharun Mannepalli"
+          ],
+          "date": "2026-09-23"
+        },
+        {
+          "type": "silver",
+          "sport": "Wushu",
+          "event": "Women's sanda 60 kg",
+          "athletes": [
+            "Naorem Roshibina Devi"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "silver",
+          "sport": "Athletics",
+          "event": "Mixed 4 × 400 m relay",
+          "athletes": [
+            "Manu T. S.",
+            "Poovamma Machettira",
+            "Vishal T. K.",
+            "Vithya Ramraj",
+            "Jay Kumar",
+            "Kiran Pahal"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "bronze",
+          "sport": "Rowing",
+          "event": "Men's double sculls",
+          "athletes": [
+            "Satnam Singh",
+            "Salman Khan"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "bronze",
+          "sport": "Shooting",
+          "event": "Mixed skeet team",
+          "athletes": [
+            "Anantjeet Singh Naruka",
+            "Parinaaz Dhaliwal"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "bronze",
+          "sport": "Athletics",
+          "event": "Women's 10,000 m",
+          "athletes": [
+            "Seema Kumari"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "gold",
+          "sport": "Shooting",
+          "event": "Mixed 10 m air pistol team",
+          "athletes": [
+            "Kamaljeet",
+            "Suruchi Singh"
+          ],
+          "date": "2026-09-25"
+        },
+        {
+          "type": "silver",
+          "sport": "Shooting",
+          "event": "Men's 50 m rifle three positions team",
+          "athletes": [
+            "Aishwary Singh Tomar",
+            "Niraj Kumar",
+            "Rudrankksh Patil"
+          ],
+          "date": "2026-09-25"
+        },
+        {
+          "type": "silver",
+          "sport": "Athletics",
+          "event": "Men's 10,000 m",
+          "athletes": [
+            "Gulveer Singh"
+          ],
+          "date": "2026-09-25"
+        },
+        {
+          "type": "bronze",
+          "sport": "Table tennis",
+          "event": "Mixed doubles",
+          "athletes": [
+            "Diya Chitale",
+            "Manush Shah"
+          ],
+          "date": "2026-09-25"
+        },
+        {
+          "type": "bronze",
+          "sport": "Athletics",
+          "event": "Women's shot put",
+          "athletes": [
+            "Manpreet Kaur"
+          ],
+          "date": "2026-09-25"
+        },
+        {
+          "type": "bronze",
+          "sport": "Athletics",
+          "event": "Women's pole vault",
+          "athletes": [
+            "Baranica Elangovan"
+          ],
+          "date": "2026-09-25"
+        },
+        {
+          "type": "gold",
+          "sport": "Kabaddi",
+          "event": "Women's tournament",
+          "athletes": [
+            "India women's national kabaddi team"
+          ],
+          "date": "2026-09-26"
+        },
+        {
+          "type": "gold",
+          "sport": "Kabaddi",
+          "event": "Men's tournament",
+          "athletes": [
+            "India men's national kabaddi team"
+          ],
+          "date": "2026-09-26"
+        },
+        {
+          "type": "silver",
+          "sport": "Athletics",
+          "event": "Men's marathon",
+          "athletes": [
+            "Sawan Barwal"
+          ],
+          "date": "2026-09-26"
+        },
+        {
+          "type": "silver",
+          "sport": "Shooting",
+          "event": "Women's 50 m rifle three positions",
+          "athletes": [
+            "Ashi Chouksey",
+            "Tilottama Sen",
+            "Vidarsa Vinod"
+          ],
+          "date": "2026-09-26"
+        },
+        {
+          "type": "silver",
+          "sport": "Athletics",
+          "event": "Men's shot put",
+          "athletes": [
+            "Tajinderpal Singh Toor"
+          ],
+          "date": "2026-09-26"
+        },
+        {
+          "type": "bronze",
+          "sport": "Squash",
+          "event": "Mixed doubles",
+          "athletes": [
+            "Velavan Senthilkumar",
+            "Joshna Chinappa"
+          ],
+          "date": "2026-09-26"
+        },
+        {
+          "type": "bronze",
+          "sport": "Athletics",
+          "event": "Women's 400 m",
+          "athletes": [
+            "Prachi Choudhary"
+          ],
+          "date": "2026-09-26"
+        },
+        {
+          "type": "silver",
+          "sport": "Squash",
+          "event": "Men's singles",
+          "athletes": [
+            "Abhay Singh"
+          ],
+          "date": "2026-09-27"
+        },
+        {
+          "type": "silver",
+          "sport": "Squash",
+          "event": "Women's singles",
+          "athletes": [
+            "Anahat Singh"
+          ],
+          "date": "2026-09-27"
+        },
+        {
+          "type": "silver",
+          "sport": "Athletics",
+          "event": "Women's long jump",
+          "athletes": [
+            "Ancy Sojan"
+          ],
+          "date": "2026-09-27"
+        },
+        {
+          "type": "silver",
+          "sport": "Athletics",
+          "event": "Men's high jump",
+          "athletes": [
+            "Sarvesh Kushare"
+          ],
+          "date": "2026-09-27"
+        },
+        {
+          "type": "bronze",
+          "sport": "Athletics",
+          "event": "Women's 200 m",
+          "athletes": [
+            "Harita Bhadra"
+          ],
+          "date": "2026-09-27"
+        },
+        {
+          "type": "bronze",
+          "sport": "Athletics",
+          "event": "Men's decathlon",
+          "athletes": [
+            "Tejaswin Shankar"
+          ],
+          "date": "2026-09-27"
+        },
+        {
+          "type": "bronze",
+          "sport": "Athletics",
+          "event": "Women's 3000 m steeplechase",
+          "athletes": [
+            "Parul Chaudhary"
+          ],
+          "date": "2026-09-27"
+        },
+        {
+          "type": "silver",
+          "sport": "Shooting",
+          "event": "Women's 25 m pistol",
+          "athletes": [
+            "Esha Singh"
+          ],
+          "date": "2026-09-28"
+        },
+        {
+          "type": "silver",
+          "sport": "Athletics",
+          "event": "Men's 1500 m",
+          "athletes": [
+            "Gulveer Singh"
+          ],
+          "date": "2026-09-28"
+        },
+        {
+          "type": "silver",
+          "sport": "Athletics",
+          "event": "Men's Long jump",
+          "athletes": [
+            "Murali Sreeshankar"
+          ],
+          "date": "2026-09-28"
+        },
+        {
+          "type": "silver",
+          "sport": "Athletics",
+          "event": "Men's Javelin throw",
+          "athletes": [
+            "Yashvir Singh"
+          ],
+          "date": "2026-09-28"
+        },
+        {
+          "type": "bronze",
+          "sport": "Kurash",
+          "event": "Women's 78 kg",
+          "athletes": [
+            "Pincky Balhara"
+          ],
+          "date": "2026-09-28"
+        },
+        {
+          "type": "bronze",
+          "sport": "Athletics",
+          "event": "Women's 400 m hurdles",
+          "athletes": [
+            "Vithya Ramraj"
+          ],
+          "date": "2026-09-28"
+        },
+        {
+          "type": "bronze",
+          "sport": "Athletics",
+          "event": "Women's 5000 m",
+          "athletes": [
+            "Parul Chaudhary"
+          ],
+          "date": "2026-09-28"
+        },
+        {
+          "type": "bronze",
+          "sport": "Athletics",
+          "event": "Men's Javelin throw",
+          "athletes": [
+            "Rohit Yadav"
+          ],
+          "date": "2026-09-28"
+        },
+        {
+          "type": "gold",
+          "sport": "Shooting",
+          "event": "Women's trap",
+          "athletes": [
+            "Neeru Dhanda"
+          ],
+          "date": "2026-09-29"
+        },
+        {
+          "type": "gold",
+          "sport": "Athletics",
+          "event": "Women's 4 × 400 m relay",
+          "athletes": [
+            "Kiran Pahal",
+            "Poovamma Machettira",
+            "Prachi Choudhary",
+            "Vithya Ramraj"
+          ],
+          "date": "2026-09-29"
+        },
+        {
+          "type": "silver",
+          "sport": "Shooting",
+          "event": "Women's trap team",
+          "athletes": [
+            "Aashima Ahlawat",
+            "Manisha Keer",
+            "Neeru Dhanda"
+          ],
+          "date": "2026-09-29"
+        },
+        {
+          "type": "bronze",
+          "sport": "Boxing",
+          "event": "Men's +90 kg",
+          "athletes": [
+            "Narender Berwal"
+          ],
+          "date": "2026-09-29"
+        },
+        {
+          "type": "bronze",
+          "sport": "Athletics",
+          "event": "Men's 5000 m",
+          "athletes": [
+            "Gulveer Singh"
+          ],
+          "date": "2026-09-29"
+        },
+        {
+          "type": "bronze",
+          "sport": "Athletics",
+          "event": "Mixed 4 × 100 m relay",
+          "athletes": [
+            "Gurindervir Singh",
+            "Abinaya Rajarajan",
+            "Sneha Gowda",
+            "Animesh Kujur",
+            "Harita Bhadra"
+          ],
+          "date": "2026-09-29"
+        },
+        {
+          "type": "bronze",
+          "sport": "Athletics",
+          "event": "Women's high jump",
+          "athletes": [
+            "Pooja Singh"
+          ],
+          "date": "2026-09-29"
+        },
+        {
+          "type": "bronze",
+          "sport": "Athletics",
+          "event": "Men's 4 × 400 m relay",
+          "athletes": [
+            "Vishal T. K.",
+            "Dharmveer Choudhary",
+            "Rajesh Ramesh",
+            "Manu T. S.",
+            "Jay Kumar"
+          ],
+          "date": "2026-09-29"
+        },
+        {
+          "type": "gold",
+          "sport": "Archery",
+          "event": "Women's team compound",
+          "athletes": [
+            "Chikitha Taniparthi",
+            "Jyothi Surekha Vennam",
+            "Prithika Pradeep"
+          ],
+          "date": "2026-09-30"
+        },
+        {
+          "type": "gold",
+          "sport": "Archery",
+          "event": "Mixed team compound",
+          "athletes": [
+            "Chikitha Taniparthi",
+            "Sahil Jadhav"
+          ],
+          "date": "2026-09-30"
+        },
+        {
+          "type": "gold",
+          "sport": "Shooting",
+          "event": "Mixed trap team",
+          "athletes": [
+            "Kynan Chenai",
+            "Neeru Dhanda"
+          ],
+          "date": "2026-09-30"
+        },
+        {
+          "type": "gold",
+          "sport": "Archery",
+          "event": "Men's team compound",
+          "athletes": [
+            "Kushal Dalal",
+            "Sahil Jadhav",
+            "T. G. Mani Ratnam"
+          ],
+          "date": "2026-09-30"
+        },
+        {
+          "type": "bronze",
+          "sport": "Boxing",
+          "event": "Women's 60 kg",
+          "athletes": [
+            "Priya Ghanghas"
+          ],
+          "date": "2026-09-30"
+        },
+        {
+          "type": "bronze",
+          "sport": "Boxing",
+          "event": "Men's 90 kg",
+          "athletes": [
+            "Kapil Pokhariya"
+          ],
+          "date": "2026-09-30"
+        },
+        {
+          "type": "bronze",
+          "sport": "Wrestling",
+          "event": "Men's Greco-Roman 87 kg",
+          "athletes": [
+            "Sunil Kumar"
+          ],
+          "date": "2026-09-30"
+        },
+        {
+          "type": "silver",
+          "sport": "Sailing",
+          "event": "Men's 49er",
+          "athletes": [
+            "Manu Francis",
+            "Prince Noble"
+          ],
+          "date": "2026-10-01"
+        },
+        {
+          "type": "silver",
+          "sport": "Wrestling",
+          "event": "Men's Greco-Roman 97 kg",
+          "athletes": [
+            "Nitesh Siwach"
+          ],
+          "date": "2026-10-01"
+        },
+        {
+          "type": "bronze",
+          "sport": "Squash",
+          "event": "Women's team",
+          "athletes": [
+            "Anahat Singh",
+            "Tanvi Khanna",
+            "Joshna Chinappa",
+            "Shameena Riaz"
+          ],
+          "date": "2026-10-01"
+        },
+        {
+          "type": "bronze",
+          "sport": "Archery",
+          "event": "Men's individual compound",
+          "athletes": [
+            "T. G. Mani Ratnam"
+          ],
+          "date": "2026-10-01"
+        },
+        {
+          "type": "bronze",
+          "sport": "Squash",
+          "event": "Men's team",
+          "athletes": [
+            "Abhay Singh",
+            "Veer Chotrani",
+            "Velavan Senthilkumar",
+            "Suraj Chand"
+          ],
+          "date": "2026-10-01"
+        },
+        {
+          "type": "bronze",
+          "sport": "Sailing",
+          "event": "Women's 49erFX",
+          "athletes": [
+            "Harshita Tomar",
+            "Shital Verma"
+          ],
+          "date": "2026-10-01"
+        }
+      ]
+    },
+    {
+      "code": "KAZ",
+      "name": "Kazakhstan",
+      "flag": "🇰🇿",
+      "gold": 9,
+      "silver": 19,
+      "bronze": 36,
+      "medals": []
+    },
+    {
+      "code": "PRK",
+      "name": "North Korea",
+      "flag": "🇰🇵",
+      "gold": 7,
+      "silver": 8,
+      "bronze": 9,
+      "medals": []
+    },
+    {
+      "code": "MAS",
+      "name": "Malaysia",
+      "flag": "🇲🇾",
+      "gold": 6,
+      "silver": 5,
+      "bronze": 13,
+      "medals": []
+    },
+    {
+      "code": "HKG",
+      "name": "Hong Kong, China",
+      "flag": "🇭🇰",
+      "gold": 5,
+      "silver": 14,
+      "bronze": 19,
+      "medals": [
+        {
+          "type": "silver",
+          "sport": "Karate",
+          "event": "Women's individual kata",
+          "athletes": [
+            "Grace Lau"
+          ],
+          "date": "2026-09-20"
+        },
+        {
+          "type": "silver",
+          "sport": "Swimming",
+          "event": "Women's 4×100 m freestyle relay",
+          "athletes": [
+            "Wang Xintong",
+            "Ma Gilaine",
+            "Li Sum Yiu",
+            "Kan Cheuk Tung Natalie",
+            "Siobhan Haughey"
+          ],
+          "date": "2026-09-20"
+        },
+        {
+          "type": "gold",
+          "sport": "Wushu",
+          "event": "Women's changquan",
+          "athletes": [
+            "Sham Hiu Yu Lydia"
+          ],
+          "date": "2026-09-21"
+        },
+        {
+          "type": "gold",
+          "sport": "Swimming",
+          "event": "Women's 200m freestyle",
+          "athletes": [
+            "Siobhan Haughey"
+          ],
+          "date": "2026-09-21"
+        },
+        {
+          "type": "silver",
+          "sport": "Swimming",
+          "event": "Men’s 50m freestyle",
+          "athletes": [
+            "Ho Yentou Ian"
+          ],
+          "date": "2026-09-21"
+        },
+        {
+          "type": "bronze",
+          "sport": "Triathlon",
+          "event": "Mixed relay",
+          "athletes": [
+            "Cade Wright",
+            "Bailee Brown",
+            "Oscar Coggins",
+            "Robin Elg"
+          ],
+          "date": "2026-09-21"
+        },
+        {
+          "type": "bronze",
+          "sport": "Karate",
+          "event": "Men’s individual kata",
+          "athletes": [
+            "Hung Ho Wai Howard"
+          ],
+          "date": "2026-09-21"
+        },
+        {
+          "type": "bronze",
+          "sport": "Karate",
+          "event": "Women's Kumite -68kg",
+          "athletes": [
+            "Wong Cheuk Lee"
+          ],
+          "date": "2026-09-21"
+        },
+        {
+          "type": "gold",
+          "sport": "Swimming",
+          "event": "Women's 100m freestyle",
+          "athletes": [
+            "Siobhan Haughey"
+          ],
+          "date": "2026-09-22"
+        },
+        {
+          "type": "silver",
+          "sport": "Wushu",
+          "event": "Men’s nanquan and nangun",
+          "athletes": [
+            "Lau Tsz Lung"
+          ],
+          "date": "2026-09-22"
+        },
+        {
+          "type": "silver",
+          "sport": "Fencing",
+          "event": "Men’s individual foil",
+          "athletes": [
+            "Choi Chun Yin Ryan"
+          ],
+          "date": "2026-09-22"
+        },
+        {
+          "type": "bronze",
+          "sport": "Cycling",
+          "event": "Women's road race",
+          "athletes": [
+            "Leung Wing Yee"
+          ],
+          "date": "2026-09-22"
+        },
+        {
+          "type": "silver",
+          "sport": "Karate",
+          "event": "Women's Kumite -50kg",
+          "athletes": [
+            "Tsang Yee Ting"
+          ],
+          "date": "2026-09-23"
+        },
+        {
+          "type": "bronze",
+          "sport": "Karate",
+          "event": "Men’s Team kata",
+          "athletes": [
+            "Hung Ho Wai Howard",
+            "Li Chi Kong",
+            "Tang Yu Hin"
+          ],
+          "date": "2026-09-23"
+        },
+        {
+          "type": "bronze",
+          "sport": "Swimming",
+          "event": "Women's 100m butterfly",
+          "athletes": [
+            "Kan Cheuk Tung Natalie"
+          ],
+          "date": "2026-09-23"
+        },
+        {
+          "type": "bronze",
+          "sport": "Wushu",
+          "event": "Women's sanda -52kg",
+          "athletes": [
+            "Chan Tsz Ching"
+          ],
+          "date": "2026-09-23"
+        },
+        {
+          "type": "gold",
+          "sport": "Rowing",
+          "event": "Lightweight Men’s single sculls",
+          "athletes": [
+            "Chiu Hin Chun"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "silver",
+          "sport": "Rowing",
+          "event": "Lightweight Women’s single sculls",
+          "athletes": [
+            "Hung Wing Yan Winne"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "silver",
+          "sport": "Rowing",
+          "event": "Lightweight Women’s double sculls",
+          "athletes": [
+            "Cheung Yuen Shan",
+            "Leung Wing Wun"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "silver",
+          "sport": "Wushu",
+          "event": "Men’s sanda -60kg",
+          "athletes": [
+            "Leung Yu Hong"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "silver",
+          "sport": "Swimming",
+          "event": "Women’s 50m freestyle",
+          "athletes": [
+            "Siobhan Haughey"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "bronze",
+          "sport": "Rowing",
+          "event": "Lightweight Men’s double sculls",
+          "athletes": [
+            "Lam San Tung",
+            "Chan Tik Lun"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "bronze",
+          "sport": "Fencing",
+          "event": "Men’s individual epee",
+          "athletes": [
+            "Fong Hoi Sun"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "silver",
+          "sport": "Fencing",
+          "event": "Men's team foil",
+          "athletes": [
+            "Cheung Ka Long",
+            "Choi Chun Yin Ryan",
+            "Ho Shing Him Harris",
+            "Leung Chin Yu"
+          ],
+          "date": "2026-09-25"
+        },
+        {
+          "type": "bronze",
+          "sport": "Gymnastics",
+          "event": "Men's vault",
+          "athletes": [
+            "Ng Ka Ki"
+          ],
+          "date": "2026-09-25"
+        },
+        {
+          "type": "bronze",
+          "sport": "Esports",
+          "event": "Fighting Games (Street Fighter 6, TEKKEN 8, THE KING OF FIGHTERS XV)",
+          "athletes": [
+            "Wong Yuk Cheung",
+            "Yeh Man Ho",
+            "Li Hin Hei"
+          ],
+          "date": "2026-09-25"
+        },
+        {
+          "type": "bronze",
+          "sport": "Fencing",
+          "event": "Women's team foil",
+          "athletes": [
+            "Cheng Hiu Wai Valerie",
+            "Chan Nok Sze Daphne",
+            "Leung Ya Lei Janelle",
+            "Wu Sophia"
+          ],
+          "date": "2026-09-26"
+        },
+        {
+          "type": "bronze",
+          "sport": "Fencing",
+          "event": "Men's team sabre",
+          "athletes": [
+            "Chan Lok Hei Royce",
+            "Ho Pak Lam Hugo",
+            "Ho Sze Long Aaron",
+            "Leung Tin Ching"
+          ],
+          "date": "2026-09-26"
+        },
+        {
+          "type": "bronze",
+          "sport": "Squash",
+          "event": "Women's single",
+          "athletes": [
+            "Chan Sin Yuk"
+          ],
+          "date": "2026-09-26"
+        },
+        {
+          "type": "gold",
+          "sport": "Squash",
+          "event": "Mixed doubles",
+          "athletes": [
+            "Lee Ka Yi",
+            "Tang Ming Hong"
+          ],
+          "date": "2026-09-27"
+        },
+        {
+          "type": "silver",
+          "sport": "Squash",
+          "event": "Mixed doubles",
+          "athletes": [
+            "Tse Yee Lam Toby",
+            "Lai Cheuk Nam"
+          ],
+          "date": "2026-09-27"
+        },
+        {
+          "type": "bronze",
+          "sport": "Fencing",
+          "event": "Men's team epee",
+          "athletes": [
+            "Fong Hoi Sun",
+            "Ho Wai Hang",
+            "Ng Ho Tin",
+            "Lau Ho Fung"
+          ],
+          "date": "2026-09-27"
+        },
+        {
+          "type": "bronze",
+          "sport": "Esports",
+          "event": "Honor of Kings",
+          "athletes": [
+            "Cheng Ka Hin",
+            "Kwok Ho Wa",
+            "Kong Tsz Kin",
+            "Li Ka Hing",
+            "Deng Xing Zhan",
+            "Chui Sum Ki"
+          ],
+          "date": "2026-09-28"
+        },
+        {
+          "type": "bronze",
+          "sport": "Table tennis",
+          "event": "Women's double",
+          "athletes": [
+            "Doo Hoi Kem",
+            "Ng Wing Lam"
+          ],
+          "date": "2026-09-28"
+        },
+        {
+          "type": "bronze",
+          "sport": "Cycling",
+          "event": "Men's team sprint",
+          "athletes": [
+            "Mok Tsz Chun",
+            "To Cheuk Hei",
+            "Yung Tsun Ho"
+          ],
+          "date": "2026-09-29"
+        },
+        {
+          "type": "silver",
+          "sport": "Sailing",
+          "event": "Women's skiff: 49erFX",
+          "athletes": [
+            "Emily Grace Polson",
+            "Tiffany Mak"
+          ],
+          "date": "2026-10-01"
+        },
+        {
+          "type": "silver",
+          "sport": "Cycling",
+          "event": "Women's madison",
+          "athletes": [
+            "Lee Sze Wing",
+            "Leung Wing Yee"
+          ],
+          "date": "2026-10-01"
+        },
+        {
+          "type": "silver",
+          "sport": "Cycling",
+          "event": "Men's omnium",
+          "athletes": [
+            "Chu Tsun Wai"
+          ],
+          "date": "2026-10-01"
+        },
+        {
+          "type": "bronze",
+          "sport": "Sailing",
+          "event": "Men's skiff: 49er",
+          "athletes": [
+            "Akira Luke Sakai",
+            "Russell Williams Aylsworth"
+          ],
+          "date": "2026-10-01"
+        },
+        {
+          "type": "bronze",
+          "sport": "Squash",
+          "event": "Men's team",
+          "athletes": [
+            "Leung Tsz Hin Henry",
+            "Lau Tsz Kwan",
+            "Lai Cheuk Nam",
+            "Tang Ming Hong"
+          ],
+          "date": "2026-10-01"
+        }
+      ]
+    },
+    {
+      "code": "INA",
+      "name": "Indonesia",
+      "flag": "🇮🇩",
+      "gold": 5,
+      "silver": 8,
+      "bronze": 21,
+      "medals": []
+    },
+    {
+      "code": "UAE",
+      "name": "United Arab Emirates",
+      "flag": "🇦🇪",
+      "gold": 5,
+      "silver": 4,
+      "bronze": 0,
+      "medals": []
+    },
+    {
+      "code": "KUW",
+      "name": "Kuwait",
+      "flag": "🇰🇼",
+      "gold": 4,
+      "silver": 1,
+      "bronze": 4,
+      "medals": []
+    },
+    {
+      "code": "TPE",
+      "name": "Chinese Taipei",
+      "flag": "🇹🇼",
+      "gold": 3,
+      "silver": 12,
+      "bronze": 27,
+      "medals": []
+    },
+    {
+      "code": "QAT",
+      "name": "Qatar",
+      "flag": "🇶🇦",
+      "gold": 3,
+      "silver": 6,
+      "bronze": 5,
+      "medals": []
+    },
+    {
+      "code": "PHI",
+      "name": "Philippines",
+      "flag": "🇵🇭",
+      "gold": 3,
+      "silver": 5,
+      "bronze": 14,
+      "medals": []
+    },
+    {
+      "code": "SGP",
+      "name": "Singapore",
+      "flag": "🇸🇬",
+      "gold": 2,
+      "silver": 6,
+      "bronze": 4,
+      "medals": []
+    },
+    {
+      "code": "TJK",
+      "name": "Tajikistan",
+      "flag": "🇹🇯",
+      "gold": 2,
+      "silver": 3,
+      "bronze": 7,
+      "medals": []
+    },
+    {
+      "code": "VIE",
+      "name": "Vietnam",
+      "flag": "🇻🇳",
+      "gold": 2,
+      "silver": 1,
+      "bronze": 19,
+      "medals": []
+    },
+    {
+      "code": "MYA",
+      "name": "Myanmar",
+      "flag": "🇲🇲",
+      "gold": 2,
+      "silver": 1,
+      "bronze": 1,
+      "medals": []
+    },
+    {
+      "code": "MAC",
+      "name": "Macau, China",
+      "flag": "🇲🇴",
+      "gold": 1,
+      "silver": 4,
+      "bronze": 1,
+      "medals": []
+    },
+    {
+      "code": "KSA",
+      "name": "Saudi Arabia",
+      "flag": "🇸🇦",
+      "gold": 1,
+      "silver": 2,
+      "bronze": 9,
+      "medals": []
+    },
+    {
+      "code": "KGZ",
+      "name": "Kyrgyzstan",
+      "flag": "🇰🇬",
+      "gold": 1,
+      "silver": 2,
+      "bronze": 7,
+      "medals": []
+    },
+    {
+      "code": "MGL",
+      "name": "Mongolia",
+      "flag": "🇲🇳",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 8,
+      "medals": []
+    },
+    {
+      "code": "JOR",
+      "name": "Jordan",
+      "flag": "🇯🇴",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 2,
+      "medals": []
+    },
+    {
+      "code": "SRI",
+      "name": "Sri Lanka",
+      "flag": "🇱🇰",
+      "gold": 1,
+      "silver": 1,
+      "bronze": 0,
+      "medals": []
+    },
+    {
+      "code": "IRQ",
+      "name": "Iraq",
+      "flag": "🇮🇶",
+      "gold": 0,
+      "silver": 2,
+      "bronze": 3,
+      "medals": []
+    },
+    {
+      "code": "TKM",
+      "name": "Turkmenistan",
+      "flag": "🇹🇲",
+      "gold": 0,
+      "silver": 2,
+      "bronze": 0,
+      "medals": []
+    },
+    {
+      "code": "AFG",
+      "name": "Afghanistan",
+      "flag": "🇦🇫",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 2,
+      "medals": []
+    },
+    {
+      "code": "LBN",
+      "name": "Lebanon",
+      "flag": "🇱🇧",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 1,
+      "medals": []
+    },
+    {
+      "code": "OMN",
+      "name": "Oman",
+      "flag": "🇴🇲",
+      "gold": 0,
+      "silver": 1,
+      "bronze": 1,
+      "medals": []
+    },
+    {
+      "code": "PAK",
+      "name": "Pakistan",
+      "flag": "🇵🇰",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 6,
+      "medals": []
+    },
+    {
+      "code": "CAM",
+      "name": "Cambodia",
+      "flag": "🇰🇭",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 4,
+      "medals": []
+    },
+    {
+      "code": "NEP",
+      "name": "Nepal",
+      "flag": "🇳🇵",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 2,
+      "medals": []
+    },
+    {
+      "code": "BAN",
+      "name": "Bangladesh",
+      "flag": "🇧🇩",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 1,
+      "medals": []
+    },
+    {
+      "code": "BRU",
+      "name": "Brunei",
+      "flag": "🇧🇳",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 1,
+      "medals": []
+    },
+    {
+      "code": "LAO",
+      "name": "Laos",
+      "flag": "🇱🇦",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 1,
+      "medals": []
+    },
+    {
+      "code": "SYR",
+      "name": "Syria",
+      "flag": "🇸🇾",
+      "gold": 0,
+      "silver": 0,
+      "bronze": 1,
+      "medals": []
+    }
+  ]
+}
