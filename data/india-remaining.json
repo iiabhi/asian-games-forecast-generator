@@ -150,7 +150,11 @@
       "India women's hockey team"
     ],
     "stage": "Gold medal match vs China (CHN), delayed to start around 4:30 PM; India chase a first Asian Games hockey gold since 1982",
-    "medal_at_stake": "Gold or silver (medal guaranteed)"
+    "medal_at_stake": "Gold or silver (medal guaranteed)",
+    "result": {
+      "medal": "gold",
+      "note": "Beat China (CHN) 1-0 in the final; India's first Asian Games women's hockey gold since 1982."
+    }
   },
   {
     "sport": "Hockey",

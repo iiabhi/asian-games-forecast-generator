@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T16:53:25+05:30",
+  "generatedAt": "2026-10-02T17:59:57+05:30",
   "source": "llm",
   "items": [
     {
@@ -11,7 +11,7 @@
       "eventDate": "2026-10-02",
       "likelihood": "long-shot",
       "potentialMedal": "bronze",
-      "reason": "Kumkum Anil Mohod faces a tough quarterfinal against Korea's Kang Chaeyoung, needing a win to reach the medal rounds."
+      "reason": "Kumkum Anil Mohod faces a tough quarterfinal test against Kang Chaeyoung of South Korea, needing a win to advance to the medal rounds."
     },
     {
       "sport": "Archery",
@@ -22,7 +22,7 @@
       "eventDate": "2026-10-02",
       "likelihood": "medium",
       "potentialMedal": "bronze",
-      "reason": "Dhiraj Bommadevara enters his quarterfinal against Uzbekistan's Amirkhon Sadikov with strong momentum after recent mixed team success."
+      "reason": "Dhiraj Bommadevara enters the quarterfinal stage against Amirkhon Sadikov with a chance to push into the semifinals and secure a medal opportunity."
     },
     {
       "sport": "Archery",
@@ -33,18 +33,7 @@
       "eventDate": "2026-10-02",
       "likelihood": "medium",
       "potentialMedal": "bronze",
-      "reason": "Neeraj Chauhan takes on Lam Dorji of Bhutan in the quarterfinal, holding a solid opportunity to advance into the medal matches."
-    },
-    {
-      "sport": "Hockey",
-      "event": "Women's Hockey",
-      "athletes": [
-        "India women's hockey team"
-      ],
-      "eventDate": "2026-10-02",
-      "likelihood": "high",
-      "potentialMedal": "gold",
-      "reason": "The women's hockey team is through to the gold medal match against China, chasing a historic first title since 1982 with a medal guaranteed."
+      "reason": "Neeraj Chauhan takes on Lam Dorji in the quarterfinals, with a victory guaranteeing entry into the medal rounds."
     },
     {
       "sport": "Wrestling",
@@ -55,7 +44,7 @@
       "eventDate": "2026-10-02",
       "likelihood": "medium",
       "potentialMedal": "bronze",
-      "reason": "Dipanshi advanced via a dominant 10-0 repechage win and now battles Zeinep Bayanova for the bronze medal."
+      "reason": "Dipanshi enters the bronze medal bout following a dominant 10-0 repechage win over Dit Samnang."
     },
     {
       "sport": "Archery",
@@ -145,6 +134,21 @@
       }
     },
     {
+      "sport": "Hockey",
+      "event": "Women's Hockey",
+      "athletes": [
+        "India women's hockey team"
+      ],
+      "eventDate": "2026-10-02",
+      "likelihood": "high",
+      "potentialMedal": "gold",
+      "reason": "Beat China (CHN) 1-0 in the final; India's first Asian Games women's hockey gold since 1982.",
+      "result": {
+        "medal": "gold",
+        "note": "Beat China (CHN) 1-0 in the final; India's first Asian Games women's hockey gold since 1982."
+      }
+    },
+    {
       "sport": "Wrestling",
       "event": "Women's Wrestling 76kg",
       "athletes": [
@@ -213,7 +217,7 @@
       "eventDate": "2026-10-03",
       "likelihood": "high",
       "potentialMedal": "gold",
-      "reason": "The men's cricket team has reached the final stage and is guaranteed at least a silver medal ahead of the clash against Pakistan."
+      "reason": "The India men's cricket team is guaranteed a medal and faces Pakistan in the gold medal match."
     },
     {
       "sport": "Hockey",
@@ -224,7 +228,7 @@
       "eventDate": "2026-10-03",
       "likelihood": "high",
       "potentialMedal": "gold",
-      "reason": "The men's hockey team enters the final against Malaysia with a medal already secured and a great shot at the gold."
+      "reason": "The India men's hockey team plays in the gold medal match against Malaysia, assuring at least a silver with hopes for the top podium."
     },
     {
       "sport": "Golf",
@@ -246,7 +250,7 @@
       "eventDate": "2026-10-03",
       "likelihood": "medium",
       "potentialMedal": "silver",
-      "reason": "The women's golf team sits in second place at 11-under after Round 3, putting them in prime silver medal position for the final round."
+      "reason": "The India women's golf team sits second at 11-under after round three, well positioned for a podium finish in the final round."
     }
   ]
 }
