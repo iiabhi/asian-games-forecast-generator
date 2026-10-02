@@ -8,6 +8,7 @@ import { formatDateTime } from "@/lib/dates";
 import { Background } from "@/components/Background";
 import { NavLinks } from "@/components/NavLinks";
 import { IndiaTag } from "@/components/IndiaTag";
+import { AutoRefresh } from "@/components/AutoRefresh";
 
 const display = Poppins({ subsets: ["latin"], weight: ["600", "700", "800"], variable: "--font-display" });
 
@@ -30,6 +31,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
     <html lang="en" className={display.variable}>
       <body className="min-h-screen font-sans">
         <Background />
+        <AutoRefresh />
         <header className="sticky top-0 z-30">
           <nav className="bg-navy/90 text-white backdrop-blur-xl">
             <div className="mx-auto flex max-w-4xl items-center justify-between gap-3 px-4 py-2.5">

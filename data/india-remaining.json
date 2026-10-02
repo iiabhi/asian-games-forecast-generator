@@ -9,7 +9,10 @@
       "India women's recurve team"
     ],
     "stage": "Semifinal vs China (CHN)",
-    "medal_at_stake": "Win → gold medal match; lose → bronze medal match"
+    "medal_at_stake": "Win → gold medal match; lose → bronze medal match",
+    "result": {
+      "medal": "gold"
+    }
   },
   {
     "sport": "Archery",
@@ -21,7 +24,10 @@
       "India recurve mixed team"
     ],
     "stage": "Semifinal vs Japan (JPN); bronze match 12:20, gold match 12:45",
-    "medal_at_stake": "Win → gold medal match; lose → bronze medal match"
+    "medal_at_stake": "Win → gold medal match; lose → bronze medal match",
+    "result": {
+      "medal": "silver"
+    }
   },
   {
     "sport": "Archery",
@@ -81,7 +87,10 @@
       "Lovlina Borgohain"
     ],
     "stage": "Final (Bout 171) vs Bao Ziyi (CHN)",
-    "medal_at_stake": "Gold or silver (medal guaranteed)"
+    "medal_at_stake": "Gold or silver (medal guaranteed)",
+    "result": {
+      "medal": "gold"
+    }
   },
   {
     "sport": "Boxing",
@@ -182,13 +191,13 @@
   {
     "sport": "Wrestling",
     "event": "Men's Freestyle 65kg",
-    "date": "2026-10-03",
-    "time_jst": "11:32",
+    "date": "2026-10-02",
+    "time_jst": null,
     "venue": "Nagoya City Inae Sports Center (Mat B)",
     "india_entries": [
       "Sujeet"
     ],
-    "stage": "1/8 Final (Bout 153) vs Sayed Omar Zazai (AFG)",
-    "medal_at_stake": "Early round; two bronzes per weight, repechage possible if opponent reaches final"
+    "stage": "Semifinal (beat Sayed Omar Zazai of AFG in the 1/8 final; quarterfinal won)",
+    "medal_at_stake": "Win → gold medal match; lose → bronze medal match"
   }
 ]

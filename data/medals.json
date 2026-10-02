@@ -1,31 +1,2140 @@
 {
-  "lastUpdated": "2026-10-02T03:51:59+05:30",
+  "lastUpdated": "2026-10-02T11:01:56+05:30",
   "countries": [
     {
       "code": "CHN",
       "name": "China",
       "flag": "🇨🇳",
-      "gold": 154,
-      "silver": 71,
-      "bronze": 63,
+      "gold": 157,
+      "silver": 74,
+      "bronze": 64,
       "medals": []
     },
     {
       "code": "JPN",
       "name": "Japan",
       "flag": "🇯🇵",
-      "gold": 59,
+      "gold": 62,
       "silver": 79,
       "bronze": 79,
-      "medals": []
+      "medals": [
+        {
+          "type": "gold",
+          "sport": "Triathlon",
+          "event": "Men's triathlon",
+          "athletes": [
+            "Takumi Hojo"
+          ],
+          "date": "2026-09-20"
+        },
+        {
+          "type": "gold",
+          "sport": "Karate",
+          "event": "Women's individual kata",
+          "athletes": [
+            "Maho Ono"
+          ],
+          "date": "2026-09-20"
+        },
+        {
+          "type": "gold",
+          "sport": "Shooting",
+          "event": "Women's 10 m air rifle",
+          "athletes": [
+            "Hinata Taichi"
+          ],
+          "date": "2026-09-20"
+        },
+        {
+          "type": "gold",
+          "sport": "Soft tennis",
+          "event": "Women's team",
+          "athletes": [
+            "Kiho Miyamae",
+            "Rio Maeda",
+            "Sakura Nakatani",
+            "Ayaka Iwakura",
+            "Rena Temma"
+          ],
+          "date": "2026-09-20"
+        },
+        {
+          "type": "gold",
+          "sport": "Swimming",
+          "event": "Men's 200 m individual medley",
+          "athletes": [
+            "Tomoyuki Matsushita"
+          ],
+          "date": "2026-09-20"
+        },
+        {
+          "type": "gold",
+          "sport": "Soft tennis",
+          "event": "Men's team",
+          "athletes": [
+            "Takuya Kurosaka",
+            "Kaito Maruyama",
+            "Takafumi Uchimoto",
+            "Toshiki Uematsu",
+            "Sora Hirooka"
+          ],
+          "date": "2026-09-20"
+        },
+        {
+          "type": "silver",
+          "sport": "Wushu",
+          "event": "Women's taijiquan & taijijian",
+          "athletes": [
+            "Shiho Saito"
+          ],
+          "date": "2026-09-20"
+        },
+        {
+          "type": "silver",
+          "sport": "Cycling",
+          "event": "Men's individual time trial",
+          "athletes": [
+            "Shunsuke Imamura"
+          ],
+          "date": "2026-09-20"
+        },
+        {
+          "type": "silver",
+          "sport": "Teqball",
+          "event": "Mixed doubles",
+          "athletes": [
+            "Yuina Sakamoto",
+            "Akinori Wase"
+          ],
+          "date": "2026-09-20"
+        },
+        {
+          "type": "silver",
+          "sport": "Swimming",
+          "event": "Women's 50 m breaststroke",
+          "athletes": [
+            "Satomi Suzuki"
+          ],
+          "date": "2026-09-20"
+        },
+        {
+          "type": "silver",
+          "sport": "Swimming",
+          "event": "Men's 100 m backstroke",
+          "athletes": [
+            "Hidekazu Takehara"
+          ],
+          "date": "2026-09-20"
+        },
+        {
+          "type": "silver",
+          "sport": "Swimming",
+          "event": "Men's 200 m individual medley",
+          "athletes": [
+            "Yumeki Kojima"
+          ],
+          "date": "2026-09-20"
+        },
+        {
+          "type": "silver",
+          "sport": "Basketball",
+          "event": "Men's tournament",
+          "athletes": [
+            "Kotetsu Kurokawa",
+            "John Harper Jr.",
+            "Ren Kanechika",
+            "Toyoshige Kano",
+            "Ibu Yamazaki",
+            "Yuto Kawashima",
+            "Kazuma Tsuya",
+            "Atsuya Ogawa",
+            "Avi Schafer",
+            "Jaheru Yamauchi",
+            "Alex Kirk",
+            "Shinji Takashima"
+          ],
+          "date": "2026-09-20"
+        },
+        {
+          "type": "bronze",
+          "sport": "Shooting",
+          "event": "Women's 10 m air rifle team",
+          "athletes": [
+            "Hinata Taichi",
+            "Misaki Nobata",
+            "Shiori Hirata"
+          ],
+          "date": "2026-09-20"
+        },
+        {
+          "type": "bronze",
+          "sport": "Teqball",
+          "event": "Women's singles",
+          "athletes": [
+            "Yuina Sakamoto"
+          ],
+          "date": "2026-09-20"
+        },
+        {
+          "type": "bronze",
+          "sport": "Triathlon",
+          "event": "Women's triathlon",
+          "athletes": [
+            "Manami Hayashi"
+          ],
+          "date": "2026-09-20"
+        },
+        {
+          "type": "bronze",
+          "sport": "Modern pentathlon",
+          "event": "Women's team",
+          "athletes": [
+            "Misaki Uchida",
+            "Ayumu Saito",
+            "Yuho Yano"
+          ],
+          "date": "2026-09-20"
+        },
+        {
+          "type": "bronze",
+          "sport": "Swimming",
+          "event": "Women's 200 m butterfly",
+          "athletes": [
+            "Misa Okuzono"
+          ],
+          "date": "2026-09-20"
+        },
+        {
+          "type": "bronze",
+          "sport": "Swimming",
+          "event": "Women's 1500 m freestyle",
+          "athletes": [
+            "Ichika Kajimoto"
+          ],
+          "date": "2026-09-20"
+        },
+        {
+          "type": "bronze",
+          "sport": "Swimming",
+          "event": "Women's 4 × 100 m freestyle relay",
+          "athletes": [
+            "Shiho Matsumoto",
+            "Nagisa Ikemoto",
+            "Ayu Mizoguchi",
+            "Rio Suzuki",
+            "Rio Shirai",
+            "Miyu Namba"
+          ],
+          "date": "2026-09-20"
+        },
+        {
+          "type": "gold",
+          "sport": "Karate",
+          "event": "Men's individual kata",
+          "athletes": [
+            "Kakeru Nishiyama"
+          ],
+          "date": "2026-09-21"
+        },
+        {
+          "type": "gold",
+          "sport": "Swimming",
+          "event": "Men's 100 m breaststroke",
+          "athletes": [
+            "Shin Ohashi"
+          ],
+          "date": "2026-09-21"
+        },
+        {
+          "type": "silver",
+          "sport": "Triathlon",
+          "event": "Mixed relay",
+          "athletes": [
+            "Mako Hiraizumi",
+            "Manami Hayashi",
+            "Kazushi Jozuka",
+            "Takumi Hojo"
+          ],
+          "date": "2026-09-21"
+        },
+        {
+          "type": "silver",
+          "sport": "Soft tennis",
+          "event": "Mixed doubles",
+          "athletes": [
+            "Toshiki Uematsu",
+            "Rena Temma"
+          ],
+          "date": "2026-09-21"
+        },
+        {
+          "type": "silver",
+          "sport": "Gymnastics",
+          "event": "Men's individual all-around",
+          "athletes": [
+            "Shinnosuke Oka"
+          ],
+          "date": "2026-09-21"
+        },
+        {
+          "type": "silver",
+          "sport": "Karate",
+          "event": "Men's 67 kg",
+          "athletes": [
+            "Yugo Kozaki"
+          ],
+          "date": "2026-09-21"
+        },
+        {
+          "type": "silver",
+          "sport": "Swimming",
+          "event": "Men's 4 × 200 m freestyle relay",
+          "athletes": [
+            "Tatsuya Murasa",
+            "Katsuhiro Matsumoto",
+            "Kazusa Kuroda",
+            "Tomoyuki Matsushita",
+            "Konosuke Yanagimoto",
+            "Kazushi Imafuku"
+          ],
+          "date": "2026-09-21"
+        },
+        {
+          "type": "bronze",
+          "sport": "Gymnastics",
+          "event": "Men's individual all-around",
+          "athletes": [
+            "Daiki Hashimoto"
+          ],
+          "date": "2026-09-21"
+        },
+        {
+          "type": "bronze",
+          "sport": "Karate",
+          "event": "Women's 61 kg",
+          "athletes": [
+            "Sarara Shimada"
+          ],
+          "date": "2026-09-21"
+        },
+        {
+          "type": "bronze",
+          "sport": "Mixed martial arts",
+          "event": "Men's traditional 65 kg",
+          "athletes": [
+            "Daisuke Murayama"
+          ],
+          "date": "2026-09-21"
+        },
+        {
+          "type": "bronze",
+          "sport": "Soft tennis",
+          "event": "Mixed doubles",
+          "athletes": [
+            "Kaito Maruyama",
+            "Rio Maeda"
+          ],
+          "date": "2026-09-21"
+        },
+        {
+          "type": "bronze",
+          "sport": "Swimming",
+          "event": "Women's 200 m individual medley",
+          "athletes": [
+            "Mio Narita"
+          ],
+          "date": "2026-09-21"
+        },
+        {
+          "type": "gold",
+          "sport": "Gymnastics",
+          "event": "Women's individual all-around",
+          "athletes": [
+            "Aiko Sugihara"
+          ],
+          "date": "2026-09-22"
+        },
+        {
+          "type": "gold",
+          "sport": "Fencing",
+          "event": "Men's individual foil",
+          "athletes": [
+            "Kazuki Iimura"
+          ],
+          "date": "2026-09-22"
+        },
+        {
+          "type": "gold",
+          "sport": "Swimming",
+          "event": "Men's 400 m individual medley",
+          "athletes": [
+            "Yumeki Kojima"
+          ],
+          "date": "2026-09-22"
+        },
+        {
+          "type": "silver",
+          "sport": "Swimming",
+          "event": "Men's 1500 m freestyle",
+          "athletes": [
+            "Kaito Tabuchi"
+          ],
+          "date": "2026-09-22"
+        },
+        {
+          "type": "silver",
+          "sport": "Swimming",
+          "event": "Men's 400 m individual medley",
+          "athletes": [
+            "Tomoyuki Matsushita"
+          ],
+          "date": "2026-09-22"
+        },
+        {
+          "type": "silver",
+          "sport": "Swimming",
+          "event": "Men's 4 × 100 m medley relay",
+          "athletes": [
+            "Hidekazu Takehara",
+            "Shin Ohashi",
+            "Shoon Mitsunaga",
+            "Tatsuya Murasa",
+            "Shuya Matsumoto"
+          ],
+          "date": "2026-09-22"
+        },
+        {
+          "type": "silver",
+          "sport": "Volleyball",
+          "event": "Women's tournament",
+          "athletes": [
+            "Yukiko Wada",
+            "Yoshino Sato",
+            "Nanami Seki",
+            "Nichika Yamada",
+            "Maki Yamaguchi",
+            "Hitomi Shiode",
+            "Hinata Shigihara",
+            "Mana Nishizaki",
+            "Ai Hirota",
+            "Ayane Kitamado",
+            "Miina Inoue",
+            "Miku Akimoto"
+          ],
+          "date": "2026-09-22"
+        },
+        {
+          "type": "bronze",
+          "sport": "Shooting",
+          "event": "Mixed 10 m air rifle team",
+          "athletes": [
+            "Naoki Hanakawa",
+            "Misaki Nobata"
+          ],
+          "date": "2026-09-22"
+        },
+        {
+          "type": "bronze",
+          "sport": "Gymnastics",
+          "event": "Women's individual all-around",
+          "athletes": [
+            "Misa Nishiyama"
+          ],
+          "date": "2026-09-22"
+        },
+        {
+          "type": "bronze",
+          "sport": "Fencing",
+          "event": "Women's individual épée",
+          "athletes": [
+            "Tamaki Terayama"
+          ],
+          "date": "2026-09-22"
+        },
+        {
+          "type": "bronze",
+          "sport": "Fencing",
+          "event": "Men's individual foil",
+          "athletes": [
+            "Kyosuke Matsuyama"
+          ],
+          "date": "2026-09-22"
+        },
+        {
+          "type": "bronze",
+          "sport": "Swimming",
+          "event": "Women's 200 m backstroke",
+          "athletes": [
+            "Rio Shirai"
+          ],
+          "date": "2026-09-22"
+        },
+        {
+          "type": "bronze",
+          "sport": "Swimming",
+          "event": "Women's 400 m freestyle",
+          "athletes": [
+            "Ichika Kajimoto"
+          ],
+          "date": "2026-09-22"
+        },
+        {
+          "type": "bronze",
+          "sport": "Swimming",
+          "event": "Men's 1500 m freestyle",
+          "athletes": [
+            "Kazushi Imafuku"
+          ],
+          "date": "2026-09-22"
+        },
+        {
+          "type": "gold",
+          "sport": "Fencing",
+          "event": "Women's individual foil",
+          "athletes": [
+            "Yuka Ueno"
+          ],
+          "date": "2026-09-23"
+        },
+        {
+          "type": "gold",
+          "sport": "Soft tennis",
+          "event": "Women's singles",
+          "athletes": [
+            "Rena Temma"
+          ],
+          "date": "2026-09-23"
+        },
+        {
+          "type": "gold",
+          "sport": "Swimming",
+          "event": "Men's 100 m butterfly",
+          "athletes": [
+            "Shoon Mitsunaga"
+          ],
+          "date": "2026-09-23"
+        },
+        {
+          "type": "gold",
+          "sport": "Soft tennis",
+          "event": "Men's singles",
+          "athletes": [
+            "Toshiki Uematsu"
+          ],
+          "date": "2026-09-23"
+        },
+        {
+          "type": "silver",
+          "sport": "Athletics",
+          "event": "Men's half marathon walk",
+          "athletes": [
+            "Toshikazu Yamanishi"
+          ],
+          "date": "2026-09-23"
+        },
+        {
+          "type": "silver",
+          "sport": "Wushu",
+          "event": "Women's jianshu & qiangshu",
+          "athletes": [
+            "Nanoha Kida"
+          ],
+          "date": "2026-09-23"
+        },
+        {
+          "type": "silver",
+          "sport": "Gymnastics",
+          "event": "Men's team all-around",
+          "athletes": [
+            "Tomoharu Tsunogai",
+            "Shoma Tsukiyama",
+            "Kiichi Kaneta",
+            "Shinnosuke Oka",
+            "Daiki Hashimoto"
+          ],
+          "date": "2026-09-23"
+        },
+        {
+          "type": "silver",
+          "sport": "Equestrian",
+          "event": "Team eventing",
+          "athletes": [
+            "Toshiyuki Tanaka",
+            "Ryo Murata",
+            "Kazuma Tomoto",
+            "Yoshiaki Oiwa"
+          ],
+          "date": "2026-09-23"
+        },
+        {
+          "type": "silver",
+          "sport": "Soft tennis",
+          "event": "Men's singles",
+          "athletes": [
+            "Takuya Kurosaka"
+          ],
+          "date": "2026-09-23"
+        },
+        {
+          "type": "silver",
+          "sport": "Gymnastics",
+          "event": "Women's team all-around",
+          "athletes": [
+            "Misa Nishiyama",
+            "Haruka Nakamura",
+            "Rina Kishi",
+            "Mana Okamura",
+            "Aiko Sugihara"
+          ],
+          "date": "2026-09-23"
+        },
+        {
+          "type": "silver",
+          "sport": "Swimming",
+          "event": "Women's 100 m backstroke",
+          "athletes": [
+            "Rio Shirai"
+          ],
+          "date": "2026-09-23"
+        },
+        {
+          "type": "silver",
+          "sport": "Swimming",
+          "event": "Women's 100 m breaststroke",
+          "athletes": [
+            "Satomi Suzuki"
+          ],
+          "date": "2026-09-23"
+        },
+        {
+          "type": "silver",
+          "sport": "Swimming",
+          "event": "Mixed 4 × 100 m medley relay",
+          "athletes": [
+            "Shin Ohashi",
+            "Hidekazu Takehara",
+            "Shiho Matsumoto",
+            "Rikako Ikee",
+            "Chiho Mizuguchi",
+            "Nagisa Ikemoto"
+          ],
+          "date": "2026-09-23"
+        },
+        {
+          "type": "bronze",
+          "sport": "Cycling",
+          "event": "Men's road race",
+          "athletes": [
+            "Yuhi Todome"
+          ],
+          "date": "2026-09-23"
+        },
+        {
+          "type": "bronze",
+          "sport": "Equestrian",
+          "event": "Individual eventing",
+          "athletes": [
+            "Yoshiaki Oiwa"
+          ],
+          "date": "2026-09-23"
+        },
+        {
+          "type": "bronze",
+          "sport": "Esports",
+          "event": "eFootball",
+          "athletes": [
+            "Ekuya Kida",
+            "Yuga Chatani"
+          ],
+          "date": "2026-09-23"
+        },
+        {
+          "type": "bronze",
+          "sport": "Soft tennis",
+          "event": "Women's singles",
+          "athletes": [
+            "Kiho Miyamae"
+          ],
+          "date": "2026-09-23"
+        },
+        {
+          "type": "bronze",
+          "sport": "Swimming",
+          "event": "Women's 100 m breaststroke",
+          "athletes": [
+            "Kotomi Kato"
+          ],
+          "date": "2026-09-23"
+        },
+        {
+          "type": "bronze",
+          "sport": "Swimming",
+          "event": "Men's 100 m butterfly",
+          "athletes": [
+            "Katsuhiro Matsumoto"
+          ],
+          "date": "2026-09-23"
+        },
+        {
+          "type": "bronze",
+          "sport": "Swimming",
+          "event": "Men's 200 m freestyle",
+          "athletes": [
+            "Tatsuya Murasa"
+          ],
+          "date": "2026-09-23"
+        },
+        {
+          "type": "bronze",
+          "sport": "Swimming",
+          "event": "Women's 400 m individual medley",
+          "athletes": [
+            "Mio Narita"
+          ],
+          "date": "2026-09-23"
+        },
+        {
+          "type": "gold",
+          "sport": "Swimming",
+          "event": "Women's 200 m breaststroke",
+          "athletes": [
+            "Kotomi Kato"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "gold",
+          "sport": "Swimming",
+          "event": "Men's 200 m breaststroke",
+          "athletes": [
+            "Shin Ohashi"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "gold",
+          "sport": "Fencing",
+          "event": "Men's individual épée",
+          "athletes": [
+            "Koki Kano"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "gold",
+          "sport": "Fencing",
+          "event": "Women's individual sabre",
+          "athletes": [
+            "Misaki Emura"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "gold",
+          "sport": "Table tennis",
+          "event": "Men's team",
+          "athletes": [
+            "Tomokazu Harimoto",
+            "Shunsuke Togami",
+            "Sora Matsushima",
+            "Yukiya Uda",
+            "Hiroto Shinozuka"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "silver",
+          "sport": "Badminton",
+          "event": "Women's team",
+          "athletes": [
+            "Yuki Fukushima",
+            "Riko Gunji",
+            "Sayaka Hobara",
+            "Mayu Matsumoto",
+            "Tomoka Miyazaki",
+            "Kie Nakanishi",
+            "Nozomi Okuhara",
+            "Maya Taguchi",
+            "Rin Uesaka",
+            "Akane Yamaguchi"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "silver",
+          "sport": "Swimming",
+          "event": "Men's 50 m butterfly",
+          "athletes": [
+            "Shoon Mitsunaga"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "silver",
+          "sport": "Swimming",
+          "event": "Men's 800 m freestyle",
+          "athletes": [
+            "Kaito Tabuchi"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "silver",
+          "sport": "Swimming",
+          "event": "Women's 4 × 200 m freestyle relay",
+          "athletes": [
+            "Rio Suzuki",
+            "Waka Kobori",
+            "Ruka Takezawa",
+            "Yui Fukuoka",
+            "Miyu Namba"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "silver",
+          "sport": "Gymnastics",
+          "event": "Men's rings",
+          "athletes": [
+            "Kiichi Kaneta"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "silver",
+          "sport": "Gymnastics",
+          "event": "Women's uneven bars",
+          "athletes": [
+            "Misa Nishiyama"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "silver",
+          "sport": "Water polo",
+          "event": "Women's tournament",
+          "athletes": [
+            "Haruka Inaba",
+            "Akari Inaba",
+            "Kako Kawaguchi",
+            "Ai Sunabe",
+            "Riko Otsubo",
+            "Momo Inoue",
+            "Manami Noda",
+            "Yumi Arima",
+            "Eruna Ura",
+            "Hikaru Shitara",
+            "Saya Sekine",
+            "Fuka Nishiyama",
+            "Maho Kobayashi",
+            "Nina Lowrey",
+            "Shoka Fukada"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "silver",
+          "sport": "Athletics",
+          "event": "Women's 10,000 m",
+          "athletes": [
+            "Nozomi Tanaka"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "silver",
+          "sport": "Table tennis",
+          "event": "Women's team",
+          "athletes": [
+            "Miwa Harimoto",
+            "Mima Ito",
+            "Hina Hayata",
+            "Miyu Nagasaki",
+            "Rin Mende"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "bronze",
+          "sport": "Rowing",
+          "event": "Men's single sculls",
+          "athletes": [
+            "Tatsuya Sakurama"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "bronze",
+          "sport": "Rowing",
+          "event": "Women's lightweight double sculls",
+          "athletes": [
+            "Chika Yonezawa",
+            "Chiaki Tomita"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "bronze",
+          "sport": "Rowing",
+          "event": "Women's quadruple sculls",
+          "athletes": [
+            "Miho Ueno",
+            "Mao Kamidate",
+            "Hinako Ino",
+            "Mao Kadoya"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "bronze",
+          "sport": "Canoeing",
+          "event": "Men's K-4 500 m",
+          "athletes": [
+            "Masaya Tanaka",
+            "Akihiro Inoue",
+            "Ryuji Matsushiro",
+            "Yuito Sakai"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "bronze",
+          "sport": "Sepak takraw",
+          "event": "Men's team regu",
+          "athletes": [
+            "Shuma Takata",
+            "Hirokazu Kobayashi",
+            "Ikki Mito",
+            "Yuki Sato",
+            "Shun Yuasa",
+            "Masaki Sasamoto",
+            "Wataru Narawa",
+            "Daishi Tamaki",
+            "Ryota Haruhara",
+            "Seiya Takano",
+            "Yota Ichikawa",
+            "Toshitaka Naito"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "bronze",
+          "sport": "Shooting",
+          "event": "Men's 10 m air pistol team",
+          "athletes": [
+            "Junnosuke Nakayama",
+            "Masaki Iwasa",
+            "Seiji Morikawa"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "bronze",
+          "sport": "Gymnastics",
+          "event": "Men's floor",
+          "athletes": [
+            "Shoma Tsukiyama"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "bronze",
+          "sport": "Swimming",
+          "event": "Men's 4 × 100 m freestyle relay",
+          "athletes": [
+            "Tatsuya Murasa",
+            "Shuya Matsumoto",
+            "Katsuhiro Matsumoto",
+            "Shoon Mitsunaga",
+            "Kazusa Kuroda",
+            "Konosuke Yanagimoto",
+            "Kazushi Imafuku"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "bronze",
+          "sport": "Gymnastics",
+          "event": "Men's pommel horse",
+          "athletes": [
+            "Daiki Hashimoto"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "bronze",
+          "sport": "Fencing",
+          "event": "Men's individual épée",
+          "athletes": [
+            "Masaru Yamada"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "gold",
+          "sport": "Skateboarding",
+          "event": "Women's park",
+          "athletes": [
+            "Mizuho Hasegawa"
+          ],
+          "date": "2026-09-25"
+        },
+        {
+          "type": "gold",
+          "sport": "Skateboarding",
+          "event": "Men's park",
+          "athletes": [
+            "Izuru Nagahara"
+          ],
+          "date": "2026-09-25"
+        },
+        {
+          "type": "gold",
+          "sport": "Swimming",
+          "event": "Men's 200 m backstroke",
+          "athletes": [
+            "Kodai Nishiono"
+          ],
+          "date": "2026-09-25"
+        },
+        {
+          "type": "gold",
+          "sport": "Gymnastics",
+          "event": "Women's floor",
+          "athletes": [
+            "Aiko Sugihara"
+          ],
+          "date": "2026-09-25"
+        },
+        {
+          "type": "gold",
+          "sport": "Fencing",
+          "event": "Men's team foil",
+          "athletes": [
+            "Shunsuke Baba",
+            "Kyosuke Matsuyama",
+            "Kazuki Iimura",
+            "Toshiya Saito"
+          ],
+          "date": "2026-09-25"
+        },
+        {
+          "type": "gold",
+          "sport": "Basketball",
+          "event": "Women's 3x3 tournament",
+          "athletes": [
+            "Yuki Hirashita",
+            "Sakura Horiuchi",
+            "Fatoumanana Nishi",
+            "Haruka Yamamoto"
+          ],
+          "date": "2026-09-25"
+        },
+        {
+          "type": "gold",
+          "sport": "Athletics",
+          "event": "Women's pole vault",
+          "athletes": [
+            "Misaki Morota"
+          ],
+          "date": "2026-09-25"
+        },
+        {
+          "type": "gold",
+          "sport": "Athletics",
+          "event": "Women's heptathlon",
+          "athletes": [
+            "Yuri Tanaka"
+          ],
+          "date": "2026-09-25"
+        },
+        {
+          "type": "silver",
+          "sport": "Canoeing",
+          "event": "Men's K-2 500 m",
+          "athletes": [
+            "Taishi Tanada",
+            "Masaya Tanaka"
+          ],
+          "date": "2026-09-25"
+        },
+        {
+          "type": "silver",
+          "sport": "Cycling",
+          "event": "Men's cross-country",
+          "athletes": [
+            "Tatsuumi Soejima"
+          ],
+          "date": "2026-09-25"
+        },
+        {
+          "type": "silver",
+          "sport": "Gymnastics",
+          "event": "Women's floor",
+          "athletes": [
+            "Misa Nishiyama"
+          ],
+          "date": "2026-09-25"
+        },
+        {
+          "type": "silver",
+          "sport": "Gymnastics",
+          "event": "Men's parallel bars",
+          "athletes": [
+            "Shinnosuke Oka"
+          ],
+          "date": "2026-09-25"
+        },
+        {
+          "type": "silver",
+          "sport": "Swimming",
+          "event": "Women's 4 × 100 m medley relay",
+          "athletes": [
+            "Rio Shirai",
+            "Satomi Suzuki",
+            "Rikako Ikee",
+            "Nagisa Ikemoto",
+            "Chiho Mizoguchi"
+          ],
+          "date": "2026-09-25"
+        },
+        {
+          "type": "silver",
+          "sport": "Swimming",
+          "event": "Men's 400 m freestyle",
+          "athletes": [
+            "Kazushi Imafuku"
+          ],
+          "date": "2026-09-25"
+        },
+        {
+          "type": "silver",
+          "sport": "Gymnastics",
+          "event": "Men's horizontal bar",
+          "athletes": [
+            "Shinnosuke Oka"
+          ],
+          "date": "2026-09-25"
+        },
+        {
+          "type": "silver",
+          "sport": "Athletics",
+          "event": "Women's heptathlon",
+          "athletes": [
+            "Nanaka Kajiki"
+          ],
+          "date": "2026-09-25"
+        },
+        {
+          "type": "silver",
+          "sport": "Athletics",
+          "event": "Men's hammer throw",
+          "athletes": [
+            "Shota Fukuda"
+          ],
+          "date": "2026-09-25"
+        },
+        {
+          "type": "bronze",
+          "sport": "Skateboarding",
+          "event": "Women's park",
+          "athletes": [
+            "Misugu Okamoto"
+          ],
+          "date": "2026-09-25"
+        },
+        {
+          "type": "bronze",
+          "sport": "Skateboarding",
+          "event": "Men's park",
+          "athletes": [
+            "Gunjo Shiji"
+          ],
+          "date": "2026-09-25"
+        },
+        {
+          "type": "bronze",
+          "sport": "Gymnastics",
+          "event": "Women's balance beam",
+          "athletes": [
+            "Mana Okamura"
+          ],
+          "date": "2026-09-25"
+        },
+        {
+          "type": "bronze",
+          "sport": "Equestrian",
+          "event": "Team dressage",
+          "athletes": [
+            "Shingo Hayashi",
+            "Akiko Yonemoto",
+            "Ryuma Hieda",
+            "Fumiyasu Nishiwaki"
+          ],
+          "date": "2026-09-25"
+        },
+        {
+          "type": "bronze",
+          "sport": "Swimming",
+          "event": "Women's 800 m freestyle",
+          "athletes": [
+            "Ichika Kajimoto"
+          ],
+          "date": "2026-09-25"
+        },
+        {
+          "type": "bronze",
+          "sport": "Swimming",
+          "event": "Women's 50 m butterfly",
+          "athletes": [
+            "Rikako Ikee"
+          ],
+          "date": "2026-09-25"
+        },
+        {
+          "type": "bronze",
+          "sport": "Swimming",
+          "event": "Men's 50 m breaststroke",
+          "athletes": [
+            "Shin Ohashi"
+          ],
+          "date": "2026-09-25"
+        },
+        {
+          "type": "gold",
+          "sport": "Athletics",
+          "event": "Men's marathon",
+          "athletes": [
+            "Ichitaka Yamashita"
+          ],
+          "date": "2026-09-26"
+        },
+        {
+          "type": "gold",
+          "sport": "Esports",
+          "event": "Puyo Puyo Champions",
+          "athletes": [
+            "Yuki Kurihara"
+          ],
+          "date": "2026-09-26"
+        },
+        {
+          "type": "gold",
+          "sport": "Fencing",
+          "event": "Women's team foil",
+          "athletes": [
+            "Sera Azuma",
+            "Yuka Ueno",
+            "Sumire Tsuji",
+            "Komaki Kikuchi"
+          ],
+          "date": "2026-09-26"
+        },
+        {
+          "type": "silver",
+          "sport": "Diving",
+          "event": "Men's synchronized 3 m springboard",
+          "athletes": [
+            "Senri Ikuma",
+            "Haruki Suyama"
+          ],
+          "date": "2026-09-26"
+        },
+        {
+          "type": "silver",
+          "sport": "Weightlifting",
+          "event": "Men's 70 kg",
+          "athletes": [
+            "Masanori Miyamoto"
+          ],
+          "date": "2026-09-26"
+        },
+        {
+          "type": "silver",
+          "sport": "Esports",
+          "event": "Competitive Martial Arts",
+          "athletes": [
+            "Kojiro Higuchi",
+            "Daichi Nakayama",
+            "Akihito Sawada"
+          ],
+          "date": "2026-09-26"
+        },
+        {
+          "type": "silver",
+          "sport": "Fencing",
+          "event": "Men's team sabre",
+          "athletes": [
+            "Kento Yoshida",
+            "Hayato Tsubo",
+            "Mao Kokubo",
+            "Shido Tsumori"
+          ],
+          "date": "2026-09-26"
+        },
+        {
+          "type": "silver",
+          "sport": "Basketball",
+          "event": "Women's tournament",
+          "athletes": [
+            "Miyu Okamoto",
+            "Maika Miura",
+            "Ami Tsuneta",
+            "Takako Sato",
+            "Ufuoma Tanaka",
+            "Riho Akagi",
+            "Nana Santa",
+            "Mona Tateyama",
+            "Mio Shiraishi",
+            "Maho Awatani",
+            "Suzuno Higuchi",
+            "Haru Owaki"
+          ],
+          "date": "2026-09-26"
+        },
+        {
+          "type": "silver",
+          "sport": "Athletics",
+          "event": "Men's triple jump",
+          "athletes": [
+            "Manato Miyao"
+          ],
+          "date": "2026-09-26"
+        },
+        {
+          "type": "bronze",
+          "sport": "Athletics",
+          "event": "Women's marathon",
+          "athletes": [
+            "Mikuni Yada"
+          ],
+          "date": "2026-09-26"
+        },
+        {
+          "type": "bronze",
+          "sport": "Canoeing",
+          "event": "Mixed K-2 500 m",
+          "athletes": [
+            "Rin Fukuda",
+            "Akihiro Inoue"
+          ],
+          "date": "2026-09-26"
+        },
+        {
+          "type": "bronze",
+          "sport": "Athletics",
+          "event": "Men's 400 m",
+          "athletes": [
+            "Yuki Joseph Nakajima"
+          ],
+          "date": "2026-09-26"
+        },
+        {
+          "type": "bronze",
+          "sport": "Athletics",
+          "event": "Women's 1500 m",
+          "athletes": [
+            "Nozomi Tanaka"
+          ],
+          "date": "2026-09-26"
+        },
+        {
+          "type": "gold",
+          "sport": "Athletics",
+          "event": "Men's marathon walk",
+          "athletes": [
+            "Hayato Katsuki"
+          ],
+          "date": "2026-09-27"
+        },
+        {
+          "type": "gold",
+          "sport": "Cycling",
+          "event": "Men's BMX freestyle",
+          "athletes": [
+            "Rim Nakamura"
+          ],
+          "date": "2026-09-27"
+        },
+        {
+          "type": "gold",
+          "sport": "Esports",
+          "event": "Pokémon Unite",
+          "athletes": [
+            "Hiroki Sato",
+            "Shouki Takada",
+            "Mashika Shirakawa",
+            "Koto Toba",
+            "Renta Higashi",
+            "Yudai Koseko"
+          ],
+          "date": "2026-09-27"
+        },
+        {
+          "type": "gold",
+          "sport": "Gymnastics",
+          "event": "Women's trampoline",
+          "athletes": [
+            "Hikaru Mori"
+          ],
+          "date": "2026-09-27"
+        },
+        {
+          "type": "gold",
+          "sport": "Athletics",
+          "event": "Women's 100 metres hurdles",
+          "athletes": [
+            "Mako Fukube"
+          ],
+          "date": "2026-09-27"
+        },
+        {
+          "type": "gold",
+          "sport": "Athletics",
+          "event": "Men's decathlon",
+          "athletes": [
+            "Yuma Maruyama"
+          ],
+          "date": "2026-09-27"
+        },
+        {
+          "type": "silver",
+          "sport": "Cycling",
+          "event": "Women's BMX freestyle",
+          "athletes": [
+            "Miharu Ozawa"
+          ],
+          "date": "2026-09-27"
+        },
+        {
+          "type": "silver",
+          "sport": "Artistic swimming",
+          "event": "Women's duet",
+          "athletes": [
+            "Moe Higa",
+            "Tomoka Sato",
+            "Ayano Shimada"
+          ],
+          "date": "2026-09-27"
+        },
+        {
+          "type": "silver",
+          "sport": "Skateboarding",
+          "event": "Women's street",
+          "athletes": [
+            "Yumeka Oda"
+          ],
+          "date": "2026-09-27"
+        },
+        {
+          "type": "silver",
+          "sport": "Cycling",
+          "event": "Men's BMX freestyle",
+          "athletes": [
+            "Kaede Ozawa"
+          ],
+          "date": "2026-09-27"
+        },
+        {
+          "type": "silver",
+          "sport": "Skateboarding",
+          "event": "Men's stret",
+          "athletes": [
+            "Toa Sasaki"
+          ],
+          "date": "2026-09-27"
+        },
+        {
+          "type": "silver",
+          "sport": "Handball",
+          "event": "Women's tournament",
+          "athletes": [
+            "Miyako Hatsumi",
+            "Arisa Kinjo",
+            "Kaho Nakayama",
+            "Naoko Sahara",
+            "Kaoru Wada",
+            "Natsumi Aizawa",
+            "Asuka Fujita",
+            "Sakura Hauge",
+            "Haruno Sasaki",
+            "Minami Matsuura",
+            "Clare Gray",
+            "Yuki Yoshidome",
+            "Ai Nakao",
+            "Aki Ueshima",
+            "Kaede Higa",
+            "Sora Ishikawa"
+          ],
+          "date": "2026-09-27"
+        },
+        {
+          "type": "silver",
+          "sport": "Table tennis",
+          "event": "Men's doubles",
+          "athletes": [
+            "Tomokazu Harimoto",
+            "Hiroto Shinozuka"
+          ],
+          "date": "2026-09-27"
+        },
+        {
+          "type": "silver",
+          "sport": "Fencing",
+          "event": "Women's team sabre",
+          "athletes": [
+            "Yui Sano",
+            "Yuina Kaneko",
+            "Misaki Emura",
+            "Seri Ozaki"
+          ],
+          "date": "2026-09-27"
+        },
+        {
+          "type": "silver",
+          "sport": "Gymnastics",
+          "event": "Women's trampoline",
+          "athletes": [
+            "Megu Uyama"
+          ],
+          "date": "2026-09-27"
+        },
+        {
+          "type": "silver",
+          "sport": "Baseball",
+          "event": "Men's tournament",
+          "athletes": [
+            "Ryosuke Aizawa",
+            "Ryo Arima",
+            "Yoshiki Fuchigami",
+            "Ryosuke Fujisawa",
+            "Shogo Fukui",
+            "Shin Higuchi",
+            "Mizuki Kato",
+            "Shuichiro Kayo",
+            "Kazuki Kondo",
+            "Toyo Kumada",
+            "Masashi Maruyama",
+            "Wataru Matsuda",
+            "Shohei Mizutani",
+            "Motoki Mukoyama",
+            "Kento Nagano",
+            "Yuki Sato",
+            "Masato Shibasaki",
+            "Manami Soeda",
+            "Koki Taniwaki",
+            "Yuki Tsujimoto",
+            "Keita Wada",
+            "Kenta Yamada",
+            "Yukiya Yano"
+          ],
+          "date": "2026-09-27"
+        },
+        {
+          "type": "silver",
+          "sport": "Athletics",
+          "event": "Men's 110 m hurdles",
+          "athletes": [
+            "Rachid Muratake"
+          ],
+          "date": "2026-09-27"
+        },
+        {
+          "type": "silver",
+          "sport": "Athletics",
+          "event": "Women's 100 m hurdles",
+          "athletes": [
+            "Hitomi Nakajima"
+          ],
+          "date": "2026-09-27"
+        },
+        {
+          "type": "silver",
+          "sport": "Athletics",
+          "event": "Women's javelin throw",
+          "athletes": [
+            "Haruka Kitaguchi"
+          ],
+          "date": "2026-09-27"
+        },
+        {
+          "type": "bronze",
+          "sport": "Athletics",
+          "event": "Women's marathon race walk",
+          "athletes": [
+            "Yukiko Umeno"
+          ],
+          "date": "2026-09-27"
+        },
+        {
+          "type": "bronze",
+          "sport": "Table tennis",
+          "event": "Men's doubles",
+          "athletes": [
+            "Sora Matsushima",
+            "Shunsuke Togami"
+          ],
+          "date": "2026-09-27"
+        },
+        {
+          "type": "bronze",
+          "sport": "Athletics",
+          "event": "Men's marathon race walk",
+          "athletes": [
+            "Motofumi Suwa"
+          ],
+          "date": "2026-09-27"
+        },
+        {
+          "type": "bronze",
+          "sport": "Table tennis",
+          "event": "Women's singles",
+          "athletes": [
+            "Miwa Harimoto"
+          ],
+          "date": "2026-09-27"
+        },
+        {
+          "type": "bronze",
+          "sport": "Skateboarding",
+          "event": "Men's street",
+          "athletes": [
+            "Ginwoo Onodera"
+          ],
+          "date": "2026-09-27"
+        },
+        {
+          "type": "bronze",
+          "sport": "Kurash",
+          "event": "Women's 57 kg",
+          "athletes": [
+            "Natsumi Kuroki"
+          ],
+          "date": "2026-09-27"
+        },
+        {
+          "type": "bronze",
+          "sport": "Table tennis",
+          "event": "Women's singles",
+          "athletes": [
+            "Hina Hayata"
+          ],
+          "date": "2026-09-27"
+        },
+        {
+          "type": "bronze",
+          "sport": "Squash",
+          "event": "Women's singles",
+          "athletes": [
+            "Satomi Watanabe"
+          ],
+          "date": "2026-09-27"
+        },
+        {
+          "type": "bronze",
+          "sport": "Fencing",
+          "event": "Men's team épée",
+          "athletes": [
+            "Ryu Matsumoto",
+            "Koki Kano",
+            "Masaru Yamada",
+            "Seiya Asami"
+          ],
+          "date": "2026-09-27"
+        },
+        {
+          "type": "bronze",
+          "sport": "Athletics",
+          "event": "Men's 200 m",
+          "athletes": [
+            "Soshi Mizukubo"
+          ],
+          "date": "2026-09-27"
+        },
+        {
+          "type": "bronze",
+          "sport": "Athletics",
+          "event": "Women's javelin throw",
+          "athletes": [
+            "Sae Takemoto"
+          ],
+          "date": "2026-09-27"
+        },
+        {
+          "type": "gold",
+          "sport": "Cycling",
+          "event": "Men's BMX racing",
+          "athletes": [
+            "Asuma Nakai"
+          ],
+          "date": "2026-09-28"
+        },
+        {
+          "type": "gold",
+          "sport": "Cycling",
+          "event": "Women's BMX racing",
+          "athletes": [
+            "Sae Hatakeyama"
+          ],
+          "date": "2026-09-28"
+        },
+        {
+          "type": "gold",
+          "sport": "Athletics",
+          "event": "Men's 3000 metres steeplechase",
+          "athletes": [
+            "Ryuji Miura"
+          ],
+          "date": "2026-09-28"
+        },
+        {
+          "type": "gold",
+          "sport": "Athletics",
+          "event": "Men's 1500 metres",
+          "athletes": [
+            "Kazuto Iizawa"
+          ],
+          "date": "2026-09-28"
+        },
+        {
+          "type": "silver",
+          "sport": "Artistic swimming",
+          "event": "Team",
+          "athletes": [
+            "Kaho Aitaka",
+            "Moka Fujii",
+            "Moe Higa",
+            "Konatsu Ishii",
+            "Yuka Kawase",
+            "Uta Kobayashi",
+            "Tomoka Sato",
+            "Ayano Shimada"
+          ],
+          "date": "2026-09-28"
+        },
+        {
+          "type": "silver",
+          "sport": "Cycling",
+          "event": "Men's BMX racing",
+          "athletes": [
+            "Hyoga Kiuchi"
+          ],
+          "date": "2026-09-28"
+        },
+        {
+          "type": "silver",
+          "sport": "Table tennis",
+          "event": "Women's doubles",
+          "athletes": [
+            "Miwa Harimoto",
+            "Hina Hayata"
+          ],
+          "date": "2026-09-28"
+        },
+        {
+          "type": "silver",
+          "sport": "Athletics",
+          "event": "Men's 400 m hurdles",
+          "athletes": [
+            "Taiju Goto"
+          ],
+          "date": "2026-09-28"
+        },
+        {
+          "type": "silver",
+          "sport": "Athletics",
+          "event": "Men's 3000 m steeplechase",
+          "athletes": [
+            "Ryoma Aoki"
+          ],
+          "date": "2026-09-28"
+        },
+        {
+          "type": "silver",
+          "sport": "Athletics",
+          "event": "Women's 5000 m",
+          "athletes": [
+            "Nozomi Tanaka"
+          ],
+          "date": "2026-09-28"
+        },
+        {
+          "type": "bronze",
+          "sport": "Badminton",
+          "event": "Women's doubles",
+          "athletes": [
+            "Kie Nakanishi",
+            "Rin Uesaka"
+          ],
+          "date": "2026-09-28"
+        },
+        {
+          "type": "bronze",
+          "sport": "Kurash",
+          "event": "Men's 81 kg",
+          "athletes": [
+            "Ken Oyoshi"
+          ],
+          "date": "2026-09-28"
+        },
+        {
+          "type": "bronze",
+          "sport": "Athletics",
+          "event": "Men's 1500 m",
+          "athletes": [
+            "Nagiya Mori"
+          ],
+          "date": "2026-09-28"
+        },
+        {
+          "type": "bronze",
+          "sport": "Athletics",
+          "event": "Women's 4 × 100 m relay",
+          "athletes": [
+            "Aiko Iki",
+            "Manaka Miura",
+            "Midori Mikase",
+            "Masumi Aoki"
+          ],
+          "date": "2026-09-28"
+        },
+        {
+          "type": "gold",
+          "sport": "Surfing",
+          "event": "Women's shortboard",
+          "athletes": [
+            "Mirai Ikeda"
+          ],
+          "date": "2026-09-29"
+        },
+        {
+          "type": "gold",
+          "sport": "Athletics",
+          "event": "Men's 800 m",
+          "athletes": [
+            "Ko Ochiai"
+          ],
+          "date": "2026-09-29"
+        },
+        {
+          "type": "gold",
+          "sport": "Athletics",
+          "event": "Men's 4 × 400 m relay",
+          "athletes": [
+            "Yuki Joseph Nakajima",
+            "Fuga Sato",
+            "Kentaro Shirahata",
+            "Kenki Imaizumi",
+            "Shinya Hayashi"
+          ],
+          "date": "2026-09-29"
+        },
+        {
+          "type": "silver",
+          "sport": "Badminton",
+          "event": "Women's singles",
+          "athletes": [
+            "Akane Yamaguchi"
+          ],
+          "date": "2026-09-29"
+        },
+        {
+          "type": "silver",
+          "sport": "Athletics",
+          "event": "Men's 5000 m",
+          "athletes": [
+            "Tomonori Yamaguchi"
+          ],
+          "date": "2026-09-29"
+        },
+        {
+          "type": "silver",
+          "sport": "Cycling",
+          "event": "Men's team sprint",
+          "athletes": [
+            "Yoshitaku Nagasako",
+            "Minato Nakaishi",
+            "Kaiya Ota",
+            "Kanata Takahashi"
+          ],
+          "date": "2026-09-29"
+        },
+        {
+          "type": "bronze",
+          "sport": "Boxing",
+          "event": "Women's 54 kg",
+          "athletes": [
+            "Tsukimi Namiki"
+          ],
+          "date": "2026-09-29"
+        },
+        {
+          "type": "bronze",
+          "sport": "Surfing",
+          "event": "Women's shortboard",
+          "athletes": [
+            "Minami Nonaka"
+          ],
+          "date": "2026-09-29"
+        },
+        {
+          "type": "bronze",
+          "sport": "Boxing",
+          "event": "Men's 60 kg",
+          "athletes": [
+            "Shunsuke Kitamoto"
+          ],
+          "date": "2026-09-29"
+        },
+        {
+          "type": "bronze",
+          "sport": "Handball",
+          "event": "Men's tournament",
+          "athletes": [
+            "Takumi Nakamura",
+            "Kota Nakata",
+            "Taiga Tsutaya",
+            "Tomoya Sakurai",
+            "Daisuke Tanaka",
+            "Adam Baig",
+            "Soya Ichihara",
+            "Naoki Sugioka",
+            "Jin Watanabe",
+            "Yuta Iwashita",
+            "Tatsuki Yoshino",
+            "Hayato Goto",
+            "Hiroyasu Tamakawa",
+            "Naoki Fujisaka",
+            "Akio Hashimoto",
+            "Kotaro Mizumachi"
+          ],
+          "date": "2026-09-29"
+        },
+        {
+          "type": "bronze",
+          "sport": "Diving",
+          "event": "Men's 3 m springboard",
+          "athletes": [
+            "Sho Sakai"
+          ],
+          "date": "2026-09-29"
+        },
+        {
+          "type": "bronze",
+          "sport": "Athletics",
+          "event": "Women's hammer throw",
+          "athletes": [
+            "Joy Iris McArthur"
+          ],
+          "date": "2026-09-29"
+        },
+        {
+          "type": "gold",
+          "sport": "Judo",
+          "event": "Women's 48 kg",
+          "athletes": [
+            "Mitsuki Kondo"
+          ],
+          "date": "2026-09-30"
+        },
+        {
+          "type": "gold",
+          "sport": "Judo",
+          "event": "Men's 60 kg",
+          "athletes": [
+            "Hayato Kondo"
+          ],
+          "date": "2026-09-30"
+        },
+        {
+          "type": "gold",
+          "sport": "Sport climbing",
+          "event": "Men's boulder",
+          "athletes": [
+            "Sorato Anraku"
+          ],
+          "date": "2026-09-30"
+        },
+        {
+          "type": "gold",
+          "sport": "Wrestling",
+          "event": "Men's Greco-Roman 87 kg",
+          "athletes": [
+            "Taizo Yoshida"
+          ],
+          "date": "2026-09-30"
+        },
+        {
+          "type": "gold",
+          "sport": "Wrestling",
+          "event": "Women's freestyle 68 kg",
+          "athletes": [
+            "Ami Ishii"
+          ],
+          "date": "2026-09-30"
+        },
+        {
+          "type": "silver",
+          "sport": "Cycling",
+          "event": "Women's team pursuit",
+          "athletes": [
+            "Mizuki Ikeda",
+            "Yumi Kajihara",
+            "Maho Kakita",
+            "Tsuyaka Uchino",
+            "Misaki Okamoto"
+          ],
+          "date": "2026-09-30"
+        },
+        {
+          "type": "silver",
+          "sport": "Canoeing",
+          "event": "Men's kayak single",
+          "athletes": [
+            "Yuuki Tanaka"
+          ],
+          "date": "2026-09-30"
+        },
+        {
+          "type": "silver",
+          "sport": "Cycling",
+          "event": "Men's team pursuit",
+          "athletes": [
+            "Naoki Kojima",
+            "Kazushige Kuboki",
+            "Shoi Matsuda",
+            "Kanta Umezawa",
+            "Shoki Kawano"
+          ],
+          "date": "2026-09-30"
+        },
+        {
+          "type": "silver",
+          "sport": "Diving",
+          "event": "Men's 10 m platform",
+          "athletes": [
+            "Rikuto Tamai"
+          ],
+          "date": "2026-09-30"
+        },
+        {
+          "type": "silver",
+          "sport": "Esports",
+          "event": "Identity V",
+          "athletes": [
+            "Ryo Kamiya",
+            "Yuto Awata",
+            "Masumi Konuma",
+            "Masahiro Uemura",
+            "Ryuhi Oyama",
+            "Kentaro Maeda",
+            "Masaki Uenaka"
+          ],
+          "date": "2026-09-30"
+        },
+        {
+          "type": "silver",
+          "sport": "Wrestling",
+          "event": "Men's Greco-Roman 67 kg",
+          "athletes": [
+            "Kyotaro Sogabe"
+          ],
+          "date": "2026-09-30"
+        },
+        {
+          "type": "bronze",
+          "sport": "Boxing",
+          "event": "Men's 70 kg",
+          "athletes": [
+            "Sewon Okazawa"
+          ],
+          "date": "2026-09-30"
+        },
+        {
+          "type": "bronze",
+          "sport": "Diving",
+          "event": "Women's 3 m springboard",
+          "athletes": [
+            "Sayaka Mikami"
+          ],
+          "date": "2026-09-30"
+        },
+        {
+          "type": "bronze",
+          "sport": "Judo",
+          "event": "Women's 52 kg",
+          "athletes": [
+            "Kokoro Fujishiro"
+          ],
+          "date": "2026-09-30"
+        },
+        {
+          "type": "bronze",
+          "sport": "Sport climbing",
+          "event": "Men's boulder",
+          "athletes": [
+            "Tomoa Narasaki"
+          ],
+          "date": "2026-09-30"
+        },
+        {
+          "type": "gold",
+          "sport": "Sailing",
+          "event": "Women's 49erFX",
+          "athletes": [
+            "Misaki Tanaka",
+            "Sera Nagamatsu"
+          ],
+          "date": "2026-10-01"
+        },
+        {
+          "type": "gold",
+          "sport": "Canoeing",
+          "event": "Women's kayak single",
+          "athletes": [
+            "Kurumi Ito"
+          ],
+          "date": "2026-10-01"
+        },
+        {
+          "type": "bronze",
+          "sport": "Taekwondo",
+          "event": "Women's individual poomsae",
+          "athletes": [
+            "Yuiko Niwa"
+          ],
+          "date": "2026-10-01"
+        },
+        {
+          "type": "bronze",
+          "sport": "Squash",
+          "event": "Women's team",
+          "athletes": [
+            "Satomi Watanabe",
+            "Akari Midorikawa",
+            "Risa Sugimoto",
+            "Erisa Sano"
+          ],
+          "date": "2026-10-01"
+        },
+        {
+          "type": "bronze",
+          "sport": "Judo",
+          "event": "Women's 57 kg",
+          "athletes": [
+            "Mio Shirakane"
+          ],
+          "date": "2026-10-01"
+        }
+      ]
     },
     {
       "code": "KOR",
       "name": "South Korea",
       "flag": "🇰🇷",
-      "gold": 30,
-      "silver": 30,
-      "bronze": 53,
+      "gold": 31,
+      "silver": 32,
+      "bronze": 54,
       "medals": []
     },
     {
@@ -34,43 +2143,869 @@
       "flag": "🇺🇿",
       "gold": 16,
       "silver": 21,
-      "bronze": 19,
-      "medals": []
-    },
-    {
-      "code": "IRI",
-      "name": "Iran",
-      "flag": "🇮🇷",
-      "gold": 12,
-      "silver": 17,
-      "bronze": 13,
-      "medals": []
+      "bronze": 20,
+      "medals": [
+        {
+          "type": "silver",
+          "sport": "Karate",
+          "event": "Men's 55 kg",
+          "athletes": [
+            "Khumoyunmirzo Khalimov"
+          ],
+          "date": "2026-09-20"
+        },
+        {
+          "type": "gold",
+          "sport": "Karate",
+          "event": "Men's 67 kg",
+          "athletes": [
+            "Abdul Vakhkhob Rashidov"
+          ],
+          "date": "2026-09-21"
+        },
+        {
+          "type": "silver",
+          "sport": "Wushu",
+          "event": "Nanquan & nandao",
+          "athletes": [
+            "Darya Latisheva"
+          ],
+          "date": "2026-09-22"
+        },
+        {
+          "type": "silver",
+          "sport": "Mixed martial arts",
+          "event": "Men's modern 60 kg",
+          "athletes": [
+            "Firdavs Atamuratov"
+          ],
+          "date": "2026-09-22"
+        },
+        {
+          "type": "silver",
+          "sport": "Mixed martial arts",
+          "event": "Women's traditional 60 kg",
+          "athletes": [
+            "Khiola Sobirova"
+          ],
+          "date": "2026-09-22"
+        },
+        {
+          "type": "bronze",
+          "sport": "Mixed martial arts",
+          "event": "Men's modern 71 kg",
+          "athletes": [
+            "Nodirbek Shavkatov"
+          ],
+          "date": "2026-09-22"
+        },
+        {
+          "type": "bronze",
+          "sport": "Esports",
+          "event": "eFootball",
+          "athletes": [
+            "Abubakir Iminjonov",
+            "Farrukh Mirkhamitov"
+          ],
+          "date": "2026-09-23"
+        },
+        {
+          "type": "bronze",
+          "sport": "Fencing",
+          "event": "Women's Individual foil",
+          "athletes": [
+            "Polina Volobueva"
+          ],
+          "date": "2026-09-23"
+        },
+        {
+          "type": "gold",
+          "sport": "Gymnastics",
+          "event": "Men's pommel horse",
+          "athletes": [
+            "Utkirbek Juraev"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "gold",
+          "sport": "Athletics",
+          "event": "Women's triple jump",
+          "athletes": [
+            "Sharifa Davronova"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "gold",
+          "sport": "Canoeing",
+          "event": "Women's C-1 200 metres",
+          "athletes": [
+            "Shokhsanam Sherzodova"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "gold",
+          "sport": "Shooting",
+          "event": "Men's 10 m air pistol",
+          "athletes": [
+            "Vladimir Svechnikov"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "gold",
+          "sport": "Rowing",
+          "event": "Men's Lightweight double sculls",
+          "athletes": [
+            "Shakhzod Nurmatov",
+            "Sobirjon Safaroliyev"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "silver",
+          "sport": "Canoeing",
+          "event": "Men's C-2 500 metres",
+          "athletes": [
+            "Artur Guliev",
+            "Vladlen Denisov"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "silver",
+          "sport": "Fencing",
+          "event": "Women's Individual sabre",
+          "athletes": [
+            "Zaynab Dayibekova"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "silver",
+          "sport": "Rowing",
+          "event": "Men's Single sculls",
+          "athletes": [
+            "Shakhboz Kholmurzaev"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "silver",
+          "sport": "Rowing",
+          "event": "Men's Double sculls",
+          "athletes": [
+            "Mekhrojbek Mamatkulov",
+            "Pavel Sorin"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "silver",
+          "sport": "Rowing",
+          "event": "Men's Coxless four",
+          "athletes": [
+            "Fazliddin Karimov",
+            "Dilshodjon Khudoyberdiev",
+            "Maksim Golubev",
+            "Alisher Turdiev"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "silver",
+          "sport": "Rowing",
+          "event": "Women's Single sculls",
+          "athletes": [
+            "Anna Prakaten"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "silver",
+          "sport": "Rowing",
+          "event": "Women's Coxless pair",
+          "athletes": [
+            "Anna Aksenova",
+            "Aydana Smetullaeva"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "silver",
+          "sport": "Rowing",
+          "event": "Women's Coxless four",
+          "athletes": [
+            "Rayhon Sattorova",
+            "Mariya Sergeeva",
+            "Anna Aksenova",
+            "Aydana Smetullaeva"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "bronze",
+          "sport": "Wushu",
+          "event": "Men's sanda 56 kg",
+          "athletes": [
+            "Saydullo Abdurashitov"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "bronze",
+          "sport": "Wushu",
+          "event": "Men's sanda 75 kg",
+          "athletes": [
+            "Doniyor Turgunbaev"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "bronze",
+          "sport": "Canoeing",
+          "event": "Women's K-2 500 metres",
+          "athletes": [
+            "Arina Tanatmisheva",
+            "Ekaterina Shubina"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "bronze",
+          "sport": "Rowing",
+          "event": "Men's Quadruple sculls",
+          "athletes": [
+            "Shakhboz Kholmurzaev",
+            "Davron Davronov",
+            "Mekhrojbek Mamatkulov",
+            "Pavel Sorin"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "bronze",
+          "sport": "Rowing",
+          "event": "Men's Coxless pair",
+          "athletes": [
+            "Maksim Golubev",
+            "Alisher Turdiev"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "gold",
+          "sport": "Athletics",
+          "event": "Men's hammer throw",
+          "athletes": [
+            "Sukhrob Khodjaev"
+          ],
+          "date": "2026-09-25"
+        },
+        {
+          "type": "silver",
+          "sport": "Canoeing",
+          "event": "Men's C-1 500 metres",
+          "athletes": [
+            "Vladlen Denisov"
+          ],
+          "date": "2026-09-25"
+        },
+        {
+          "type": "silver",
+          "sport": "Canoeing",
+          "event": "Women's C-2 500 metres",
+          "athletes": [
+            "Shokhsanam Sherzodova",
+            "Nilufar Zokirova"
+          ],
+          "date": "2026-09-25"
+        },
+        {
+          "type": "silver",
+          "sport": "Canoeing",
+          "event": "K-4 500 metres",
+          "athletes": [
+            "Milana Dushev-Yanich",
+            "Ekaterina Shubina",
+            "Arina Tanatmisheva",
+            "Shakhrizoda Mavlonova"
+          ],
+          "date": "2026-09-25"
+        },
+        {
+          "type": "bronze",
+          "sport": "Gymnastics",
+          "event": "Men's parallel bars",
+          "athletes": [
+            "Rasuljon Abdurakhimov"
+          ],
+          "date": "2026-09-25"
+        },
+        {
+          "type": "gold",
+          "sport": "Canoeing",
+          "event": "Men's K-1 500 metres",
+          "athletes": [
+            "Shakhriyor Makhkamov"
+          ],
+          "date": "2026-09-26"
+        },
+        {
+          "type": "silver",
+          "sport": "Canoeing",
+          "event": "C-2 500 metres",
+          "athletes": [
+            "Vladlen Denisov",
+            "Nilufar Zokirova"
+          ],
+          "date": "2026-09-26"
+        },
+        {
+          "type": "silver",
+          "sport": "Canoeing",
+          "event": "K-1 500 metres",
+          "athletes": [
+            "Arina Tanatmisheva"
+          ],
+          "date": "2026-09-26"
+        },
+        {
+          "type": "gold",
+          "sport": "Kurash",
+          "event": "Men's +90 kg",
+          "athletes": [
+            "Shokhrukhkhon Bakhtiyorov"
+          ],
+          "date": "2026-09-27"
+        },
+        {
+          "type": "gold",
+          "sport": "Kurash",
+          "event": "Women's 57 kg",
+          "athletes": [
+            "Ibodatkhon Agojonova"
+          ],
+          "date": "2026-09-27"
+        },
+        {
+          "type": "bronze",
+          "sport": "Athletics",
+          "event": "Men's long jump",
+          "athletes": [
+            "Anvar Anvarov"
+          ],
+          "date": "2026-09-27"
+        },
+        {
+          "type": "bronze",
+          "sport": "Fencing",
+          "event": "Women's team sabre",
+          "athletes": [
+            "Zaynab Dayibekova",
+            "Fernanda Herrera",
+            "Gulistan Perdebaeva",
+            "Samira Shokirova"
+          ],
+          "date": "2026-09-27"
+        },
+        {
+          "type": "bronze",
+          "sport": "Kurash",
+          "event": "Men's +90 kg",
+          "athletes": [
+            "Bekmurod Oltiboev"
+          ],
+          "date": "2026-09-27"
+        },
+        {
+          "type": "gold",
+          "sport": "Kurash",
+          "event": "Men's 81 kg",
+          "athletes": [
+            "Akxror Ziyodullaev"
+          ],
+          "date": "2026-09-28"
+        },
+        {
+          "type": "gold",
+          "sport": "Kurash",
+          "event": "Women's 78 kg",
+          "athletes": [
+            "Pokizakhon Kamoldinova"
+          ],
+          "date": "2026-09-28"
+        },
+        {
+          "type": "bronze",
+          "sport": "Kurash",
+          "event": "Women's 78 kg",
+          "athletes": [
+            "Shokhista Nazarova"
+          ],
+          "date": "2026-09-28"
+        },
+        {
+          "type": "gold",
+          "sport": "Athletics",
+          "event": "Women's high jump",
+          "athletes": [
+            "Barnokhon Sayfullaeva"
+          ],
+          "date": "2026-09-29"
+        },
+        {
+          "type": "gold",
+          "sport": "Weightlifting",
+          "event": "Men's 110 kg",
+          "athletes": [
+            "Akbar Djuraev"
+          ],
+          "date": "2026-09-29"
+        }
+      ]
     },
     {
       "code": "THA",
       "name": "Thailand",
       "flag": "🇹🇭",
-      "gold": 12,
+      "gold": 14,
       "silver": 11,
       "bronze": 15,
-      "medals": []
-    },
-    {
-      "code": "BHR",
-      "name": "Bahrain",
-      "flag": "🇧🇭",
-      "gold": 11,
-      "silver": 5,
-      "bronze": 5,
-      "medals": []
+      "medals": [
+        {
+          "type": "gold",
+          "sport": "Teqball",
+          "event": "Men's doubles",
+          "athletes": [
+            "Jirati Chanliang Sorrasak Thaosiri"
+          ],
+          "date": "2026-09-20"
+        },
+        {
+          "type": "gold",
+          "sport": "Teqball",
+          "event": "Women's doubles",
+          "athletes": [
+            "Jutatip Kuntatong",
+            "Suphawadi Wongkhamchan"
+          ],
+          "date": "2026-09-20"
+        },
+        {
+          "type": "gold",
+          "sport": "Teqball",
+          "event": "Mixed doubles",
+          "athletes": [
+            "Suphawadi Wongkhamchan"
+          ],
+          "date": "2026-09-20"
+        },
+        {
+          "type": "silver",
+          "sport": "Karate",
+          "event": "Women's Kumite +68 kg",
+          "athletes": [
+            "Maneevan Butsuwan"
+          ],
+          "date": "2026-09-20"
+        },
+        {
+          "type": "gold",
+          "sport": "Mixed martial arts",
+          "event": "Women's modern 54 kg",
+          "athletes": [
+            "Kanjutha Phattaraboonsorn"
+          ],
+          "date": "2026-09-22"
+        },
+        {
+          "type": "bronze",
+          "sport": "Volleyball",
+          "event": "Women's tournament",
+          "athletes": [
+            "Pornpun Guedpard",
+            "Natthanicha Jaisaen",
+            "Sasipaporn Janthawisut",
+            "Kaewkalaya Kamulthala",
+            "Kalyarat Khamwong",
+            "Pimpichaya Kokram",
+            "Ajcharaporn Kongyot",
+            "Kanyarat Kunmuang",
+            "Chatchu-on Moksri",
+            "Thatdao Nuekjang",
+            "Piyanut Pannoy",
+            "Warisara Seetaloed"
+          ],
+          "date": "2026-09-22"
+        },
+        {
+          "type": "gold",
+          "sport": "Equestrian",
+          "event": "Team eventing",
+          "athletes": [
+            "Weerapat Pitakanonda",
+            "Korntawat Samran"
+          ],
+          "date": "2026-09-23"
+        },
+        {
+          "type": "silver",
+          "sport": "Equestrian",
+          "event": "Individual eventing",
+          "athletes": [
+            "Woraphat Sittiju"
+          ],
+          "date": "2026-09-23"
+        },
+        {
+          "type": "silver",
+          "sport": "Shooting",
+          "event": "Women's skeet",
+          "athletes": [
+            "Isarapa Imprasertsuk"
+          ],
+          "date": "2026-09-23"
+        },
+        {
+          "type": "bronze",
+          "sport": "Badminton",
+          "event": "Men's team",
+          "athletes": [
+            "Puritat Arree",
+            "Chaloempon Charoenkitamorn",
+            "Ruttanapak Oupthong",
+            "Dechapol Puavaranukroh",
+            "Peeratchai Sukphun",
+            "Pakkapon Teeraratsakul",
+            "Panitchaphon Teeraratsakul",
+            "Worrapol Thongsa-nga",
+            "Kunlavut Vitidsarn",
+            "Tanawat Yimjit"
+          ],
+          "date": "2026-09-23"
+        },
+        {
+          "type": "bronze",
+          "sport": "Karate",
+          "event": "Men's Kumite +84 kg",
+          "athletes": [
+            "Teerawat Kangtong"
+          ],
+          "date": "2026-09-23"
+        },
+        {
+          "type": "bronze",
+          "sport": "Weightlifting",
+          "event": "Women's 53 kg",
+          "athletes": [
+            "Surodchana Khambao"
+          ],
+          "date": "2026-09-23"
+        },
+        {
+          "type": "silver",
+          "sport": "Esports",
+          "event": "Naraka: Bladepoint",
+          "athletes": [
+            "Wachirawut ChangsoiJongrak KampangkaewKevin LemoineSahawat PhonngamNopparat Pidkwamlab"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "bronze",
+          "sport": "Rowing",
+          "event": "Women's lightweight single sculls",
+          "athletes": [
+            "Parisa Chaempudsa"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "bronze",
+          "sport": "Water polo",
+          "event": "Women's tournament",
+          "athletes": [
+            "Phanthila Arsayuth",
+            "Paranee Chotrotchanaanan",
+            "Nattamon Khamma",
+            "Nareenun Kittipolpuwarag",
+            "Thanita Kongchouy",
+            "Pittayaporn Kwantongtanaree",
+            "Thanidakarn Kwantongtanaree",
+            "Pimpin Ngamcharoensuktaworn",
+            "Kritsana Puangtong",
+            "Panita Pukkaman",
+            "Kanruetai Riangsuntea",
+            "Panchita Rodwattanadisakul",
+            "Raksina Rueangsappaisan",
+            "Sarocha Rueangsappaisan",
+            "Janista Thinwilai"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "bronze",
+          "sport": "Weightlifting",
+          "event": "Men's 60 kg",
+          "athletes": [
+            "Theerapong Silachai"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "gold",
+          "sport": "Sepak takraw",
+          "event": "Women's team regu",
+          "athletes": [
+            "Manlika Bunthod",
+            "Wiphada Chitphuan",
+            "Masaya Duangsri",
+            "Wilaiwan Khodphom",
+            "Athikan Kongkaew",
+            "Pruksa Maneewong",
+            "Somruedee Pruepruk",
+            "Kaewjai Pumsawangkaew",
+            "Ratchaneekorn Saeheang",
+            "Nipaporn Salupphon",
+            "Usa Srikhamlue",
+            "Ratsamee Thongsod"
+          ],
+          "date": "2026-09-25"
+        },
+        {
+          "type": "gold",
+          "sport": "Athletics",
+          "event": "Men's 100 m",
+          "athletes": [
+            "Puripol Boonson"
+          ],
+          "date": "2026-09-25"
+        },
+        {
+          "type": "silver",
+          "sport": "Sepak takraw",
+          "event": "Men's team regu",
+          "athletes": [
+            "Wuttinun Kamsanor",
+            "Sittipong Khamchan",
+            "Kritsanapong Nontakote",
+            "Jirasak Pakbuangoen",
+            "Pichet Pansan",
+            "Marukin Phanmakon",
+            "Poottipong Pukdee",
+            "Tanaphon Sapyen",
+            "Phutawan Sopa",
+            "Kritsada Sungvung",
+            "Wichan Temkort",
+            "Pornthep Tinbangbon"
+          ],
+          "date": "2026-09-25"
+        },
+        {
+          "type": "silver",
+          "sport": "Weightlifting",
+          "event": "Women's 57 kg",
+          "athletes": [
+            "Suratwadee Yodsarn"
+          ],
+          "date": "2026-09-25"
+        },
+        {
+          "type": "bronze",
+          "sport": "Kabaddi",
+          "event": "Men's tournament",
+          "athletes": [
+            "Theeradet Chaisit",
+            "Khomkrit Jittiang",
+            "Somboon Kaewkampon",
+            "Chayaphon Kamunee",
+            "Saharat Phetchui",
+            "Nithiphat Phikhrao",
+            "Nopphadon Pontaisong",
+            "Pramot Saising",
+            "Supawit Somrat",
+            "Tanongsak Srihera",
+            "Wisat Wuttari",
+            "Rattanakon Yotsungnoen"
+          ],
+          "date": "2026-09-25"
+        },
+        {
+          "type": "gold",
+          "sport": "Athletics",
+          "event": "Men's 400 m",
+          "athletes": [
+            "Joshua Atkinson"
+          ],
+          "date": "2026-09-26"
+        },
+        {
+          "type": "silver",
+          "sport": "Weightlifting",
+          "event": "Men's 75 kg",
+          "athletes": [
+            "Weeraphon Wichuma"
+          ],
+          "date": "2026-09-26"
+        },
+        {
+          "type": "bronze",
+          "sport": "Esports",
+          "event": "Puyo Puyo Champions",
+          "athletes": [
+            "Tanarak Wongkitikun"
+          ],
+          "date": "2026-09-26"
+        },
+        {
+          "type": "gold",
+          "sport": "Athletics",
+          "event": "Men's 200 m",
+          "athletes": [
+            "Puripol Boonson"
+          ],
+          "date": "2026-09-27"
+        },
+        {
+          "type": "bronze",
+          "sport": "Kurash",
+          "event": "Men's +90 kg",
+          "athletes": [
+            "Kunathip Yea-on"
+          ],
+          "date": "2026-09-27"
+        },
+        {
+          "type": "silver",
+          "sport": "Athletics",
+          "event": "Women's 4 × 100 m relay",
+          "athletes": [
+            "Supanich Poolkerd"
+          ],
+          "date": "2026-09-28"
+        },
+        {
+          "type": "bronze",
+          "sport": "Athletics",
+          "event": "Women's discus throw",
+          "athletes": [
+            "Subenrat Insaeng"
+          ],
+          "date": "2026-09-28"
+        },
+        {
+          "type": "bronze",
+          "sport": "Table tennis",
+          "event": "Women's doubles",
+          "athletes": [
+            "Orawan Paranang",
+            "Suthasini Sawettabut"
+          ],
+          "date": "2026-09-28"
+        },
+        {
+          "type": "gold",
+          "sport": "Sepak takraw",
+          "event": "Men's regu",
+          "athletes": [
+            "Wuttinun KamsanorKritsanapong NontakoteTanaphon SapyenPhutawan SopaPornthep Tinbangbon"
+          ],
+          "date": "2026-09-29"
+        },
+        {
+          "type": "gold",
+          "sport": "Esports",
+          "event": "PUBG Mobile",
+          "athletes": [
+            "Nuttawut MuensaSathit ThanormchitSupachai SingkaewPawarit WongthonghatsachaiPhumrapee Wannalertsakul"
+          ],
+          "date": "2026-09-29"
+        },
+        {
+          "type": "gold",
+          "sport": "Badminton",
+          "event": "Men's singles",
+          "athletes": [
+            "Kunlavut Vitidsarn"
+          ],
+          "date": "2026-09-29"
+        },
+        {
+          "type": "silver",
+          "sport": "Athletics",
+          "event": "Mixed 4 × 100 m relay",
+          "athletes": [
+            "Supanich Poolkerd",
+            "Puripol Boonson"
+          ],
+          "date": "2026-09-29"
+        },
+        {
+          "type": "silver",
+          "sport": "Canoeing",
+          "event": "Women's slalom C-1",
+          "athletes": [
+            "Atcharaporn Duanglawa"
+          ],
+          "date": "2026-09-30"
+        },
+        {
+          "type": "silver",
+          "sport": "Taekwondo",
+          "event": "Men's individual poomsae",
+          "athletes": [
+            "Navin Pinthasute"
+          ],
+          "date": "2026-10-01"
+        },
+        {
+          "type": "bronze",
+          "sport": "Canoeing",
+          "event": "Men's slalom C-1",
+          "athletes": [
+            "Piyanath Koetsuk"
+          ],
+          "date": "2026-10-01"
+        },
+        {
+          "type": "bronze",
+          "sport": "Taekwondo",
+          "event": "Women's individual poomsae",
+          "athletes": [
+            "Thitaree Kaewolanwasu"
+          ],
+          "date": "2026-10-01"
+        },
+        {
+          "type": "bronze",
+          "sport": "Ju-jitsu",
+          "event": "Women's 48 kg",
+          "athletes": [
+            "Miyu Suzuki"
+          ],
+          "date": "2026-10-01"
+        },
+        {
+          "type": "gold",
+          "sport": "Sailing",
+          "event": "Women's ILCA 6",
+          "athletes": [
+            "Sophia Montgomery"
+          ],
+          "date": "2026-10-02"
+        }
+      ]
     },
     {
       "code": "IND",
       "name": "India",
       "flag": "🇮🇳",
-      "gold": 10,
-      "silver": 23,
-      "bronze": 33,
+      "gold": 12,
+      "silver": 24,
+      "bronze": 34,
       "medals": [
         {
           "type": "silver",
@@ -723,6 +3658,691 @@
             "Shital Verma"
           ],
           "date": "2026-10-01"
+        },
+        {
+          "type": "gold",
+          "sport": "Archery",
+          "event": "Women's team recurve",
+          "athletes": [
+            "Ankita Bhakat",
+            "Kirti Sharma",
+            "Kumkum Mohod"
+          ],
+          "date": "2026-10-02"
+        },
+        {
+          "type": "gold",
+          "sport": "Boxing",
+          "event": "Women's 75 kg",
+          "athletes": [
+            "Lovlina Borgohain"
+          ],
+          "date": "2026-10-02"
+        },
+        {
+          "type": "silver",
+          "sport": "Archery",
+          "event": "Mixed team recurve",
+          "athletes": [
+            "Kumkum Mohod",
+            "Dhiraj Bommadevara"
+          ],
+          "date": "2026-10-02"
+        }
+      ]
+    },
+    {
+      "code": "IRI",
+      "name": "Iran",
+      "flag": "🇮🇷",
+      "gold": 12,
+      "silver": 17,
+      "bronze": 13,
+      "medals": [
+        {
+          "type": "bronze",
+          "sport": "Basketball",
+          "event": "Men",
+          "athletes": [
+            "Piter Girgoorian",
+            "Alireza Sharifi",
+            "Mobin Sheikhi",
+            "Navid Rezaeifar",
+            "Khashayar Aliakbari",
+            "Mohammad Heydari",
+            "Arman Zangeneh",
+            "Mohammad Jamshidi",
+            "Arsalan Kazemi",
+            "Matin Aghajanpour",
+            "Salar Monji",
+            "Mahdi Jafari"
+          ],
+          "date": "2026-09-20"
+        },
+        {
+          "type": "gold",
+          "sport": "Karate",
+          "event": "Men's kumite 75 kg",
+          "athletes": [
+            "Morteza Nemati"
+          ],
+          "date": "2026-09-22"
+        },
+        {
+          "type": "silver",
+          "sport": "Karate",
+          "event": "Men's kumite 84 kg",
+          "athletes": [
+            "Ali Asghar Asiabari"
+          ],
+          "date": "2026-09-22"
+        },
+        {
+          "type": "silver",
+          "sport": "Karate",
+          "event": "Women's kumite 55 kg",
+          "athletes": [
+            "Fatemehzahra Saeidabadi"
+          ],
+          "date": "2026-09-22"
+        },
+        {
+          "type": "silver",
+          "sport": "Karate",
+          "event": "Women's team kata",
+          "athletes": [
+            "Fatemeh Sadeghi",
+            "Sepideh Amini",
+            "Zeynab Hosseini"
+          ],
+          "date": "2026-09-22"
+        },
+        {
+          "type": "gold",
+          "sport": "Karate",
+          "event": "Men's kumite +84 kg",
+          "athletes": [
+            "Mahmoud Nemati"
+          ],
+          "date": "2026-09-23"
+        },
+        {
+          "type": "gold",
+          "sport": "Esports",
+          "event": "eFootball",
+          "athletes": [
+            "Hassan Pajani",
+            "Abolfazl Aghaeinasab"
+          ],
+          "date": "2026-09-23"
+        },
+        {
+          "type": "bronze",
+          "sport": "Fencing",
+          "event": "Men's sabre",
+          "athletes": [
+            "Ali Pakdaman"
+          ],
+          "date": "2026-09-23"
+        },
+        {
+          "type": "gold",
+          "sport": "Rowing",
+          "event": "Lightweight Women's Single Sculls",
+          "athletes": [
+            "Fatemeh Mojallal"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "gold",
+          "sport": "Rowing",
+          "event": "Lightweight Women's Double Sculls",
+          "athletes": [
+            "Kimia Zarei",
+            "Zeinab Norouzi"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "gold",
+          "sport": "Wushu",
+          "event": "Men's sanda 75 kg",
+          "athletes": [
+            "Soheil Mousavi"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "silver",
+          "sport": "Wushu",
+          "event": "Women's sanda 52 kg",
+          "athletes": [
+            "Sogand Sinkaei"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "silver",
+          "sport": "Wushu",
+          "event": "Men's sanda 65 kg",
+          "athletes": [
+            "Shoja Panahi"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "silver",
+          "sport": "Wushu",
+          "event": "Men's sanda 70 kg",
+          "athletes": [
+            "Erfan Moharrami"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "silver",
+          "sport": "Rowing",
+          "event": "Women's Quadruple Sculls",
+          "athletes": [
+            "Mahsa Javar",
+            "Saghi Maleki",
+            "Soha Fakhri",
+            "Hengameh Kamyab"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "silver",
+          "sport": "Rowing",
+          "event": "Women's Double Sculls",
+          "athletes": [
+            "Kimia Zarei",
+            "Zeinab Norouzi"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "silver",
+          "sport": "Rowing",
+          "event": "Lightweight Men's Single Sculls",
+          "athletes": [
+            "Amir Hossein Mahmoudpour"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "silver",
+          "sport": "Gymnastics",
+          "event": "Men's pommel horse",
+          "athletes": [
+            "Arman Khodaei"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "bronze",
+          "sport": "Rowing",
+          "event": "Women's Single Sculls",
+          "athletes": [
+            "Fatemeh Mojallal"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "bronze",
+          "sport": "Athletics",
+          "event": "Men's discus throw",
+          "athletes": [
+            "Sadegh Samimi"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "silver",
+          "sport": "Gymnastics",
+          "event": "Men's Vault",
+          "athletes": [
+            "Mehdi Olfati"
+          ],
+          "date": "2026-09-25"
+        },
+        {
+          "type": "bronze",
+          "sport": "Shooting",
+          "event": "Mixed 10 metre air pistol team",
+          "athletes": [
+            "Hanieh Rostamian",
+            "Vahid Golkhandan"
+          ],
+          "date": "2026-09-25"
+        },
+        {
+          "type": "bronze",
+          "sport": "Canoeing",
+          "event": "Men's K-2 500 m",
+          "athletes": [
+            "Ali Aghamirzaei",
+            "Peyman Ghavidel"
+          ],
+          "date": "2026-09-25"
+        },
+        {
+          "type": "bronze",
+          "sport": "3x3 basketball",
+          "event": "Men",
+          "athletes": [
+            "Mohammadmahdi Rahimi",
+            "Mohammadbasir Momeni",
+            "Sarem Jafari",
+            "Seyedmohammad Ghafari"
+          ],
+          "date": "2026-09-25"
+        },
+        {
+          "type": "gold",
+          "sport": "Athletics",
+          "event": "Men's shot put",
+          "athletes": [
+            "Mohammad Reza Tayebi"
+          ],
+          "date": "2026-09-26"
+        },
+        {
+          "type": "silver",
+          "sport": "Kabaddi",
+          "event": "Women",
+          "athletes": [
+            "Mahtab Lakaliabadi",
+            "Zahra Astereki",
+            "Saniya Naeimi",
+            "Hadiseh Varasteh",
+            "Nikta Jalalvand",
+            "Zahra Khodabandehloo",
+            "Zakiyeh Malmali",
+            "Aynaz Faramarzi",
+            "Atena Madadi",
+            "Zahra Karimi",
+            "Fareshte Kolagar",
+            "Sahar Yari"
+          ],
+          "date": "2026-09-26"
+        },
+        {
+          "type": "silver",
+          "sport": "Kabaddi",
+          "event": "Men",
+          "athletes": [
+            "Fazel Atrachali",
+            "Mohammad Reza Shadloui",
+            "Amir Hossein Ejlali",
+            "Omid Khojasteh",
+            "Ali Samadi",
+            "Amir Hossein Bastami",
+            "Alireza Mirzaiean",
+            "Mohammad Esmaeil Nabibakhsh",
+            "Reza Mirbagheri",
+            "Amir Mohammad Zafardanesh",
+            "Amir Reza Aliakbari",
+            "Amir Hossein Taghipour"
+          ],
+          "date": "2026-09-26"
+        },
+        {
+          "type": "silver",
+          "sport": "Athletics",
+          "event": "Women's 400 m",
+          "athletes": [
+            "Zahra Zarei"
+          ],
+          "date": "2026-09-26"
+        },
+        {
+          "type": "bronze",
+          "sport": "Weightlifting",
+          "event": "Women's 77 kg",
+          "athletes": [
+            "Reihaneh Karimi"
+          ],
+          "date": "2026-09-27"
+        },
+        {
+          "type": "gold",
+          "sport": "Weightlifting",
+          "event": "Men's 95 kg",
+          "athletes": [
+            "Ali Aalipour"
+          ],
+          "date": "2026-09-28"
+        },
+        {
+          "type": "silver",
+          "sport": "Kurash",
+          "event": "Men's 81 kg",
+          "athletes": [
+            "Ramin Ahmadzadeh"
+          ],
+          "date": "2026-09-28"
+        },
+        {
+          "type": "bronze",
+          "sport": "Table tennis",
+          "event": "Men's singles",
+          "athletes": [
+            "Noshad Alamian"
+          ],
+          "date": "2026-09-28"
+        },
+        {
+          "type": "gold",
+          "sport": "Kurash",
+          "event": "Men's 66 kg",
+          "athletes": [
+            "Majid Vahid Barimanlou"
+          ],
+          "date": "2026-09-29"
+        },
+        {
+          "type": "gold",
+          "sport": "Weightlifting",
+          "event": "Men's +110 kg",
+          "athletes": [
+            "Ali Davoudi"
+          ],
+          "date": "2026-09-29"
+        },
+        {
+          "type": "silver",
+          "sport": "Athletics",
+          "event": "Men's 800 m",
+          "athletes": [
+            "Ali Amirian"
+          ],
+          "date": "2026-09-29"
+        },
+        {
+          "type": "bronze",
+          "sport": "Weightlifting",
+          "event": "Women's 86 kg",
+          "athletes": [
+            "Mahsa Beheshti"
+          ],
+          "date": "2026-09-29"
+        },
+        {
+          "type": "bronze",
+          "sport": "Kurash",
+          "event": "Women's +87 kg",
+          "athletes": [
+            "Fatemeh Barmaki"
+          ],
+          "date": "2026-09-29"
+        },
+        {
+          "type": "bronze",
+          "sport": "Boxing",
+          "event": "Men's +90 kg",
+          "athletes": [
+            "Amir Esmaeili"
+          ],
+          "date": "2026-09-29"
+        },
+        {
+          "type": "gold",
+          "sport": "Wrestling",
+          "event": "Men's Greco-Roman 130 kg",
+          "athletes": [
+            "Amin Mirzazadeh"
+          ],
+          "date": "2026-09-30"
+        },
+        {
+          "type": "gold",
+          "sport": "Wrestling",
+          "event": "Men's Greco-Roman 77 kg",
+          "athletes": [
+            "Alireza Abdevali"
+          ],
+          "date": "2026-10-01"
+        },
+        {
+          "type": "silver",
+          "sport": "Sport climbing",
+          "event": "Men's speed",
+          "athletes": [
+            "Reza Alipour"
+          ],
+          "date": "2026-10-01"
+        },
+        {
+          "type": "bronze",
+          "sport": "Wrestling",
+          "event": "Men's Greco-Roman 97 kg",
+          "athletes": [
+            "Mehdi Bali"
+          ],
+          "date": "2026-10-01"
+        }
+      ]
+    },
+    {
+      "code": "BHR",
+      "name": "Bahrain",
+      "flag": "🇧🇭",
+      "gold": 11,
+      "silver": 5,
+      "bronze": 5,
+      "medals": [
+        {
+          "type": "silver",
+          "sport": "Mixed martial arts",
+          "event": "Women's Modern -54kg",
+          "athletes": [
+            "Diana Pogosian"
+          ],
+          "date": "2026-09-22"
+        },
+        {
+          "type": "silver",
+          "sport": "Mixed martial arts",
+          "event": "Men's Traditional -77kg",
+          "athletes": [
+            "Mukhammad Nabiev"
+          ],
+          "date": "2026-09-22"
+        },
+        {
+          "type": "gold",
+          "sport": "Swimming",
+          "event": "Men's 50m Butterfly",
+          "athletes": [
+            "Mikhail Arkhangelskiy"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "gold",
+          "sport": "Athletics",
+          "event": "Women's 10,000m",
+          "athletes": [
+            "Winfred Yavi"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "gold",
+          "sport": "Athletics",
+          "event": "4 x 400m Relay Mixed",
+          "athletes": [
+            "Musa Isah",
+            "Aisha Abdullah",
+            "Alaa Sami",
+            "Salwa Naser"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "gold",
+          "sport": "Athletics",
+          "event": "Men's 10,000m",
+          "athletes": [
+            "Birhanu Balew"
+          ],
+          "date": "2026-09-25"
+        },
+        {
+          "type": "bronze",
+          "sport": "Athletics",
+          "event": "Men's 10,000m",
+          "athletes": [
+            "Albert Kiptoo"
+          ],
+          "date": "2026-09-25"
+        },
+        {
+          "type": "bronze",
+          "sport": "Athletics",
+          "event": "Women's 100m",
+          "athletes": [
+            "Edidiong Odiong"
+          ],
+          "date": "2026-09-25"
+        },
+        {
+          "type": "gold",
+          "sport": "Athletics",
+          "event": "Women's marathon",
+          "athletes": [
+            "Shitaye Habte"
+          ],
+          "date": "2026-09-26"
+        },
+        {
+          "type": "gold",
+          "sport": "Athletics",
+          "event": "Women's 1500m",
+          "athletes": [
+            "Nelly Korir"
+          ],
+          "date": "2026-09-26"
+        },
+        {
+          "type": "gold",
+          "sport": "Athletics",
+          "event": "Women's 400m",
+          "athletes": [
+            "Salwa Naser"
+          ],
+          "date": "2026-09-26"
+        },
+        {
+          "type": "gold",
+          "sport": "Athletics",
+          "event": "Women's 3000m Steeplechase",
+          "athletes": [
+            "Winfred Yavi"
+          ],
+          "date": "2026-09-27"
+        },
+        {
+          "type": "bronze",
+          "sport": "Weightlifting",
+          "event": "Women's 69kg All Groups",
+          "athletes": [
+            "Ingrid Segura"
+          ],
+          "date": "2026-09-27"
+        },
+        {
+          "type": "gold",
+          "sport": "Athletics",
+          "event": "Women's 5000m",
+          "athletes": [
+            "Winfred Yavi"
+          ],
+          "date": "2026-09-28"
+        },
+        {
+          "type": "gold",
+          "sport": "Athletics",
+          "event": "Men's 5000m",
+          "athletes": [
+            "Birhanu Balew"
+          ],
+          "date": "2026-09-29"
+        },
+        {
+          "type": "gold",
+          "sport": "Handball",
+          "event": "Men",
+          "athletes": [
+            "National handball team",
+            "Mohamed Rabia",
+            "Hesham Isa",
+            "Salman Al-Showaikh",
+            "Ahmed Kadhem",
+            "Ahmed Jalal",
+            "Mohamed Ali",
+            "Abdulla Abdulkarim",
+            "Sayed Shubbar",
+            "Hasan Madan",
+            "Ali Mohamed",
+            "Ahmed Eid",
+            "Jasim Khamis",
+            "Hasan Merza",
+            "Mohamed Habib",
+            "Mohamed Habib Naser",
+            "Husain Al-Sayyad"
+          ],
+          "date": "2026-09-29"
+        },
+        {
+          "type": "silver",
+          "sport": "Weightlifting",
+          "event": "Women's 86kg All Groups",
+          "athletes": [
+            "Alina Marushchak"
+          ],
+          "date": "2026-09-29"
+        },
+        {
+          "type": "silver",
+          "sport": "Athletics",
+          "event": "Women's 800m",
+          "athletes": [
+            "Nelly Korir"
+          ],
+          "date": "2026-09-29"
+        },
+        {
+          "type": "silver",
+          "sport": "Athletics",
+          "event": "Women's 4 x 400m Relay",
+          "athletes": [
+            "Aisha Abdullah",
+            "Sufian Abdulghani",
+            "Zainab Fyofuoba",
+            "Salwa Naser"
+          ],
+          "date": "2026-09-29"
+        },
+        {
+          "type": "bronze",
+          "sport": "Weightlifting",
+          "event": "Women's 110kg All Groups",
+          "athletes": [
+            "Gor Minasyan"
+          ],
+          "date": "2026-09-29"
+        },
+        {
+          "type": "bronze",
+          "sport": "Judo",
+          "event": "Men -66 kg",
+          "athletes": [
+            "Sukhrob Boqiev"
+          ],
+          "date": "2026-09-30"
         }
       ]
     },
@@ -732,8 +4352,126 @@
       "flag": "🇰🇿",
       "gold": 9,
       "silver": 19,
-      "bronze": 36,
-      "medals": []
+      "bronze": 37,
+      "medals": [
+        {
+          "type": "gold",
+          "sport": "Cycling",
+          "event": "Men's individual time trial",
+          "athletes": [
+            "Alexey Lutsenko"
+          ],
+          "date": "2026-09-20"
+        },
+        {
+          "type": "gold",
+          "sport": "Cycling",
+          "event": "Women's individual time trial",
+          "athletes": [
+            "Rinata Sultanova"
+          ],
+          "date": "2026-09-20"
+        },
+        {
+          "type": "gold",
+          "sport": "Cycling",
+          "event": "Women's road race",
+          "athletes": [
+            "Rinata Sultanova"
+          ],
+          "date": "2026-09-20"
+        },
+        {
+          "type": "gold",
+          "sport": "Cycling",
+          "event": "Men's road event",
+          "athletes": [
+            "Alexey Lutsenko"
+          ],
+          "date": "2026-09-20"
+        },
+        {
+          "type": "gold",
+          "sport": "Karate",
+          "event": "Men's kumite",
+          "athletes": [
+            "Zholaman Bigabyl"
+          ],
+          "date": "2026-09-20"
+        },
+        {
+          "type": "gold",
+          "sport": "Karate",
+          "event": "Women's kumite",
+          "athletes": [
+            "Sofya Berultseva"
+          ],
+          "date": "2026-09-20"
+        },
+        {
+          "type": "bronze",
+          "sport": "Triathlon",
+          "event": "Men's individual",
+          "athletes": [
+            "Arlan Zhanabay"
+          ],
+          "date": "2026-09-20"
+        },
+        {
+          "type": "silver",
+          "sport": "TBD",
+          "event": "TBD",
+          "athletes": [
+            "TBD"
+          ],
+          "date": "2026-09-21"
+        },
+        {
+          "type": "bronze",
+          "sport": "Mixed martial arts",
+          "event": "Men's traditional 65 kg",
+          "athletes": [
+            "Sanzhar Adilov"
+          ],
+          "date": "2026-09-21"
+        },
+        {
+          "type": "gold",
+          "sport": "Mixed martial arts",
+          "event": "Men's Traditional 77 kg",
+          "athletes": [
+            "Yerkingali Burkutalin"
+          ],
+          "date": "2026-09-22"
+        },
+        {
+          "type": "gold",
+          "sport": "Mixed martial arts",
+          "event": "Men's Modern 71 kg",
+          "athletes": [
+            "Kadyrbek Shynbayev"
+          ],
+          "date": "2026-09-22"
+        },
+        {
+          "type": "silver",
+          "sport": "Athletics",
+          "event": "Women's half marathon race walk",
+          "athletes": [
+            "Kristina Morozova"
+          ],
+          "date": "2026-09-23"
+        },
+        {
+          "type": "silver",
+          "sport": "Gymnastics",
+          "event": "Men's floor",
+          "athletes": [
+            "Milad Karimi"
+          ],
+          "date": "2026-09-24"
+        }
+      ]
     },
     {
       "code": "PRK",
@@ -750,16 +4488,244 @@
       "flag": "🇲🇾",
       "gold": 6,
       "silver": 5,
-      "bronze": 13,
-      "medals": []
+      "bronze": 14,
+      "medals": [
+        {
+          "type": "bronze",
+          "sport": "Karate – Kumite",
+          "event": "Men's –55kg",
+          "athletes": [
+            "Thevendran Kaliana Sundram"
+          ],
+          "date": "2026-09-20"
+        },
+        {
+          "type": "bronze",
+          "sport": "Karate – Kumite",
+          "event": "Men's –60kg",
+          "athletes": [
+            "Sureeya Sankar Hari Sankar"
+          ],
+          "date": "2026-09-20"
+        },
+        {
+          "type": "gold",
+          "sport": "Karate – Kumite",
+          "event": "Women's –55kg",
+          "athletes": [
+            "Adeola Fay Robert"
+          ],
+          "date": "2026-09-22"
+        },
+        {
+          "type": "bronze",
+          "sport": "Wushu – Taolu",
+          "event": "Women's Nanquan & Nandao",
+          "athletes": [
+            "Tan Cheong Min"
+          ],
+          "date": "2026-09-22"
+        },
+        {
+          "type": "gold",
+          "sport": "Esports",
+          "event": "Gran Turismo 7",
+          "athletes": [
+            "Taj Izrin Aiman Taj Madira"
+          ],
+          "date": "2026-09-23"
+        },
+        {
+          "type": "gold",
+          "sport": "Karate – Kumite",
+          "event": "Women's –50kg",
+          "athletes": [
+            "Shahmalarani Chandran"
+          ],
+          "date": "2026-09-23"
+        },
+        {
+          "type": "silver",
+          "sport": "Esports",
+          "event": "eFootball",
+          "athletes": [
+            "Farish LuzmanHariz Hazmi Hakimin"
+          ],
+          "date": "2026-09-23"
+        },
+        {
+          "type": "bronze",
+          "sport": "Karate – Kata",
+          "event": "Men's Team Kata",
+          "athletes": [
+            "Muhammad Aiqal AsmadieMohamad Haznil HenryMukhriz Mazlan"
+          ],
+          "date": "2026-09-23"
+        },
+        {
+          "type": "bronze",
+          "sport": "Wushu – Taolu",
+          "event": "Men's Daoshu & Gunshu",
+          "athletes": [
+            "Clement Ting"
+          ],
+          "date": "2026-09-23"
+        },
+        {
+          "type": "gold",
+          "sport": "Sepak takraw",
+          "event": "Men's Team Regu",
+          "athletes": [
+            "Mohammad Syahir Mohd RosdiMuhammad Haziq Hairul NizamMuhammad Zulkifli Abd RazakMuhammad Zarif MaricanMuhammad Hafizul HayaziFarhan AdamAmirul Zazwan AmirMohamad Azlan AliasZuleffendi SumariMuhammad Afifuddin Mohd RazaliMuhammad Shahalril AimanMuhammad Noraizat Mohd NordinAidil Azman Azwawi"
+          ],
+          "date": "2026-09-25"
+        },
+        {
+          "type": "bronze",
+          "sport": "Squash",
+          "event": "Mixed Doubles",
+          "athletes": [
+            "Ameeshenraj Chandaran",
+            "Rachel Arnold"
+          ],
+          "date": "2026-09-26"
+        },
+        {
+          "type": "bronze",
+          "sport": "Diving",
+          "event": "Men's Synchronized 3 m Springboard",
+          "athletes": [
+            "Yong Rui JieMohamad Nurqayyum"
+          ],
+          "date": "2026-09-26"
+        },
+        {
+          "type": "gold",
+          "sport": "Squash",
+          "event": "Men's Singles",
+          "athletes": [
+            "Ng Eain Yow"
+          ],
+          "date": "2026-09-27"
+        },
+        {
+          "type": "gold",
+          "sport": "Squash",
+          "event": "Women's Singles",
+          "athletes": [
+            "Sivasangari Subramaniam"
+          ],
+          "date": "2026-09-27"
+        },
+        {
+          "type": "silver",
+          "sport": "Diving",
+          "event": "Men's Synchronized 10 m Platform",
+          "athletes": [
+            "Elvis Priestly ClementEnrique Maccartney Harold"
+          ],
+          "date": "2026-09-27"
+        },
+        {
+          "type": "bronze",
+          "sport": "Diving",
+          "event": "Women's Synchronized 3 m Springboard",
+          "athletes": [
+            "Ong Ker YingLee Yiat Qing"
+          ],
+          "date": "2026-09-27"
+        },
+        {
+          "type": "silver",
+          "sport": "Esports",
+          "event": "Honor of Kings",
+          "athletes": [
+            "Nicholas Ng Khai ShuanChen Tat YannLim Chee HongChong Han HuiRyan Na Jie RongLee Han Siang"
+          ],
+          "date": "2026-09-28"
+        },
+        {
+          "type": "bronze",
+          "sport": "Badminton",
+          "event": "Women's Doubles",
+          "athletes": [
+            "Pearly Tan",
+            "Thinaah Muralitharan"
+          ],
+          "date": "2026-09-28"
+        },
+        {
+          "type": "silver",
+          "sport": "Sepak takraw",
+          "event": "Men's Regu",
+          "athletes": [
+            "Mohammad Syahir Mohd RosdiMuhammad Zulkifli Abd RazakMohamad Azlan AliasMuhammad Afifuddin Mohd RazaliAidil Azman Azwawi"
+          ],
+          "date": "2026-09-29"
+        },
+        {
+          "type": "silver",
+          "sport": "Cycling – Track",
+          "event": "Women's Team Sprint",
+          "athletes": [
+            "Nurul Izzah Izzati"
+          ],
+          "date": "2026-09-29"
+        },
+        {
+          "type": "bronze",
+          "sport": "Cycling – Track",
+          "event": "Women's Keirin",
+          "athletes": [
+            "Nurul Izzah Izzati"
+          ],
+          "date": "2026-09-30"
+        },
+        {
+          "type": "bronze",
+          "sport": "Esports",
+          "event": "Identity V",
+          "athletes": [
+            "Gan Hong MingGeorge Chin Shan YuanYiau Wen FengVincent Yii Kai LiangNicky Ho Jun HongNg Wei HaoCheah Euggee"
+          ],
+          "date": "2026-09-30"
+        },
+        {
+          "type": "bronze",
+          "sport": "Esports",
+          "event": "Mobile Legends: Bang Bang",
+          "athletes": [
+            "Muhammad Qayyum AriffinMuhammad Danial FuadMuhammad HaqqullahHazziq Danish RizwanDanish Fitri RazmanMuhamad Razif Sazali"
+          ],
+          "date": "2026-09-30"
+        },
+        {
+          "type": "bronze",
+          "sport": "Cycling – Track",
+          "event": "Men's Sprint",
+          "athletes": [
+            "Azizulhasni Awang"
+          ],
+          "date": "2026-10-01"
+        },
+        {
+          "type": "bronze",
+          "sport": "Sailing",
+          "event": "Men's ILCA 7",
+          "athletes": [
+            "Khairulnizam Afendy"
+          ],
+          "date": "2026-10-02"
+        }
+      ]
     },
     {
       "code": "HKG",
       "name": "Hong Kong, China",
       "flag": "🇭🇰",
       "gold": 5,
-      "silver": 14,
-      "bronze": 19,
+      "silver": 16,
+      "bronze": 20,
       "medals": [
         {
           "type": "silver",
@@ -1161,6 +5127,35 @@
             "Tang Ming Hong"
           ],
           "date": "2026-10-01"
+        },
+        {
+          "type": "gold",
+          "sport": "Sailing",
+          "event": "Boy’s skiff: 29er",
+          "athletes": [
+            "Louis Polson",
+            "Ethan Kiu"
+          ],
+          "date": "2026-10-02"
+        },
+        {
+          "type": "gold",
+          "sport": "Sailing",
+          "event": "Girl’s skiff: 29er",
+          "athletes": [
+            "Chloe Kong",
+            "McCarley Wong"
+          ],
+          "date": "2026-10-02"
+        },
+        {
+          "type": "silver",
+          "sport": "Sailing",
+          "event": "Men’s Dinghy: ILCA7",
+          "athletes": [
+            "Nicholas Halliday"
+          ],
+          "date": "2026-10-02"
         }
       ]
     },
@@ -1171,7 +5166,360 @@
       "gold": 5,
       "silver": 8,
       "bronze": 21,
-      "medals": []
+      "medals": [
+        {
+          "type": "silver",
+          "sport": "Teqball",
+          "event": "Women's singles",
+          "athletes": [
+            "Sumaya"
+          ],
+          "date": "2026-09-20"
+        },
+        {
+          "type": "bronze",
+          "sport": "Wushu",
+          "event": "Men's changquan",
+          "athletes": [
+            "Seraf Naro Siregar"
+          ],
+          "date": "2026-09-20"
+        },
+        {
+          "type": "bronze",
+          "sport": "Teqball",
+          "event": "Men's singles",
+          "athletes": [
+            "Yoga Ardika Putra"
+          ],
+          "date": "2026-09-20"
+        },
+        {
+          "type": "bronze",
+          "sport": "Soft tennis",
+          "event": "Men's team",
+          "athletes": [
+            "Muhammad Reza Falevi",
+            "Tio Juliandi Hutauruk",
+            "Rizky Laluyan",
+            "Bagus Angga Boedy Pradewa",
+            "Fernando Sanger"
+          ],
+          "date": "2026-09-20"
+        },
+        {
+          "type": "bronze",
+          "sport": "Karate",
+          "event": "Women's +68 kg",
+          "athletes": [
+            "Leica Al Humaira Lubis"
+          ],
+          "date": "2026-09-20"
+        },
+        {
+          "type": "bronze",
+          "sport": "Wushu",
+          "event": "Women's changquan",
+          "athletes": [
+            "Eugenia Diva Widodo"
+          ],
+          "date": "2026-09-21"
+        },
+        {
+          "type": "bronze",
+          "sport": "Mixed martial arts",
+          "event": "Women's modern 54 kg",
+          "athletes": [
+            "Vallensia Fahira Hotmauli"
+          ],
+          "date": "2026-09-21"
+        },
+        {
+          "type": "bronze",
+          "sport": "Karate",
+          "event": "Women's -55 kg",
+          "athletes": [
+            "Cok Istri Agung Sanistyarani"
+          ],
+          "date": "2026-09-22"
+        },
+        {
+          "type": "bronze",
+          "sport": "Weightlifting",
+          "event": "Women's 49 kg",
+          "athletes": [
+            "Luluk Diana Tri Wijayana"
+          ],
+          "date": "2026-09-23"
+        },
+        {
+          "type": "bronze",
+          "sport": "Badminton",
+          "event": "Women's team",
+          "athletes": [
+            "Putri Kusuma Wardani",
+            "Thalita Ramadhani Wiryawan",
+            "Mutiara Ayu Puspitasari",
+            "Ni Kadek Dhinda Amartya Pratiwi",
+            "Rachel Allessya Rose",
+            "Febi Setianingrum",
+            "Febriana Dwipuji Kusuma",
+            "Meilysa Trias Puspita Sari",
+            "Siti Fadia Silva Ramadhanti",
+            "Nita Violina Marwah"
+          ],
+          "date": "2026-09-23"
+        },
+        {
+          "type": "bronze",
+          "sport": "Wushu",
+          "event": "Women's sanda 60 kg",
+          "athletes": [
+            "Thania Kusumaningtyas"
+          ],
+          "date": "2026-09-23"
+        },
+        {
+          "type": "bronze",
+          "sport": "Wushu",
+          "event": "Men's sanda 56 kg",
+          "athletes": [
+            "Fereddy Sinaga"
+          ],
+          "date": "2026-09-23"
+        },
+        {
+          "type": "bronze",
+          "sport": "Wushu",
+          "event": "Men's sanda 60 kg",
+          "athletes": [
+            "Bintang Reindra Nada Guitara"
+          ],
+          "date": "2026-09-23"
+        },
+        {
+          "type": "gold",
+          "sport": "Badminton",
+          "event": "Men's team",
+          "athletes": [
+            "Jonatan Christie",
+            "Alwi Farhan",
+            "Zaki Ubaidillah",
+            "Muhamad Yusuf",
+            "Fajar Alfian",
+            "Muhammad Shohibul Fikri",
+            "Leo Rolly Carnando",
+            "Daniel Marthin",
+            "Nikolaus Joaquin",
+            "Amri Syahnawi"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "silver",
+          "sport": "Shooting",
+          "event": "Men's 10 m air pistol team",
+          "athletes": [
+            "Sulthanul Aulia MarufMuhamad Iqbal Raia PrabowoWira Sukmana"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "silver",
+          "sport": "Rowing",
+          "event": "Men's lightweight double sculls",
+          "athletes": [
+            "Ali MardiansyahRafiq Wijdan Yasir"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "silver",
+          "sport": "Rowing",
+          "event": "Men's quadruple sculls",
+          "athletes": [
+            "Memo"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "bronze",
+          "sport": "Canoeing",
+          "event": "Women's C-1 200 m",
+          "athletes": [
+            "Herlin Aprilin Lali"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "bronze",
+          "sport": "Sepak takraw",
+          "event": "Men's team regu",
+          "athletes": [
+            "Muhammad Hardiansyah Muliang",
+            "Rizki Yusuf Djaina",
+            "Gelvin Usman A",
+            "Jelki Ladada",
+            "Saiful Rijal",
+            "Syamsul Akmal",
+            "Yudha Aswinatama",
+            "Muhammad Ubaidur Rohman",
+            "Andi Try Sandi Saputra"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "bronze",
+          "sport": "Cycling",
+          "event": "Women's cross-country",
+          "athletes": [
+            "Sayu Bella Sukma Dewi"
+          ],
+          "date": "2026-09-24"
+        },
+        {
+          "type": "bronze",
+          "sport": "Sepak takraw",
+          "event": "Women's team regu",
+          "athletes": [
+            "Kusnelia",
+            "Ayvonne Halimatu Zahra Perdhana",
+            "Dini Mita Sari",
+            "Wan Annisa Rachmadi",
+            "Frisca Kharisma Indrasari",
+            "Choirunnisa",
+            "Yuliana",
+            "Fujy Anggy Lestari",
+            "Dita Pratiwi"
+          ],
+          "date": "2026-09-25"
+        },
+        {
+          "type": "bronze",
+          "sport": "Cycling",
+          "event": "Men's cross-country",
+          "athletes": [
+            "Feri Yudoyono"
+          ],
+          "date": "2026-09-25"
+        },
+        {
+          "type": "gold",
+          "sport": "Weightlifting",
+          "event": "Men's 75 kg",
+          "athletes": [
+            "Rahmat Erwin Abdullah"
+          ],
+          "date": "2026-09-26"
+        },
+        {
+          "type": "silver",
+          "sport": "Esports",
+          "event": "Pokémon Unite",
+          "athletes": [
+            "Deni ArdiyantoNovrizal Diananta SaidMarcello HillersGM Judha Raja PanggabeanMuhammad Haikal Irawan"
+          ],
+          "date": "2026-09-27"
+        },
+        {
+          "type": "bronze",
+          "sport": "Cycling",
+          "event": "Women's BMX racing",
+          "athletes": [
+            "Jasmine Azzahra Setyobudi"
+          ],
+          "date": "2026-09-28"
+        },
+        {
+          "type": "bronze",
+          "sport": "Badminton",
+          "event": "Men's doubles",
+          "athletes": [
+            "Fajar Alfian",
+            "Muhammad Shohibul Fikri"
+          ],
+          "date": "2026-09-28"
+        },
+        {
+          "type": "bronze",
+          "sport": "Badminton",
+          "event": "Men's singles",
+          "athletes": [
+            "Alwi Farhan"
+          ],
+          "date": "2026-09-28"
+        },
+        {
+          "type": "gold",
+          "sport": "Badminton",
+          "event": "Men's doubles",
+          "athletes": [
+            "Leo Rolly Carnando",
+            "Daniel Marthin"
+          ],
+          "date": "2026-09-29"
+        },
+        {
+          "type": "silver",
+          "sport": "Badminton",
+          "event": "Mixed doubles",
+          "athletes": [
+            "Amri Syahnawi",
+            "Nita Violina Marwah"
+          ],
+          "date": "2026-09-29"
+        },
+        {
+          "type": "silver",
+          "sport": "Surfing",
+          "event": "Men's shortboard",
+          "athletes": [
+            "I Made Pajar Ariyana"
+          ],
+          "date": "2026-09-29"
+        },
+        {
+          "type": "gold",
+          "sport": "Sport climbing",
+          "event": "Women's speed",
+          "athletes": [
+            "Desak Made Rita Kusuma Dewi"
+          ],
+          "date": "2026-09-30"
+        },
+        {
+          "type": "gold",
+          "sport": "Archery",
+          "event": "Women's individual compound",
+          "athletes": [
+            "Nurisa Dian Ashrifah"
+          ],
+          "date": "2026-10-01"
+        },
+        {
+          "type": "silver",
+          "sport": "Esports",
+          "event": "Mobile Legends: Bang Bang",
+          "athletes": [
+            "Alexander Owen Marcetami Buhe",
+            "Albert Neilsen Iskandar",
+            "Arif Fudin Dingarai Putra",
+            "Dalvin Ramadhana Putra",
+            "Syauki Fauzan Sumarno",
+            "A Muhammad Affan Wahyudi"
+          ],
+          "date": "2026-10-01"
+        },
+        {
+          "type": "bronze",
+          "sport": "Shooting",
+          "event": "Men's 25 m rapid fire pistol team",
+          "athletes": [
+            "Muhamad Fawwaz Aditia FarrelAris FebriantoDewa Putu Yadi Suteja"
+          ],
+          "date": "2026-10-01"
+        }
+      ]
     },
     {
       "code": "UAE",
@@ -1180,6 +5528,24 @@
       "gold": 5,
       "silver": 4,
       "bronze": 0,
+      "medals": []
+    },
+    {
+      "code": "TPE",
+      "name": "Chinese Taipei",
+      "flag": "🇹🇼",
+      "gold": 4,
+      "silver": 12,
+      "bronze": 27,
+      "medals": []
+    },
+    {
+      "code": "PHI",
+      "name": "Philippines",
+      "flag": "🇵🇭",
+      "gold": 4,
+      "silver": 6,
+      "bronze": 15,
       "medals": []
     },
     {
@@ -1192,15 +5558,6 @@
       "medals": []
     },
     {
-      "code": "TPE",
-      "name": "Chinese Taipei",
-      "flag": "🇹🇼",
-      "gold": 3,
-      "silver": 12,
-      "bronze": 27,
-      "medals": []
-    },
-    {
       "code": "QAT",
       "name": "Qatar",
       "flag": "🇶🇦",
@@ -1210,21 +5567,12 @@
       "medals": []
     },
     {
-      "code": "PHI",
-      "name": "Philippines",
-      "flag": "🇵🇭",
-      "gold": 3,
-      "silver": 5,
-      "bronze": 14,
-      "medals": []
-    },
-    {
       "code": "SGP",
       "name": "Singapore",
       "flag": "🇸🇬",
       "gold": 2,
       "silver": 6,
-      "bronze": 4,
+      "bronze": 5,
       "medals": []
     },
     {
@@ -1241,7 +5589,7 @@
       "name": "Vietnam",
       "flag": "🇻🇳",
       "gold": 2,
-      "silver": 1,
+      "silver": 2,
       "bronze": 19,
       "medals": []
     },

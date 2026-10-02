@@ -1,29 +1,7 @@
 {
-  "generatedAt": "2026-10-02T03:51:32+05:30",
+  "generatedAt": "2026-10-02T11:02:24+05:30",
   "source": "llm",
   "items": [
-    {
-      "sport": "Archery",
-      "event": "Recurve Women's Team",
-      "athletes": [
-        "India women's recurve team"
-      ],
-      "eventDate": "2026-10-02",
-      "likelihood": "medium",
-      "potentialMedal": "gold",
-      "reason": "The recurve women's team is into the semifinal against China, keeping a shot at the gold medal match alive."
-    },
-    {
-      "sport": "Archery",
-      "event": "Recurve Mixed Team",
-      "athletes": [
-        "India recurve mixed team"
-      ],
-      "eventDate": "2026-10-02",
-      "likelihood": "medium",
-      "potentialMedal": "gold",
-      "reason": "An intense semifinal clash against Japan awaits the mixed team, with a spot in the gold medal match on the line."
-    },
     {
       "sport": "Archery",
       "event": "Recurve Men's Team",
@@ -33,7 +11,7 @@
       "eventDate": "2026-10-02",
       "likelihood": "medium",
       "potentialMedal": "gold",
-      "reason": "The men's recurve team faces Iran in the semifinal looking to secure a place in the gold medal match."
+      "reason": "The team faces Iran in the semifinal with a shot at the gold medal match following strong recent archery performances."
     },
     {
       "sport": "Archery",
@@ -44,7 +22,7 @@
       "eventDate": "2026-10-02",
       "likelihood": "long-shot",
       "potentialMedal": "bronze",
-      "reason": "Kumkum Anil Mohod takes on South Korea's Kang Chaeyoung in a tough quarterfinal showdown."
+      "reason": "Kumkum Anil Mohod faces a tough quarterfinal battle against Korea's Kang Chaeyoung."
     },
     {
       "sport": "Archery",
@@ -55,7 +33,7 @@
       "eventDate": "2026-10-02",
       "likelihood": "medium",
       "potentialMedal": "bronze",
-      "reason": "Dhiraj Bommadevara enters the quarterfinal stage against Uzbekistan's Amirkhon Sadikov."
+      "reason": "Dhiraj Bommadevara enters the quarterfinal stage against Uzbekistan's Amirkhon Sadikov with momentum."
     },
     {
       "sport": "Archery",
@@ -66,18 +44,7 @@
       "eventDate": "2026-10-02",
       "likelihood": "medium",
       "potentialMedal": "bronze",
-      "reason": "Neeraj Chauhan meets Bhutan's Lam Dorji in the quarterfinals with a step closer to the medal rounds."
-    },
-    {
-      "sport": "Boxing",
-      "event": "Women's 75kg",
-      "athletes": [
-        "Lovlina Borgohain"
-      ],
-      "eventDate": "2026-10-02",
-      "likelihood": "high",
-      "potentialMedal": "gold",
-      "reason": "Lovlina Borgohain is already guaranteed a medal and fights for the gold against China's Bao Ziyi."
+      "reason": "Neeraj Chauhan has a strong opportunity in the quarterfinal against Bhutan's Lam Dorji."
     },
     {
       "sport": "Boxing",
@@ -88,7 +55,7 @@
       "eventDate": "2026-10-02",
       "likelihood": "high",
       "potentialMedal": "gold",
-      "reason": "Parveen has secured a podium finish and takes on Chen Nien-chin in the final for the gold."
+      "reason": "Parveen is already in the final with a guaranteed medal and fights for the gold against Chen Nien-chin."
     },
     {
       "sport": "Boxing",
@@ -99,7 +66,60 @@
       "eventDate": "2026-10-02",
       "likelihood": "high",
       "potentialMedal": "gold",
-      "reason": "Ankush is guaranteed at least a silver and steps into the ring against Kim Minseong for the top prize."
+      "reason": "Ankush has guaranteed a medal and steps into the final bout against Kim Minseong for the gold."
+    },
+    {
+      "sport": "Wrestling",
+      "event": "Men's Freestyle 65kg",
+      "athletes": [
+        "Sujeet"
+      ],
+      "eventDate": "2026-10-02",
+      "likelihood": "medium",
+      "potentialMedal": "gold",
+      "reason": "Sujeet has stormed into the semifinals with dominant wins and is just one step away from the gold medal match."
+    },
+    {
+      "sport": "Archery",
+      "event": "Recurve Women's Team",
+      "athletes": [
+        "India women's recurve team"
+      ],
+      "eventDate": "2026-10-02",
+      "likelihood": "high",
+      "potentialMedal": "gold",
+      "reason": "Won gold.",
+      "result": {
+        "medal": "gold"
+      }
+    },
+    {
+      "sport": "Archery",
+      "event": "Recurve Mixed Team",
+      "athletes": [
+        "India recurve mixed team"
+      ],
+      "eventDate": "2026-10-02",
+      "likelihood": "high",
+      "potentialMedal": "silver",
+      "reason": "Won silver.",
+      "result": {
+        "medal": "silver"
+      }
+    },
+    {
+      "sport": "Boxing",
+      "event": "Women's 75kg",
+      "athletes": [
+        "Lovlina Borgohain"
+      ],
+      "eventDate": "2026-10-02",
+      "likelihood": "high",
+      "potentialMedal": "gold",
+      "reason": "Won gold.",
+      "result": {
+        "medal": "gold"
+      }
     },
     {
       "sport": "Cricket",
@@ -110,7 +130,7 @@
       "eventDate": "2026-10-03",
       "likelihood": "high",
       "potentialMedal": "gold",
-      "reason": "The Indian men's cricket team is set for a blockbuster gold medal match against arch-rivals Pakistan."
+      "reason": "The cricket team is locked in for the gold medal match against Pakistan, guaranteeing at least silver."
     },
     {
       "sport": "Hockey",
@@ -121,7 +141,7 @@
       "eventDate": "2026-10-03",
       "likelihood": "high",
       "potentialMedal": "gold",
-      "reason": "The women's hockey team reached the final and will battle China for the gold medal."
+      "reason": "The women's hockey team has advanced to the gold medal match against China, securing a fantastic podium finish."
     },
     {
       "sport": "Hockey",
@@ -132,7 +152,7 @@
       "eventDate": "2026-10-03",
       "likelihood": "high",
       "potentialMedal": "gold",
-      "reason": "The men's hockey team booked their final spot and will face Malaysia for the gold."
+      "reason": "The men's hockey team reaches the gold medal match to face Malaysia with a guaranteed podium finish."
     },
     {
       "sport": "Wrestling",
@@ -143,7 +163,7 @@
       "eventDate": "2026-10-03",
       "likelihood": "long-shot",
       "potentialMedal": "bronze",
-      "reason": "Dipanshi faces a mammoth opening test against Japan's Yui Susaki in the early rounds."
+      "reason": "Dipanshi starts her campaign in the 1/8 final against powerhouse Yui Susaki of Japan."
     },
     {
       "sport": "Wrestling",
@@ -154,7 +174,7 @@
       "eventDate": "2026-10-03",
       "likelihood": "long-shot",
       "potentialMedal": "bronze",
-      "reason": "Priya starts her campaign in the 1/8 final against Kyrgyzstan's Aiperi Medet Kyzy."
+      "reason": "Priya faces a challenging opening round against Aiperi Medet Kyzy."
     },
     {
       "sport": "Wrestling",
@@ -165,18 +185,7 @@
       "eventDate": "2026-10-03",
       "likelihood": "long-shot",
       "potentialMedal": "bronze",
-      "reason": "Rajat Ruhal opens his freestyle campaign against Kazakhstan's Yedige Kassimbek."
-    },
-    {
-      "sport": "Wrestling",
-      "event": "Men's Freestyle 65kg",
-      "athletes": [
-        "Sujeet"
-      ],
-      "eventDate": "2026-10-03",
-      "likelihood": "medium",
-      "potentialMedal": "bronze",
-      "reason": "Sujeet begins his 65kg journey in the 1/8 final against Afghanistan's Sayed Omar Zazai."
+      "reason": "Rajat Ruhal opens his wrestling campaign in the 1/8 final against Yedige Kassimbek."
     }
   ]
 }
