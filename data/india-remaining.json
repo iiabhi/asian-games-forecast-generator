@@ -155,38 +155,38 @@
   {
     "sport": "Wrestling",
     "event": "Women's Wrestling 50kg",
-    "date": "2026-10-03",
-    "time_jst": "10:38",
+    "date": "2026-10-02",
+    "time_jst": null,
     "venue": "Nagoya City Inae Sports Center (Mat B)",
     "india_entries": [
       "Dipanshi"
     ],
-    "stage": "1/8 Final (Bout 147) vs Yui Susaki (JPN)",
-    "medal_at_stake": "Early round; two bronzes per weight, repechage possible if opponent reaches final"
+    "stage": "Bronze medal bout vs Zeinep Bayanova (KAZ), evening session",
+    "medal_at_stake": "Win → bronze; lose → no medal"
   },
   {
     "sport": "Wrestling",
     "event": "Women's Wrestling 76kg",
-    "date": "2026-10-03",
+    "date": "2026-10-02",
     "time_jst": "11:02",
     "venue": "Nagoya City Inae Sports Center (Mat A)",
     "india_entries": [
       "Priya"
     ],
-    "stage": "1/8 Final (Bout 126) vs Aiperi Medet Kyzy (KGZ)",
-    "medal_at_stake": "Early round; two bronzes per weight, repechage possible if opponent reaches final"
+    "stage": "Lost opening bout 1-6 to Aiperi Medet Kyzy (KGZ); repechage only if she reaches the final",
+    "medal_at_stake": "Repechage → bronze bout only if Kyzy reaches the final; otherwise out"
   },
   {
     "sport": "Wrestling",
     "event": "Men's Freestyle 125kg",
-    "date": "2026-10-03",
+    "date": "2026-10-02",
     "time_jst": "10:55",
     "venue": "Nagoya City Inae Sports Center (Mat B)",
     "india_entries": [
       "Rajat Ruhal"
     ],
-    "stage": "1/8 Final (Bout 149) vs Yedige Kassimbek (KAZ)",
-    "medal_at_stake": "Early round; two bronzes per weight, repechage possible if opponent reaches final"
+    "stage": "Lost opening bout 3-8 to Yedige Kassimbek (KAZ); repechage only if he reaches the final",
+    "medal_at_stake": "Repechage → bronze bout only if Kassimbek reaches the final; otherwise out"
   },
   {
     "sport": "Wrestling",
@@ -197,7 +197,7 @@
     "india_entries": [
       "Sujeet"
     ],
-    "stage": "Semifinal (beat Sayed Omar Zazai of AFG in the 1/8 final; quarterfinal won)",
-    "medal_at_stake": "Win → gold medal match; lose → bronze medal match"
+    "stage": "Final vs Abdulmazhid Kudiev (TJK), after beating Olympic champion Kotaro Kiyooka (JPN) in the semifinal",
+    "medal_at_stake": "Gold or silver (medal guaranteed)"
   }
 ]

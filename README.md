@@ -146,7 +146,7 @@ Vercel's disk is read-only and it can't keep a timer running, so on Vercel the d
 2. Add the environment variables `WIKI_USER_AGENT`, `REFRESH_TOKEN` and `LLM_API_KEY`.
 3. In the project's **Storage** tab, create a **Blob** store and connect it, then redeploy.
 4. For refreshes every ~20 minutes, use the included GitHub Actions workflow (`.github/workflows/refresh.yml`). Add two repository secrets: `REFRESH_TOKEN` (same value as on Vercel) and `SITE_URL` (your site address, no trailing slash).
-5. Update the forecast from your computer: `vercel env pull .env.local`, edit `data/india-remaining.json`, run `npm run refresh:forecast`.
+5. Update the forecast: edit `data/india-remaining.json`, push (Vercel redeploys with the new schedule), then run `curl -H "Authorization: Bearer $REFRESH_TOKEN" "$SITE_URL/api/refresh?only=forecast"`. The forecast is not part of the 20-minute refresh because it uses the Gemini quota.
 
 Locally, `npm run dev` also refreshes by itself every `AUTO_REFRESH_MINUTES` (default 20; `0` turns it off).
 

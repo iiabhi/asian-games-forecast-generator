@@ -2,6 +2,7 @@ import { timingSafeEqual } from "crypto";
 import { revalidateTag } from "next/cache";
 import { refreshMedals } from "@/lib/refresh/medals";
 import { refreshNews } from "@/lib/refresh/news";
+import { refreshForecast } from "@/lib/refresh/forecast";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -11,8 +12,10 @@ export const maxDuration = 60; // Wikipedia calls are throttled, so a cold run c
 // (Vercel Blob on Vercel, /data locally). A failure never overwrites the last good data.
 //   GET/POST /api/refresh                 -> medals + news
 //   GET/POST /api/refresh?only=medals     -> just one of "medals" | "news"
+//   GET/POST /api/refresh?only=forecast   -> the forecast, from data/india-remaining.json as deployed (uses the LLM quota)
 // Auth: `Authorization: Bearer <REFRESH_TOKEN>`. Called every ~20 minutes by the GitHub Actions workflow.
-// The forecast is NOT refreshed here (it uses the LLM quota): run `npm run refresh:forecast`.
+// The forecast is NOT part of the default run (it uses the LLM quota, and the 20-minute cron must not burn it):
+// it only runs with ?only=forecast, or locally with `npm run refresh:forecast`.
 
 function authorized(req: Request): boolean {
   const token = process.env.REFRESH_TOKEN;
@@ -28,8 +31,13 @@ async function run(req: Request) {
   if (!authorized(req)) return Response.json({ ok: false, error: "unauthorized" }, { status: 401 });
 
   const only = new URL(req.url).searchParams.get("only");
-  const jobs = ([["medals", refreshMedals], ["news", refreshNews]] as const).filter(([name]) => !only || name === only);
-  if (jobs.length === 0) return Response.json({ ok: false, error: "only must be medals or news" }, { status: 400 });
+  const all = [
+    ["medals", refreshMedals, true],
+    ["news", refreshNews, true],
+    ["forecast", refreshForecast, false], // not in the default run
+  ] as const;
+  const jobs = all.filter(([name, , byDefault]) => (only ? name === only : byDefault));
+  if (jobs.length === 0) return Response.json({ ok: false, error: "only must be medals, news or forecast" }, { status: 400 });
 
   const results: Record<string, string> = {};
   for (const [name, fn] of jobs) {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T11:02:24+05:30",
+  "generatedAt": "2026-10-02T11:08:57+05:30",
   "source": "llm",
   "items": [
     {
@@ -11,7 +11,7 @@
       "eventDate": "2026-10-02",
       "likelihood": "medium",
       "potentialMedal": "gold",
-      "reason": "The team faces Iran in the semifinal with a shot at the gold medal match following strong recent archery performances."
+      "reason": "The team faces Iran in the semifinal with a shot at the gold medal match following strong recurve archery performances."
     },
     {
       "sport": "Archery",
@@ -22,7 +22,7 @@
       "eventDate": "2026-10-02",
       "likelihood": "long-shot",
       "potentialMedal": "bronze",
-      "reason": "Kumkum Anil Mohod faces a tough quarterfinal battle against Korea's Kang Chaeyoung."
+      "reason": "Kumkum Anil Mohod faces a tough quarterfinal against Korea's Kang Chaeyoung, needing a win to reach the medal rounds."
     },
     {
       "sport": "Archery",
@@ -33,7 +33,7 @@
       "eventDate": "2026-10-02",
       "likelihood": "medium",
       "potentialMedal": "bronze",
-      "reason": "Dhiraj Bommadevara enters the quarterfinal stage against Uzbekistan's Amirkhon Sadikov with momentum."
+      "reason": "Dhiraj Bommadevara enters his quarterfinal against Uzbekistan's Amirkhon Sadikov with momentum from earlier team success."
     },
     {
       "sport": "Archery",
@@ -44,7 +44,7 @@
       "eventDate": "2026-10-02",
       "likelihood": "medium",
       "potentialMedal": "bronze",
-      "reason": "Neeraj Chauhan has a strong opportunity in the quarterfinal against Bhutan's Lam Dorji."
+      "reason": "Neeraj Chauhan takes on Lam Dorji of Bhutan in the quarterfinals, eyeing a spot in the semifinal medal bracket."
     },
     {
       "sport": "Boxing",
@@ -55,7 +55,7 @@
       "eventDate": "2026-10-02",
       "likelihood": "high",
       "potentialMedal": "gold",
-      "reason": "Parveen is already in the final with a guaranteed medal and fights for the gold against Chen Nien-chin."
+      "reason": "Parveen has secured a spot in the final against Chen Nien-chin, guaranteeing at least a silver with eyes firmly on gold."
     },
     {
       "sport": "Boxing",
@@ -66,7 +66,40 @@
       "eventDate": "2026-10-02",
       "likelihood": "high",
       "potentialMedal": "gold",
-      "reason": "Ankush has guaranteed a medal and steps into the final bout against Kim Minseong for the gold."
+      "reason": "Ankush is guaranteed a medal and fights for gold in the final bout against Kim Minseong."
+    },
+    {
+      "sport": "Wrestling",
+      "event": "Women's Wrestling 50kg",
+      "athletes": [
+        "Dipanshi"
+      ],
+      "eventDate": "2026-10-02",
+      "likelihood": "medium",
+      "potentialMedal": "bronze",
+      "reason": "Dipanshi contends for a bronze medal in the evening session against Kazakhstan's Zeinep Bayanova."
+    },
+    {
+      "sport": "Wrestling",
+      "event": "Women's Wrestling 76kg",
+      "athletes": [
+        "Priya"
+      ],
+      "eventDate": "2026-10-02",
+      "likelihood": "long-shot",
+      "potentialMedal": "bronze",
+      "reason": "Priya needs her opening-round conqueror to reach the final to pull her into the repechage for a bronze shot."
+    },
+    {
+      "sport": "Wrestling",
+      "event": "Men's Freestyle 125kg",
+      "athletes": [
+        "Rajat Ruhal"
+      ],
+      "eventDate": "2026-10-02",
+      "likelihood": "long-shot",
+      "potentialMedal": "bronze",
+      "reason": "Rajat Ruhal relies on an opponent's run to the final to unlock a repechage path toward a bronze medal."
     },
     {
       "sport": "Wrestling",
@@ -75,9 +108,9 @@
         "Sujeet"
       ],
       "eventDate": "2026-10-02",
-      "likelihood": "medium",
+      "likelihood": "high",
       "potentialMedal": "gold",
-      "reason": "Sujeet has stormed into the semifinals with dominant wins and is just one step away from the gold medal match."
+      "reason": "Sujeet reached the final after a brilliant win over Olympic champion Kotaro Kiyooka, guaranteeing at least silver."
     },
     {
       "sport": "Archery",
@@ -130,7 +163,7 @@
       "eventDate": "2026-10-03",
       "likelihood": "high",
       "potentialMedal": "gold",
-      "reason": "The cricket team is locked in for the gold medal match against Pakistan, guaranteeing at least silver."
+      "reason": "The India men's cricket team is set for a blockbuster gold medal match against Pakistan."
     },
     {
       "sport": "Hockey",
@@ -141,7 +174,7 @@
       "eventDate": "2026-10-03",
       "likelihood": "high",
       "potentialMedal": "gold",
-      "reason": "The women's hockey team has advanced to the gold medal match against China, securing a fantastic podium finish."
+      "reason": "The women's hockey team is through to the gold medal match against China, guaranteeing a podium finish."
     },
     {
       "sport": "Hockey",
@@ -152,40 +185,7 @@
       "eventDate": "2026-10-03",
       "likelihood": "high",
       "potentialMedal": "gold",
-      "reason": "The men's hockey team reaches the gold medal match to face Malaysia with a guaranteed podium finish."
-    },
-    {
-      "sport": "Wrestling",
-      "event": "Women's Wrestling 50kg",
-      "athletes": [
-        "Dipanshi"
-      ],
-      "eventDate": "2026-10-03",
-      "likelihood": "long-shot",
-      "potentialMedal": "bronze",
-      "reason": "Dipanshi starts her campaign in the 1/8 final against powerhouse Yui Susaki of Japan."
-    },
-    {
-      "sport": "Wrestling",
-      "event": "Women's Wrestling 76kg",
-      "athletes": [
-        "Priya"
-      ],
-      "eventDate": "2026-10-03",
-      "likelihood": "long-shot",
-      "potentialMedal": "bronze",
-      "reason": "Priya faces a challenging opening round against Aiperi Medet Kyzy."
-    },
-    {
-      "sport": "Wrestling",
-      "event": "Men's Freestyle 125kg",
-      "athletes": [
-        "Rajat Ruhal"
-      ],
-      "eventDate": "2026-10-03",
-      "likelihood": "long-shot",
-      "potentialMedal": "bronze",
-      "reason": "Rajat Ruhal opens his wrestling campaign in the 1/8 final against Yedige Kassimbek."
+      "reason": "The India men's hockey team plays Malaysia in the gold medal match with a podium finish already locked in."
     }
   ]
 }
