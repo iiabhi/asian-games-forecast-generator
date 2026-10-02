@@ -1,18 +1,7 @@
 {
-  "generatedAt": "2026-10-02T11:08:57+05:30",
+  "generatedAt": "2026-10-02T16:53:25+05:30",
   "source": "llm",
   "items": [
-    {
-      "sport": "Archery",
-      "event": "Recurve Men's Team",
-      "athletes": [
-        "India men's recurve team"
-      ],
-      "eventDate": "2026-10-02",
-      "likelihood": "medium",
-      "potentialMedal": "gold",
-      "reason": "The team faces Iran in the semifinal with a shot at the gold medal match following strong recurve archery performances."
-    },
     {
       "sport": "Archery",
       "event": "Recurve Women's Individual",
@@ -33,7 +22,7 @@
       "eventDate": "2026-10-02",
       "likelihood": "medium",
       "potentialMedal": "bronze",
-      "reason": "Dhiraj Bommadevara enters his quarterfinal against Uzbekistan's Amirkhon Sadikov with momentum from earlier team success."
+      "reason": "Dhiraj Bommadevara enters his quarterfinal against Uzbekistan's Amirkhon Sadikov with strong momentum after recent mixed team success."
     },
     {
       "sport": "Archery",
@@ -44,29 +33,18 @@
       "eventDate": "2026-10-02",
       "likelihood": "medium",
       "potentialMedal": "bronze",
-      "reason": "Neeraj Chauhan takes on Lam Dorji of Bhutan in the quarterfinals, eyeing a spot in the semifinal medal bracket."
+      "reason": "Neeraj Chauhan takes on Lam Dorji of Bhutan in the quarterfinal, holding a solid opportunity to advance into the medal matches."
     },
     {
-      "sport": "Boxing",
-      "event": "Women's 65kg",
+      "sport": "Hockey",
+      "event": "Women's Hockey",
       "athletes": [
-        "Parveen"
+        "India women's hockey team"
       ],
       "eventDate": "2026-10-02",
       "likelihood": "high",
       "potentialMedal": "gold",
-      "reason": "Parveen has secured a spot in the final against Chen Nien-chin, guaranteeing at least a silver with eyes firmly on gold."
-    },
-    {
-      "sport": "Boxing",
-      "event": "Men's 80kg",
-      "athletes": [
-        "Ankush"
-      ],
-      "eventDate": "2026-10-02",
-      "likelihood": "high",
-      "potentialMedal": "gold",
-      "reason": "Ankush is guaranteed a medal and fights for gold in the final bout against Kim Minseong."
+      "reason": "The women's hockey team is through to the gold medal match against China, chasing a historic first title since 1982 with a medal guaranteed."
     },
     {
       "sport": "Wrestling",
@@ -77,40 +55,7 @@
       "eventDate": "2026-10-02",
       "likelihood": "medium",
       "potentialMedal": "bronze",
-      "reason": "Dipanshi contends for a bronze medal in the evening session against Kazakhstan's Zeinep Bayanova."
-    },
-    {
-      "sport": "Wrestling",
-      "event": "Women's Wrestling 76kg",
-      "athletes": [
-        "Priya"
-      ],
-      "eventDate": "2026-10-02",
-      "likelihood": "long-shot",
-      "potentialMedal": "bronze",
-      "reason": "Priya needs her opening-round conqueror to reach the final to pull her into the repechage for a bronze shot."
-    },
-    {
-      "sport": "Wrestling",
-      "event": "Men's Freestyle 125kg",
-      "athletes": [
-        "Rajat Ruhal"
-      ],
-      "eventDate": "2026-10-02",
-      "likelihood": "long-shot",
-      "potentialMedal": "bronze",
-      "reason": "Rajat Ruhal relies on an opponent's run to the final to unlock a repechage path toward a bronze medal."
-    },
-    {
-      "sport": "Wrestling",
-      "event": "Men's Freestyle 65kg",
-      "athletes": [
-        "Sujeet"
-      ],
-      "eventDate": "2026-10-02",
-      "likelihood": "high",
-      "potentialMedal": "gold",
-      "reason": "Sujeet reached the final after a brilliant win over Olympic champion Kotaro Kiyooka, guaranteeing at least silver."
+      "reason": "Dipanshi advanced via a dominant 10-0 repechage win and now battles Zeinep Bayanova for the bronze medal."
     },
     {
       "sport": "Archery",
@@ -141,6 +86,21 @@
       }
     },
     {
+      "sport": "Archery",
+      "event": "Recurve Men's Team",
+      "athletes": [
+        "India men's recurve team"
+      ],
+      "eventDate": "2026-10-02",
+      "likelihood": "high",
+      "potentialMedal": "silver",
+      "reason": "Lost the final 1-5 to South Korea (set 1 tied 56-56), India's second straight silver in the event.",
+      "result": {
+        "medal": "silver",
+        "note": "Lost the final 1-5 to South Korea (set 1 tied 56-56), India's second straight silver in the event."
+      }
+    },
+    {
       "sport": "Boxing",
       "event": "Women's 75kg",
       "athletes": [
@@ -155,6 +115,96 @@
       }
     },
     {
+      "sport": "Boxing",
+      "event": "Women's 65kg",
+      "athletes": [
+        "Parveen"
+      ],
+      "eventDate": "2026-10-02",
+      "likelihood": "high",
+      "potentialMedal": "gold",
+      "reason": "Beat Olympic medallist Chen Nien-chin (TPE) 3-2 on a split decision.",
+      "result": {
+        "medal": "gold",
+        "note": "Beat Olympic medallist Chen Nien-chin (TPE) 3-2 on a split decision."
+      }
+    },
+    {
+      "sport": "Boxing",
+      "event": "Men's 80kg",
+      "athletes": [
+        "Ankush"
+      ],
+      "eventDate": "2026-10-02",
+      "likelihood": "high",
+      "potentialMedal": "gold",
+      "reason": "Beat Kim Minseong (KOR) 4-0; India's third boxing gold of the Games.",
+      "result": {
+        "medal": "gold",
+        "note": "Beat Kim Minseong (KOR) 4-0; India's third boxing gold of the Games."
+      }
+    },
+    {
+      "sport": "Wrestling",
+      "event": "Women's Wrestling 76kg",
+      "athletes": [
+        "Priya"
+      ],
+      "eventDate": "2026-10-02",
+      "likelihood": "long-shot",
+      "potentialMedal": "bronze",
+      "reason": "Lost her opening bout and has no route to the repechage.",
+      "result": {
+        "medal": "none",
+        "note": "Lost her opening bout and has no route to the repechage."
+      }
+    },
+    {
+      "sport": "Wrestling",
+      "event": "Men's Freestyle 125kg",
+      "athletes": [
+        "Rajat Ruhal"
+      ],
+      "eventDate": "2026-10-02",
+      "likelihood": "long-shot",
+      "potentialMedal": "bronze",
+      "reason": "Lost his opening bout and has no route to the repechage.",
+      "result": {
+        "medal": "none",
+        "note": "Lost his opening bout and has no route to the repechage."
+      }
+    },
+    {
+      "sport": "Wrestling",
+      "event": "Men's Freestyle 65kg",
+      "athletes": [
+        "Sujeet"
+      ],
+      "eventDate": "2026-10-02",
+      "likelihood": "high",
+      "potentialMedal": "gold",
+      "reason": "Came back from 2-9 down to beat Abdulmazhid Kudiev (TJK) 10-9.",
+      "result": {
+        "medal": "gold",
+        "note": "Came back from 2-9 down to beat Abdulmazhid Kudiev (TJK) 10-9."
+      }
+    },
+    {
+      "sport": "Sepaktakraw",
+      "event": "Men's Quadrant",
+      "athletes": [
+        "India men's quadrant team"
+      ],
+      "eventDate": "2026-10-02",
+      "likelihood": "high",
+      "potentialMedal": "bronze",
+      "reason": "Lost the semifinal 0-2 to hosts Japan (12-15, 13-15); India's first Asian Games medal in quadrant.",
+      "result": {
+        "medal": "bronze",
+        "note": "Lost the semifinal 0-2 to hosts Japan (12-15, 13-15); India's first Asian Games medal in quadrant."
+      }
+    },
+    {
       "sport": "Cricket",
       "event": "Men's Cricket",
       "athletes": [
@@ -163,18 +213,7 @@
       "eventDate": "2026-10-03",
       "likelihood": "high",
       "potentialMedal": "gold",
-      "reason": "The India men's cricket team is set for a blockbuster gold medal match against Pakistan."
-    },
-    {
-      "sport": "Hockey",
-      "event": "Women's Hockey",
-      "athletes": [
-        "India women's hockey team"
-      ],
-      "eventDate": "2026-10-03",
-      "likelihood": "high",
-      "potentialMedal": "gold",
-      "reason": "The women's hockey team is through to the gold medal match against China, guaranteeing a podium finish."
+      "reason": "The men's cricket team has reached the final stage and is guaranteed at least a silver medal ahead of the clash against Pakistan."
     },
     {
       "sport": "Hockey",
@@ -185,7 +224,29 @@
       "eventDate": "2026-10-03",
       "likelihood": "high",
       "potentialMedal": "gold",
-      "reason": "The India men's hockey team plays Malaysia in the gold medal match with a podium finish already locked in."
+      "reason": "The men's hockey team enters the final against Malaysia with a medal already secured and a great shot at the gold."
+    },
+    {
+      "sport": "Golf",
+      "event": "Women's Individual",
+      "athletes": [
+        "Pranavi Urs"
+      ],
+      "eventDate": "2026-10-03",
+      "likelihood": "medium",
+      "potentialMedal": "gold",
+      "reason": "Pranavi Urs holds a three-shot lead at 15-under heading into the final round of the women's individual golf event."
+    },
+    {
+      "sport": "Golf",
+      "event": "Women's Team",
+      "athletes": [
+        "India women's golf team"
+      ],
+      "eventDate": "2026-10-03",
+      "likelihood": "medium",
+      "potentialMedal": "silver",
+      "reason": "The women's golf team sits in second place at 11-under after Round 3, putting them in prime silver medal position for the final round."
     }
   ]
 }

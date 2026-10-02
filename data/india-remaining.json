@@ -39,7 +39,11 @@
       "India men's recurve team"
     ],
     "stage": "Semifinal vs Iran (IRI); bronze match 14:55, gold match 15:20",
-    "medal_at_stake": "Win → gold medal match; lose → bronze medal match"
+    "medal_at_stake": "Win → gold medal match; lose → bronze medal match",
+    "result": {
+      "medal": "silver",
+      "note": "Lost the final 1-5 to South Korea (set 1 tied 56-56), India's second straight silver in the event."
+    }
   },
   {
     "sport": "Archery",
@@ -102,7 +106,11 @@
       "Parveen"
     ],
     "stage": "Final (Bout 176) vs Chen Nien-chin (TPE)",
-    "medal_at_stake": "Gold or silver (medal guaranteed)"
+    "medal_at_stake": "Gold or silver (medal guaranteed)",
+    "result": {
+      "medal": "gold",
+      "note": "Beat Olympic medallist Chen Nien-chin (TPE) 3-2 on a split decision."
+    }
   },
   {
     "sport": "Boxing",
@@ -114,7 +122,11 @@
       "Ankush"
     ],
     "stage": "Final (Bout 178) vs Kim Minseong (KOR)",
-    "medal_at_stake": "Gold or silver (medal guaranteed)"
+    "medal_at_stake": "Gold or silver (medal guaranteed)",
+    "result": {
+      "medal": "gold",
+      "note": "Beat Kim Minseong (KOR) 4-0; India's third boxing gold of the Games."
+    }
   },
   {
     "sport": "Cricket",
@@ -131,13 +143,13 @@
   {
     "sport": "Hockey",
     "event": "Women's Hockey",
-    "date": "2026-10-03",
-    "time_jst": "19:00",
+    "date": "2026-10-02",
+    "time_jst": null,
     "venue": "Gifu Prefectural Green Stadium (Gifu)",
     "india_entries": [
       "India women's hockey team"
     ],
-    "stage": "Gold medal match vs China (CHN)",
+    "stage": "Gold medal match vs China (CHN), delayed to start around 4:30 PM; India chase a first Asian Games hockey gold since 1982",
     "medal_at_stake": "Gold or silver (medal guaranteed)"
   },
   {
@@ -161,7 +173,7 @@
     "india_entries": [
       "Dipanshi"
     ],
-    "stage": "Bronze medal bout vs Zeinep Bayanova (KAZ), evening session",
+    "stage": "Bronze medal bout vs Zeinep Bayanova (KAZ), evening session, after a 10-0 repechage win over Dit Samnang (CAM)",
     "medal_at_stake": "Win → bronze; lose → no medal"
   },
   {
@@ -174,7 +186,11 @@
       "Priya"
     ],
     "stage": "Lost opening bout 1-6 to Aiperi Medet Kyzy (KGZ); repechage only if she reaches the final",
-    "medal_at_stake": "Repechage → bronze bout only if Kyzy reaches the final; otherwise out"
+    "medal_at_stake": "Repechage → bronze bout only if Kyzy reaches the final; otherwise out",
+    "result": {
+      "medal": "none",
+      "note": "Lost her opening bout and has no route to the repechage."
+    }
   },
   {
     "sport": "Wrestling",
@@ -186,7 +202,11 @@
       "Rajat Ruhal"
     ],
     "stage": "Lost opening bout 3-8 to Yedige Kassimbek (KAZ); repechage only if he reaches the final",
-    "medal_at_stake": "Repechage → bronze bout only if Kassimbek reaches the final; otherwise out"
+    "medal_at_stake": "Repechage → bronze bout only if Kassimbek reaches the final; otherwise out",
+    "result": {
+      "medal": "none",
+      "note": "Lost his opening bout and has no route to the repechage."
+    }
   },
   {
     "sport": "Wrestling",
@@ -198,6 +218,47 @@
       "Sujeet"
     ],
     "stage": "Final vs Abdulmazhid Kudiev (TJK), after beating Olympic champion Kotaro Kiyooka (JPN) in the semifinal",
-    "medal_at_stake": "Gold or silver (medal guaranteed)"
+    "medal_at_stake": "Gold or silver (medal guaranteed)",
+    "result": {
+      "medal": "gold",
+      "note": "Came back from 2-9 down to beat Abdulmazhid Kudiev (TJK) 10-9."
+    }
+  },
+  {
+    "sport": "Sepaktakraw",
+    "event": "Men's Quadrant",
+    "date": "2026-10-02",
+    "time_jst": null,
+    "india_entries": [
+      "India men's quadrant team"
+    ],
+    "stage": "Semifinal",
+    "medal_at_stake": "Bronze",
+    "result": {
+      "medal": "bronze",
+      "note": "Lost the semifinal 0-2 to hosts Japan (12-15, 13-15); India's first Asian Games medal in quadrant."
+    }
+  },
+  {
+    "sport": "Golf",
+    "event": "Women's Individual",
+    "date": "2026-10-03",
+    "time_jst": null,
+    "india_entries": [
+      "Pranavi Urs"
+    ],
+    "stage": "Final round; leads by three shots at 15-under after Round 3",
+    "medal_at_stake": "Leading; medal contention going into the final round"
+  },
+  {
+    "sport": "Golf",
+    "event": "Women's Team",
+    "date": "2026-10-03",
+    "time_jst": null,
+    "india_entries": [
+      "India women's golf team"
+    ],
+    "stage": "Final round; second after Round 3 at 11-under, four strokes behind China",
+    "medal_at_stake": "Currently in a silver-medal position"
   }
 ]
