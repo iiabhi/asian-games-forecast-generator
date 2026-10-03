@@ -55,7 +55,11 @@
       "Kumkum Anil Mohod"
     ],
     "stage": "Quarterfinal vs Kang Chaeyoung (KOR)",
-    "medal_at_stake": "Win → semifinal (medal round); lose → out"
+    "medal_at_stake": "Win → semifinal (medal round); lose → out",
+    "result": {
+      "medal": "gold",
+      "note": "Won the shoot-off in the final; first Indian woman to win individual recurve gold at the Asian Games, and secured an LA 2028 quota."
+    }
   },
   {
     "sport": "Archery",
@@ -67,7 +71,11 @@
       "Dhiraj Bommadevara"
     ],
     "stage": "Quarterfinal vs Amirkhon Sadikov (UZB)",
-    "medal_at_stake": "Win → semifinal (medal round); lose → out"
+    "medal_at_stake": "Win → semifinal (medal round); lose → out",
+    "result": {
+      "medal": "none",
+      "note": "Did not reach the medal matches."
+    }
   },
   {
     "sport": "Archery",
@@ -79,7 +87,11 @@
       "Neeraj Chauhan"
     ],
     "stage": "Quarterfinal vs Lam Dorji (BHU)",
-    "medal_at_stake": "Win → semifinal (medal round); lose → out"
+    "medal_at_stake": "Win → semifinal (medal round); lose → out",
+    "result": {
+      "medal": "bronze",
+      "note": "Neeraj Chauhan won bronze."
+    }
   },
   {
     "sport": "Boxing",
@@ -138,7 +150,11 @@
       "India men's cricket team"
     ],
     "stage": "Gold medal match vs Pakistan (PAK)",
-    "medal_at_stake": "Gold or silver (medal guaranteed)"
+    "medal_at_stake": "Gold or silver (medal guaranteed)",
+    "result": {
+      "medal": "gold",
+      "note": "Beat Pakistan by 19 runs in the final to retain the title, completing a men's and women's cricket double."
+    }
   },
   {
     "sport": "Hockey",
@@ -166,7 +182,11 @@
       "India men's hockey team"
     ],
     "stage": "Gold medal match vs Malaysia (MAS)",
-    "medal_at_stake": "Gold or silver (medal guaranteed)"
+    "medal_at_stake": "Gold or silver (medal guaranteed)",
+    "result": {
+      "medal": "gold",
+      "note": "Beat Malaysia 5-1 in the final to retain the title and secure an LA 2028 quota."
+    }
   },
   {
     "sport": "Wrestling",
@@ -252,7 +272,11 @@
       "Pranavi Urs"
     ],
     "stage": "Final round; leads by three shots at 15-under after Round 3",
-    "medal_at_stake": "Leading; medal contention going into the final round"
+    "medal_at_stake": "Leading; medal contention going into the final round",
+    "result": {
+      "medal": "gold",
+      "note": "Pranavi Urs became the first Indian woman to win individual golf gold at the Asian Games."
+    }
   },
   {
     "sport": "Golf",
@@ -263,6 +287,49 @@
       "India women's golf team"
     ],
     "stage": "Final round; second after Round 3 at 11-under, four strokes behind China",
-    "medal_at_stake": "Currently in a silver-medal position"
+    "medal_at_stake": "Currently in a silver-medal position",
+    "result": {
+      "medal": "silver",
+      "note": "Finished second behind China."
+    }
+  },
+  {
+    "sport": "Wrestling",
+    "event": "Men's Freestyle (Aman Sehrawat)",
+    "date": "2026-10-03",
+    "india_entries": [
+      "Aman Sehrawat"
+    ],
+    "stage": "Final",
+    "medal_at_stake": "Gold or silver (medal guaranteed)",
+    "result": {
+      "medal": "gold"
+    }
+  },
+  {
+    "sport": "Wrestling",
+    "event": "Women's Wrestling (Antim Panghal)",
+    "date": "2026-10-03",
+    "india_entries": [
+      "Antim Panghal"
+    ],
+    "stage": "Final",
+    "medal_at_stake": "Gold or silver (medal guaranteed)",
+    "result": {
+      "medal": "silver"
+    }
+  },
+  {
+    "sport": "Wrestling",
+    "event": "Men's Freestyle (Deepak Punia)",
+    "date": "2026-10-03",
+    "india_entries": [
+      "Deepak Punia"
+    ],
+    "stage": "Bronze medal bout",
+    "medal_at_stake": "Win → bronze; lose → no medal",
+    "result": {
+      "medal": "bronze"
+    }
   }
 ]

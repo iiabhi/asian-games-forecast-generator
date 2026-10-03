@@ -1,51 +1,7 @@
 {
-  "generatedAt": "2026-10-02T17:59:57+05:30",
-  "source": "llm",
+  "generatedAt": "2026-10-03T20:36:16+05:30",
+  "source": "schedule",
   "items": [
-    {
-      "sport": "Archery",
-      "event": "Recurve Women's Individual",
-      "athletes": [
-        "Kumkum Anil Mohod"
-      ],
-      "eventDate": "2026-10-02",
-      "likelihood": "long-shot",
-      "potentialMedal": "bronze",
-      "reason": "Kumkum Anil Mohod faces a tough quarterfinal test against Kang Chaeyoung of South Korea, needing a win to advance to the medal rounds."
-    },
-    {
-      "sport": "Archery",
-      "event": "Recurve Men's Individual",
-      "athletes": [
-        "Dhiraj Bommadevara"
-      ],
-      "eventDate": "2026-10-02",
-      "likelihood": "medium",
-      "potentialMedal": "bronze",
-      "reason": "Dhiraj Bommadevara enters the quarterfinal stage against Amirkhon Sadikov with a chance to push into the semifinals and secure a medal opportunity."
-    },
-    {
-      "sport": "Archery",
-      "event": "Recurve Men's Individual",
-      "athletes": [
-        "Neeraj Chauhan"
-      ],
-      "eventDate": "2026-10-02",
-      "likelihood": "medium",
-      "potentialMedal": "bronze",
-      "reason": "Neeraj Chauhan takes on Lam Dorji in the quarterfinals, with a victory guaranteeing entry into the medal rounds."
-    },
-    {
-      "sport": "Wrestling",
-      "event": "Women's Wrestling 50kg",
-      "athletes": [
-        "Dipanshi"
-      ],
-      "eventDate": "2026-10-02",
-      "likelihood": "medium",
-      "potentialMedal": "bronze",
-      "reason": "Dipanshi enters the bronze medal bout following a dominant 10-0 repechage win over Dit Samnang."
-    },
     {
       "sport": "Archery",
       "event": "Recurve Women's Team",
@@ -87,6 +43,51 @@
       "result": {
         "medal": "silver",
         "note": "Lost the final 1-5 to South Korea (set 1 tied 56-56), India's second straight silver in the event."
+      }
+    },
+    {
+      "sport": "Archery",
+      "event": "Recurve Women's Individual",
+      "athletes": [
+        "Kumkum Anil Mohod"
+      ],
+      "eventDate": "2026-10-02",
+      "likelihood": "high",
+      "potentialMedal": "gold",
+      "reason": "Won the shoot-off in the final; first Indian woman to win individual recurve gold at the Asian Games, and secured an LA 2028 quota.",
+      "result": {
+        "medal": "gold",
+        "note": "Won the shoot-off in the final; first Indian woman to win individual recurve gold at the Asian Games, and secured an LA 2028 quota."
+      }
+    },
+    {
+      "sport": "Archery",
+      "event": "Recurve Men's Individual",
+      "athletes": [
+        "Dhiraj Bommadevara"
+      ],
+      "eventDate": "2026-10-02",
+      "likelihood": "long-shot",
+      "potentialMedal": "bronze",
+      "reason": "Did not reach the medal matches.",
+      "result": {
+        "medal": "none",
+        "note": "Did not reach the medal matches."
+      }
+    },
+    {
+      "sport": "Archery",
+      "event": "Recurve Men's Individual",
+      "athletes": [
+        "Neeraj Chauhan"
+      ],
+      "eventDate": "2026-10-02",
+      "likelihood": "high",
+      "potentialMedal": "bronze",
+      "reason": "Neeraj Chauhan won bronze.",
+      "result": {
+        "medal": "bronze",
+        "note": "Neeraj Chauhan won bronze."
       }
     },
     {
@@ -217,7 +218,11 @@
       "eventDate": "2026-10-03",
       "likelihood": "high",
       "potentialMedal": "gold",
-      "reason": "The India men's cricket team is guaranteed a medal and faces Pakistan in the gold medal match."
+      "reason": "Beat Pakistan by 19 runs in the final to retain the title, completing a men's and women's cricket double.",
+      "result": {
+        "medal": "gold",
+        "note": "Beat Pakistan by 19 runs in the final to retain the title, completing a men's and women's cricket double."
+      }
     },
     {
       "sport": "Hockey",
@@ -228,7 +233,11 @@
       "eventDate": "2026-10-03",
       "likelihood": "high",
       "potentialMedal": "gold",
-      "reason": "The India men's hockey team plays in the gold medal match against Malaysia, assuring at least a silver with hopes for the top podium."
+      "reason": "Beat Malaysia 5-1 in the final to retain the title and secure an LA 2028 quota.",
+      "result": {
+        "medal": "gold",
+        "note": "Beat Malaysia 5-1 in the final to retain the title and secure an LA 2028 quota."
+      }
     },
     {
       "sport": "Golf",
@@ -237,9 +246,13 @@
         "Pranavi Urs"
       ],
       "eventDate": "2026-10-03",
-      "likelihood": "medium",
+      "likelihood": "high",
       "potentialMedal": "gold",
-      "reason": "Pranavi Urs holds a three-shot lead at 15-under heading into the final round of the women's individual golf event."
+      "reason": "Pranavi Urs became the first Indian woman to win individual golf gold at the Asian Games.",
+      "result": {
+        "medal": "gold",
+        "note": "Pranavi Urs became the first Indian woman to win individual golf gold at the Asian Games."
+      }
     },
     {
       "sport": "Golf",
@@ -248,9 +261,55 @@
         "India women's golf team"
       ],
       "eventDate": "2026-10-03",
-      "likelihood": "medium",
+      "likelihood": "high",
       "potentialMedal": "silver",
-      "reason": "The India women's golf team sits second at 11-under after round three, well positioned for a podium finish in the final round."
+      "reason": "Finished second behind China.",
+      "result": {
+        "medal": "silver",
+        "note": "Finished second behind China."
+      }
+    },
+    {
+      "sport": "Wrestling",
+      "event": "Men's Freestyle (Aman Sehrawat)",
+      "athletes": [
+        "Aman Sehrawat"
+      ],
+      "eventDate": "2026-10-03",
+      "likelihood": "high",
+      "potentialMedal": "gold",
+      "reason": "Won gold.",
+      "result": {
+        "medal": "gold"
+      }
+    },
+    {
+      "sport": "Wrestling",
+      "event": "Women's Wrestling (Antim Panghal)",
+      "athletes": [
+        "Antim Panghal"
+      ],
+      "eventDate": "2026-10-03",
+      "likelihood": "high",
+      "potentialMedal": "silver",
+      "reason": "Won silver.",
+      "result": {
+        "medal": "silver"
+      }
+    },
+    {
+      "sport": "Wrestling",
+      "event": "Men's Freestyle (Deepak Punia)",
+      "athletes": [
+        "Deepak Punia"
+      ],
+      "eventDate": "2026-10-03",
+      "likelihood": "high",
+      "potentialMedal": "bronze",
+      "reason": "Won bronze.",
+      "result": {
+        "medal": "bronze"
+      }
     }
   ]
 }
