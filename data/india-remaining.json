@@ -198,7 +198,11 @@
       "Dipanshi"
     ],
     "stage": "Bronze medal bout vs Zeinep Bayanova (KAZ), evening session, after a 10-0 repechage win over Dit Samnang (CAM)",
-    "medal_at_stake": "Win → bronze; lose → no medal"
+    "medal_at_stake": "Win → bronze; lose → no medal",
+    "result": {
+      "medal": "bronze",
+      "note": "Won the bronze medal bout."
+    }
   },
   {
     "sport": "Wrestling",
