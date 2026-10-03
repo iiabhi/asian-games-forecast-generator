@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T20:40:34+05:30",
+  "generatedAt": "2026-10-03T20:40:50+05:30",
   "source": "schedule",
   "items": [
     {
@@ -156,12 +156,12 @@
         "Dipanshi"
       ],
       "eventDate": "2026-10-02",
-      "likelihood": "high",
+      "likelihood": "long-shot",
       "potentialMedal": "bronze",
-      "reason": "Won the bronze medal bout.",
+      "reason": "Lost the bronze medal bout.",
       "result": {
-        "medal": "bronze",
-        "note": "Won the bronze medal bout."
+        "medal": "none",
+        "note": "Lost the bronze medal bout."
       }
     },
     {
