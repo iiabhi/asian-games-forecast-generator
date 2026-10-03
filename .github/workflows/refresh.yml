@@ -3,8 +3,9 @@ name: refresh-data
 # Calls the site's /api/refresh endpoint to pull fresh medals (Wikipedia) and news (Google News).
 # Needs two repository secrets: SITE_URL (e.g. https://your-site.vercel.app, no trailing slash) and REFRESH_TOKEN.
 on:
-  schedule:
-    - cron: "*/20 * * * *" # every 20 minutes (GitHub may start it a few minutes late)
+  # Games finished (2026-10-03): the 20-minute schedule is switched off. Restore it to resume auto refresh:
+  # schedule:
+  #   - cron: "*/20 * * * *" # every 20 minutes (GitHub may start it a few minutes late)
   workflow_dispatch: # lets you run it by hand from the Actions tab
 
 concurrency:
